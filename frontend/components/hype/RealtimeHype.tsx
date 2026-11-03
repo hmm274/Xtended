@@ -13,7 +13,7 @@ const formatTime = (timestamp: string) => new Date(timestamp).toLocaleTimeString
 });
 const scoreText = (score: number) => `${score > 0 ? "+" : ""}${score}`;
 
-export default function RealtimeHype() {
+export default function RealtimeHype({ showTimeline = true }: { showTimeline?: boolean }) {
   const [feed, setFeed] = useState<DemoSentiment | null>(null);
   const [selection, setSelection] = useState<SentimentPoint | null>(null);
   const [error, setError] = useState(false);
@@ -51,8 +51,8 @@ export default function RealtimeHype() {
     <section className="w-full p-4 sm:p-5" aria-label="Simulated live Apple sentiment">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h2 className="text-sm font-medium">Total sentiment score</h2>
-          <p className="mt-1 text-2xl font-semibold tabular-nums">{scoreText(selected.total_sentiment_score)}</p>
+          <h2 className="text-sm font-medium">{showTimeline ? "Total sentiment score" : "Live quotes"}</h2>
+          {showTimeline && <p className="mt-1 text-2xl font-semibold tabular-nums">{scoreText(selected.total_sentiment_score)}</p>}
         </div>
         <div className="flex items-center gap-2 text-xs">
           <span className="text-amber-300">Demo</span>
@@ -62,7 +62,7 @@ export default function RealtimeHype() {
           {selection && <button type="button" className="btn-outline" onClick={() => setSelection(null)}>Back to live</button>}
         </div>
       </div>
-      <div className="mt-3 h-44 w-full">
+      {showTimeline && <div className="mt-3 h-44 w-full">
         <Line role="img" aria-label="Running total of simulated quote sentiment scores over time. Use Previous and Next to review each quote."
           data={{ labels: points.map((point) => formatTime(point.timestamp)), datasets: [{
             label: "Total sentiment score (demo)", data: points.map((point) => point.total_sentiment_score),
@@ -77,7 +77,7 @@ export default function RealtimeHype() {
             plugins: { legend: { display: false } },
             scales: { x: { grid: { display: false }, ticks: { color: "#a3a3a3", maxRotation: 0, maxTicksLimit: 5 } },
               y: { beginAtZero: true, grid: { color: "rgba(255,255,255,0.07)" }, ticks: { color: "#a3a3a3", maxTicksLimit: 5, precision: 0 } } } }} />
-      </div>
+      </div>}
       <div className="mt-3 flex items-center justify-between gap-3">
         <button type="button" className="btn-outline disabled:opacity-40" disabled={selectedIndex <= 0} onClick={() => step(-1)}>Previous</button>
         <time className="text-xs tabular-nums text-muted-foreground" dateTime={selected.timestamp}>{formatTime(selected.timestamp)} ET</time>

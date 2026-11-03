@@ -8,6 +8,7 @@ import QoQComparison from "./QoQComparison";
 import HypePanel from "./HypePanel";
 import HypeVsReality from "./hype/HypeVsReality";
 import AppleAnalytics from "./hype/AppleAnalytics";
+import RealtimeHype from "./hype/RealtimeHype";
 import { useSearchParams } from "next/navigation";
 import { API_BASE_URL, SENTIMENT_API_BASE_URL } from "@/lib/api-config";
 import type { RedFlag } from "./SentimentGraph";
@@ -395,7 +396,8 @@ export default function ChartsFrame({ onTimestampClick, pipeline = null }: Chart
           )}
 
           {visitedTabs.has("sentiment") && (
-            <div className={tabPanelClass("sentiment", "items-center justify-center overflow-hidden")}>
+            <div className={tabPanelClass("sentiment", "overflow-y-auto overflow-x-hidden")}>
+              <div className="flex min-h-64 w-full shrink-0 flex-1 items-center justify-center">
               {pipelineStatus === "failed" ? (
                 <div className="mx-auto max-w-lg px-4 text-center text-white/70">
                   <p className="text-lg font-medium">Processing failed</p>
@@ -432,6 +434,12 @@ export default function ChartsFrame({ onTimestampClick, pipeline = null }: Chart
                 <div className="text-center text-white/70">
                   <p className="text-lg font-medium">Unable to display sentiment data</p>
                   <p className="text-sm mt-2">Please select a valid dashboard</p>
+                </div>
+              )}
+              </div>
+              {dashboardId === "1" && !videoUrlParam && !pipelineStatus && (
+                <div className="w-full shrink-0 border-t border-white/10">
+                  <RealtimeHype showTimeline={false} />
                 </div>
               )}
             </div>
