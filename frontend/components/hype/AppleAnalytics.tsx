@@ -45,10 +45,10 @@ export default function AppleAnalytics() {
   ] as const;
 
   return (
-    <section aria-label="Apple demo analytics" className="grid w-full gap-5 p-4">
+    <section aria-label="Apple demo analytics" className="grid w-full grid-cols-1 gap-5 p-4 sm:grid-cols-2">
         {metrics.map(({ key, label, color }) => {
           const values = demo.points.map((point) => point[key]);
-          return <div key={key} className="h-36 w-full">
+          return <div key={key} className="h-44 min-w-0 w-full">
               <Line role="img" aria-label={`Simulated real-time ${label}; latest total ${values.at(-1) ?? 0}`}
                 data={{ labels: times, datasets: [{ label: `${label} (demo)`, data: values, borderColor: color, backgroundColor: color, tension: 0.25, pointRadius: 1, borderWidth: 2 }] }}
                 options={{ responsive: true, maintainAspectRatio: false, animation: { duration: 400 }, plugins: { legend: { display: false } },
