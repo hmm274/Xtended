@@ -477,7 +477,7 @@ async def get_sentiment_by_video(request: VideoSentimentRequest):
     Uses dashboard_id or video_url to find the corresponding analysis files.
     """
     if not supabase:
-        raise HTTPException(status_code=500, detail="Supabase not configured")
+        raise HTTPException(status_code=503, detail="Sentiment data is unavailable. Configure Supabase in sentiment/.env and add the analysis files.")
     
     # Normalize to video identifier
     video_identifier = normalize_video_identifier(request.dashboard_id, request.video_url)

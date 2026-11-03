@@ -1,0 +1,174 @@
+:root {
+  color-scheme: light;
+  --paper: #F3F5F2;
+  --surface: #FFFFFF;
+  --ink: #18202B;
+  --muted: #5B6573;
+  --line: #D9DED8;
+  --said: #3B4BC8;
+  --believed: #2E7D5B;
+  --doubted: #A86B12;
+  --contradicted: #B33A3A;
+  --ignored: #7A8494;
+  --focus: #3B4BC8;
+  --sans: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --paper: #12161C;
+    --surface: #1A2028;
+    --ink: #E8ECEF;
+    --muted: #9AA4B1;
+    --line: #2C3540;
+    --said: #8C98FF;
+    --believed: #4FBF8E;
+    --doubted: #E0A43E;
+    --contradicted: #EF6B6B;
+    --ignored: #8E98A6;
+    --focus: #8C98FF;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.5 var(--sans); }
+main { max-width: 1040px; margin: 0 auto; padding: 0 20px 80px; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+.top { max-width: 1040px; margin: 0 auto; padding: 20px; display: flex; justify-content: space-between; align-items: baseline; }
+.brand { font-weight: 700; font-size: 1.05rem; }
+.brand span { font-weight: 500; color: var(--muted); margin-left: .4em; }
+.top-right { display: flex; gap: 14px; align-items: center; }
+.mode { font-size: .85rem; color: var(--doubted); }
+.small { padding: 5px 12px; font-size: .85rem; }
+.ghost[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+
+/* input */
+.input-panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 4px 18px; margin-bottom: 20px; }
+.input-panel summary { cursor: pointer; font-weight: 600; padding: 12px 0; }
+.input-panel form { padding-bottom: 18px; display: grid; gap: 14px; }
+.row { display: flex; gap: 12px; flex-wrap: wrap; }
+.row .grow { flex: 1 1 220px; }
+label { display: grid; gap: 4px; font-size: .9rem; color: var(--muted); }
+input, textarea { font: inherit; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; }
+textarea { resize: vertical; font-size: .9rem; }
+.actions { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+button { font: inherit; cursor: pointer; border-radius: 6px; padding: 9px 16px; border: 1px solid transparent; }
+.primary { background: var(--ink); color: var(--paper); font-weight: 600; }
+.primary:disabled { opacity: .5; cursor: progress; }
+.ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+.check { display: flex; align-items: center; gap: 6px; }
+
+/* progress: a real sequence, so numbering is meaningful */
+.progress { display: flex; gap: 8px; padding: 0; margin: 0 0 6px; list-style: none; counter-reset: s; flex-wrap: wrap; }
+.progress li { counter-increment: s; font-size: .9rem; color: var(--muted); padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; }
+.progress li::before { content: counter(s) ". "; }
+.progress li.active { color: var(--ink); border-color: var(--ink); }
+.progress li.complete { color: var(--believed); border-color: var(--believed); }
+.status { min-height: 1.5em; color: var(--muted); font-size: .9rem; margin: 4px 0 18px; }
+.status.error { color: var(--contradicted); }
+
+/* hero: the story sentence leads, numbers support it */
+.hero { margin: 8px 0 28px; }
+.story { font-size: clamp(1.4rem, 3vw, 1.9rem); line-height: 1.3; font-weight: 600; max-width: 32ch; margin: 0 0 18px; letter-spacing: -.01em; }
+.facts { display: flex; gap: 36px; flex-wrap: wrap; margin: 0; }
+.facts dt { font-size: .85rem; color: var(--muted); }
+.facts dd { margin: 0; font-size: 1.35rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.gap-num { margin-right: .4em; }
+.gap-label { font-size: .95rem; font-weight: 500; color: var(--muted); }
+.up { color: var(--believed); } .down { color: var(--contradicted); }
+.gap-help { font-size: .85rem; color: var(--muted); max-width: 70ch; margin-top: 14px; }
+
+/* legend + dumbbell tracks: the one memorable element */
+.legend { display: grid; grid-template-columns: 1fr 260px 120px; gap: 20px; align-items: end; font-size: .82rem; color: var(--muted); padding: 0 16px 8px; }
+.legend .keys { display: flex; gap: 18px; flex-wrap: wrap; }
+.legend .keys span { display: inline-flex; gap: 6px; align-items: center; }
+.legend .axis { display: flex; justify-content: space-between; }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 50%; }
+.legend i.ring { border: 2px solid var(--said); }
+.legend i.dot { background: var(--ink); }
+
+.claims { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
+.claim { border-bottom: 1px solid var(--line); }
+.claim-head { width: 100%; background: none; color: inherit; text-align: left; display: grid; grid-template-columns: 1fr 260px 120px; gap: 20px; align-items: center; padding: 18px 16px; border-radius: 0; }
+.claim-head:hover, .claim.open { background: var(--surface); }
+.meta { margin: 0; font-size: .8rem; color: var(--muted); }
+.plain { margin: 2px 0 6px; font-weight: 600; }
+.quote { margin: 0; font: italic 1rem/1.55 var(--serif); color: var(--muted); }
+.quote::before { content: "\201C"; } .quote::after { content: "\201D"; }
+
+.track { position: relative; height: 28px; }
+.track .mid { position: absolute; left: 50%; top: 4px; bottom: 4px; width: 1px; background: var(--line); }
+.track::before { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--line); }
+.track .bar { position: absolute; top: calc(50% - 2px); height: 4px; border-radius: 2px; background: var(--vc, var(--ignored)); transition: left .5s, width .5s; }
+.track .ring, .track .dot { position: absolute; top: 50%; width: 14px; height: 14px; border-radius: 50%; transform: translate(-50%, -50%); transition: left .5s; }
+.track .ring { border: 2px solid var(--said); background: var(--paper); z-index: 1; }
+.track .dot { background: var(--vc, var(--ignored)); z-index: 2; }
+.track .dot[hidden], .track .bar[hidden] { display: none; }
+
+.verdict { justify-self: end; font-size: .85rem; font-weight: 600; color: var(--vc, var(--muted)); }
+.verdict.pending { font-weight: 500; color: var(--muted); }
+.v-BELIEVED { --vc: var(--believed); } .v-DOUBTED { --vc: var(--doubted); }
+.v-CONTRADICTED { --vc: var(--contradicted); } .v-IGNORED { --vc: var(--ignored); }
+
+.claim-body { padding: 0 16px 20px; max-width: 75ch; }
+.reason { margin: 0 0 10px; }
+.evidence { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.evidence li { border-left: 3px solid var(--line); padding-left: 12px; font-size: .92rem; }
+.evidence .who { font-size: .8rem; color: var(--muted); }
+.evidence a { color: var(--said); }
+.evidence .unverified { color: var(--muted); font-size: .8rem; }
+
+.modules { margin-top: 36px; display: grid; gap: 20px; }
+.module { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; }
+.module h2 { font-size: 1rem; margin: 0 0 10px; }
+.module table { border-collapse: collapse; font-size: .9rem; }
+.module td, .module th { padding: 4px 16px 4px 0; text-align: left; }
+.module pre { overflow-x: auto; font-size: .8rem; }
+
+/* jargon hover */
+.term { border-bottom: 1.5px dotted var(--said); position: relative; cursor: help; }
+.term::after { content: attr(data-tip); position: absolute; left: 0; bottom: calc(100% + 8px); width: max-content; max-width: 260px;
+  background: var(--ink); color: var(--paper); font: 500 .82rem/1.4 var(--sans); font-style: normal; padding: 8px 10px; border-radius: 6px;
+  opacity: 0; pointer-events: none; transform: translateY(4px); transition: opacity .15s, transform .15s; z-index: 5; }
+.term:hover::after { opacity: 1; transform: none; }
+.quote .term { border-bottom-color: var(--muted); }
+
+/* Tier 2 panels */
+.tier2 { display: grid; grid-template-columns: 1.4fr 1fr; gap: 20px; margin-top: 36px; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 20px 22px; }
+.panel h2 { font-size: 1.15rem; margin: 0; letter-spacing: -.01em; }
+.panel-sub { margin: 4px 0 16px; font-size: .88rem; color: var(--muted); }
+
+.dodged ol { list-style: none; padding: 0; margin: 0; display: grid; gap: 0; }
+.dodged li { display: grid; grid-template-columns: 10px 1fr; gap: 14px; padding: 14px 0; border-top: 1px solid var(--line); }
+.dodged li:first-child { border-top: 0; padding-top: 4px; }
+.heat { width: 10px; border-radius: 3px; background: var(--contradicted); }
+.heat.medium { background: var(--doubted); } .heat.low { background: var(--ignored); }
+.dodged h3 { font-size: 1.02rem; margin: 0 0 3px; }
+.dodged p { margin: 0; font-size: .93rem; }
+.dodged .tags { margin-top: 6px; font-size: .8rem; color: var(--muted); display: flex; gap: 12px; flex-wrap: wrap; }
+.dodged .tags .deflected { color: var(--contradicted); font-weight: 600; }
+.dodged a, .who a { color: var(--said); }
+
+.who-axis { display: flex; justify-content: space-between; font-size: .78rem; color: var(--muted); margin: 0 0 4px 132px; }
+.who ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.who li { display: grid; grid-template-columns: 120px 1fr; gap: 12px; align-items: center; }
+.who .name { font-size: .9rem; font-weight: 600; line-height: 1.25; }
+.who .name small { display: block; font-weight: 400; color: var(--muted); font-size: .78rem; }
+.who .track { height: 22px; }
+
+/* presenter mode: hide the controls, let the findings fill the screen */
+body.present .input-panel, body.present .mode, body.present .gap-help { display: none; }
+body.present main, body.present .top { max-width: 1180px; }
+body.present .story { font-size: clamp(1.8rem, 3.4vw, 2.5rem); max-width: 34ch; }
+body.present .facts dd { font-size: 1.7rem; }
+body.present .plain { font-size: 1.08rem; }
+
+@media (max-width: 900px) { .tier2 { grid-template-columns: 1fr; } }
+@media (max-width: 760px) {
+  .claim-head, .legend { grid-template-columns: 1fr; gap: 10px; }
+  .legend .axis { display: none; }
+  .verdict { justify-self: start; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }

@@ -78,12 +78,12 @@ def get_llm(temperature: float = 0, streaming: bool = False):
     if _openai_available():
         from langchain_openai import ChatOpenAI
 
-        return ChatOpenAI(
-            model=OPENAI_MODEL,
-            api_key=OPENAI_API_KEY,
-            temperature=temperature,
-            streaming=streaming,
-        )
+        # Reasoning models reject custom temperatures unless reasoning is disabled.
+        # Let those models use their default; retain the requested setting for older models.
+        options = {"model": OPENAI_MODEL, "api_key": OPENAI_API_KEY, "streaming": streaming}
+        if not re.match(r"^(gpt-[56](?:[.-]|$)|o[134](?:[.-]|$))", OPENAI_MODEL.lower()):
+            options["temperature"] = temperature
+        return ChatOpenAI(**options)
 
     if GEMINI_API_KEY:
         from langchain_google_genai import ChatGoogleGenerativeAI
