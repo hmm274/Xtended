@@ -47,6 +47,7 @@ class DemoPost(BaseModel):
 
 class AnalyticsPoint(BaseModel):
     timestamp: datetime
+    video_time: Optional[float] = None  # seconds into the call's video, in video mode
     posts: int = Field(ge=0)
     likes: int = Field(ge=0)
     reposts: int = Field(ge=0)
@@ -61,6 +62,7 @@ class DemoAnalytics(BaseModel):
 class SentimentPoint(BaseModel):
     id: str
     timestamp: datetime
+    video_time: Optional[float] = None  # seconds into the call's video, in video mode
     quote: str
     speaker: Optional[str] = None
     sentiment_score: int = Field(ge=-100, le=100)

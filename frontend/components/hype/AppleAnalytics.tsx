@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Chart as ChartJS, BarElement, CategoryScale, LinearScale, LineElement, PointElement, Tooltip } from "chart.js";
 import { Bar, Line } from "react-chartjs-2";
 import { HYPE_API_BASE_URL } from "@/lib/api-config";
+import { formatVideoTime, getVideoTime } from "@/lib/videoClock";
 import type { DemoAnalytics } from "./types";
 
 ChartJS.register(BarElement, CategoryScale, LinearScale, LineElement, PointElement, Tooltip);
@@ -19,14 +20,14 @@ export default function AppleAnalytics() {
     let timer: ReturnType<typeof setTimeout>;
     const refresh = async () => {
       try {
-        const response = await fetch(`${HYPE_API_BASE_URL}/api/demo/apple/analytics`, { signal: controller.signal, cache: "no-store" });
+        const response = await fetch(`${HYPE_API_BASE_URL}/api/demo/apple/analytics?t=${getVideoTime() ?? 0}`, { signal: controller.signal, cache: "no-store" });
         if (!response.ok) throw new Error(`Request failed (${response.status})`);
         const data = await response.json() as DemoAnalytics;
         if (!controller.signal.aborted) { setDemo(data); setError(null); }
       } catch (reason) {
         if (!controller.signal.aborted) setError(reason instanceof Error ? reason.message : "Unable to load demo");
       } finally {
-        if (!controller.signal.aborted) timer = setTimeout(refresh, 3000);
+        if (!controller.signal.aborted) timer = setTimeout(refresh, 1000);
       }
     };
     void refresh();
@@ -36,7 +37,7 @@ export default function AppleAnalytics() {
   if (error && !demo) return <p className="p-6 text-sm text-destructive">Unable to load analytics. Check that the Hype service is running on port 8002.</p>;
   if (!demo) return <p className="p-6 text-sm text-muted-foreground">Loading demo analytics…</p>;
 
-  const times = demo.points.map((point) => new Date(point.timestamp).toLocaleTimeString("en-US", {
+  const times = demo.points.map((point) => point.video_time != null ? formatVideoTime(point.video_time) : new Date(point.timestamp).toLocaleTimeString("en-US", {
     hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false, timeZone: "America/New_York",
   }));
   const metrics = [

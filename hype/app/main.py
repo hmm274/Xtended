@@ -27,13 +27,15 @@ def apple_demo():
 
 
 @app.get("/api/demo/apple/analytics", response_model=DemoAnalytics)
-def apple_demo_analytics():
-    return demo_store.get_analytics()
+def apple_demo_analytics(t: float | None = None):
+    """With ?t=<seconds into the video>, follow the video; without it, follow the wall clock."""
+    return demo_store.get_analytics() if t is None else demo_store.get_analytics_at(t)
 
 
 @app.get("/api/demo/apple/sentiment", response_model=DemoSentiment)
-def apple_demo_sentiment():
-    return demo_store.get_sentiment()
+def apple_demo_sentiment(t: float | None = None):
+    """With ?t=<seconds into the video>, follow the video; without it, replay on the wall clock."""
+    return demo_store.get_sentiment() if t is None else demo_store.get_sentiment_at(t)
 
 
 @app.post("/api/analyze", response_model=Job)

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Chart as ChartJS, CategoryScale, LinearScale, LineElement, PointElement, Tooltip } from "chart.js";
 import { Line } from "react-chartjs-2";
 import { HYPE_API_BASE_URL } from "@/lib/api-config";
+import { formatVideoTime, getVideoTime } from "@/lib/videoClock";
 import type { DemoSentiment, SentimentPoint } from "./types";
 
 ChartJS.register(CategoryScale, LinearScale, LineElement, PointElement, Tooltip);
@@ -11,6 +12,8 @@ ChartJS.register(CategoryScale, LinearScale, LineElement, PointElement, Tooltip)
 const formatTime = (timestamp: string) => new Date(timestamp).toLocaleTimeString("en-US", {
   hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false, timeZone: "America/New_York",
 });
+/** Position in the video when the feed follows the player, otherwise the wall-clock time. */
+const pointTime = (point: SentimentPoint) => point.video_time != null ? formatVideoTime(point.video_time) : `${formatTime(point.timestamp)} ET`;
 const scoreText = (score: number) => `${score > 0 ? "+" : ""}${score}`;
 /** Chart.js tooltips don't wrap, so split long quotes into lines. */
 const wrap = (text: string, width = 48) => text.split(" ").reduce<string[]>((lines, word) => {
@@ -30,14 +33,14 @@ export default function RealtimeHype({ showTimeline = true }: { showTimeline?: b
     let timer: ReturnType<typeof setTimeout>;
     const refresh = async () => {
       try {
-        const response = await fetch(`${HYPE_API_BASE_URL}/api/demo/apple/sentiment`, { signal: controller.signal, cache: "no-store" });
+        const response = await fetch(`${HYPE_API_BASE_URL}/api/demo/apple/sentiment?t=${getVideoTime() ?? 0}`, { signal: controller.signal, cache: "no-store" });
         if (!response.ok) throw new Error("Unable to load sentiment");
         const data = await response.json() as DemoSentiment;
         if (!controller.signal.aborted) { setFeed(data); setError(false); }
       } catch {
         if (!controller.signal.aborted) setError(true);
       } finally {
-        if (!controller.signal.aborted) timer = setTimeout(refresh, 3000);
+        if (!controller.signal.aborted) timer = setTimeout(refresh, 1000);
       }
     };
     void refresh();
@@ -47,7 +50,7 @@ export default function RealtimeHype({ showTimeline = true }: { showTimeline?: b
   const points = feed?.points ?? [];
   const selectedIndex = selection ? points.findIndex((point) => point.id === selection.id) : points.length - 1;
   const selected = selection ?? points.at(-1);
-  if (!selected) return <p className="p-5 text-sm text-muted-foreground">{error ? "Unable to load sentiment. Retrying…" : "Loading sentiment…"}</p>;
+  if (!selected) return <p className="p-5 text-sm text-muted-foreground">{error ? "Unable to load sentiment. Retrying…" : feed ? "Play the video to start the live call sentiment." : "Loading sentiment…"}</p>;
 
   const step = (direction: number) => {
     const next = points[selectedIndex + direction];
@@ -70,7 +73,7 @@ export default function RealtimeHype({ showTimeline = true }: { showTimeline?: b
         <div className="flex items-center gap-2 text-xs">
           <span className="text-amber-300">Demo</span>
           <span className={error ? "text-amber-300" : selection ? "text-muted-foreground" : "text-brand"}>
-            {error ? "Reconnecting…" : selection ? "Reviewing" : "Replaying call"}
+            {error ? "Reconnecting…" : selection ? "Reviewing" : "Following video"}
           </span>
           {selection && <button type="button" className="btn-outline" onClick={() => setSelection(null)}>Back to live</button>}
         </div>
@@ -83,7 +86,7 @@ export default function RealtimeHype({ showTimeline = true }: { showTimeline?: b
       ].map(({ key, title, value, color, height, showTime, aria }) => (
         <div key={key} className={`mt-3 w-full ${height}`}>
           <Line role="img" aria-label={`${aria} Use Previous and Next to review each quote.`}
-            data={{ labels: points.map((point) => formatTime(point.timestamp)), datasets: [{
+            data={{ labels: points.map(pointTime), datasets: [{
               label: `${title} sentiment score (demo)`, data: points.map(value),
               borderColor: color, borderWidth: 2, tension: 0.15,
               pointRadius: points.map((_, index) => index === selectedIndex ? 6 : 2),
@@ -105,7 +108,7 @@ export default function RealtimeHype({ showTimeline = true }: { showTimeline?: b
       ))}
       <div className="mt-3 flex items-center justify-between gap-3">
         <button type="button" className="btn-outline disabled:opacity-40" disabled={selectedIndex <= 0} onClick={() => step(-1)}>Previous</button>
-        <time className="text-xs tabular-nums text-muted-foreground" dateTime={selected.timestamp}>{formatTime(selected.timestamp)} ET</time>
+        <time className="text-xs tabular-nums text-muted-foreground" dateTime={selected.timestamp}>{pointTime(selected)}</time>
         <button type="button" className="btn-outline disabled:opacity-40" disabled={selectedIndex >= points.length - 1} onClick={() => step(1)}>Next</button>
       </div>
       <div className="mt-3 rounded-xl border border-white/10 bg-white/[0.03] p-4">

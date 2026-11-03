@@ -3,7 +3,7 @@ import json
 import sqlite3
 import random
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from threading import Lock
 
 from . import config
@@ -79,3 +79,41 @@ def get_sentiment(now: float | None = None) -> DemoSentiment:
             sentiment_score=sentence["score"], total_sentiment_score=_total(i),
         ))
     return DemoSentiment(points=points)
+
+
+# Video mode: the charts follow the player. t is seconds into the call's video.
+_CALL_START = datetime(2025, 1, 30, 22, 0, tzinfo=timezone.utc)  # 5:00 PM ET
+
+
+def _at(seconds: float) -> datetime:
+    return _CALL_START + timedelta(seconds=seconds)
+
+
+def get_sentiment_at(t: float) -> DemoSentiment:
+    """Every sentence spoken by video time t, retaining the latest 60."""
+    spoken = sum(1 for sentence in _CALL if sentence["start"] <= t)
+    return DemoSentiment(points=[SentimentPoint(
+        id=str(i), timestamp=_at(_CALL[i]["start"]), video_time=_CALL[i]["start"],
+        quote=_CALL[i]["text"], speaker=_CALL[i]["speaker"],
+        sentiment_score=_CALL[i]["score"], total_sentiment_score=_PREFIX[i + 1],
+    ) for i in range(max(0, spoken - 60), spoken)])
+
+
+def get_analytics_at(t: float) -> DemoAnalytics:
+    """Fictional X activity for each five seconds of the call up to video time t, retaining 60 points.
+    Activity rises while a strongly positive or negative sentence is being spoken."""
+    last = int(max(t, 0) // 5)
+    totals, rows = [3, 390, 103, 25200], []
+    for tick in range(last + 1):
+        rng = random.Random(f"video-{tick}")
+        window = [abs(s["score"]) for s in _CALL if tick * 5 <= s["start"] < tick * 5 + 5]
+        posts = rng.choice([0, 1, 1, 2]) + (2 if window and max(window) >= 60 else 0)
+        views = posts * rng.randint(300, 900) + rng.randint(150, 400)
+        likes = round(views * rng.uniform(0.02, 0.035))
+        reposts = round(likes * rng.uniform(0.15, 0.3))
+        totals = [total + increment for total, increment in zip(totals, [posts, likes, reposts, views])]
+        rows.append((tick, *totals))
+    return DemoAnalytics(points=[AnalyticsPoint(
+        timestamp=_at(row[0] * 5), video_time=row[0] * 5,
+        posts=row[1], likes=row[2], reposts=row[3], views=row[4],
+    ) for row in rows[-60:]])
