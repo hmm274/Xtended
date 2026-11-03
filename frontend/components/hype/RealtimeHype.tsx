@@ -12,6 +12,13 @@ const formatTime = (timestamp: string) => new Date(timestamp).toLocaleTimeString
   hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false, timeZone: "America/New_York",
 });
 const scoreText = (score: number) => `${score > 0 ? "+" : ""}${score}`;
+/** Chart.js tooltips don't wrap, so split long quotes into lines. */
+const wrap = (text: string, width = 48) => text.split(" ").reduce<string[]>((lines, word) => {
+  const last = lines.at(-1);
+  if (last !== undefined && `${last} ${word}`.length <= width) lines[lines.length - 1] = `${last} ${word}`;
+  else lines.push(word);
+  return lines;
+}, []);
 
 export default function RealtimeHype({ showTimeline = true }: { showTimeline?: boolean }) {
   const [feed, setFeed] = useState<DemoSentiment | null>(null);
@@ -48,36 +55,54 @@ export default function RealtimeHype({ showTimeline = true }: { showTimeline?: b
   };
 
   return (
-    <section className="w-full p-4 sm:p-5" aria-label="Simulated live Apple sentiment">
+    <section className="w-full p-4 sm:p-5" aria-label="Apple call sentiment replay">
       <div className="flex flex-wrap items-center justify-between gap-3">
-        <div>
-          <h2 className="text-sm font-medium">{showTimeline ? "Total sentiment score" : "Live quotes"}</h2>
-          {showTimeline && <p className="mt-1 text-2xl font-semibold tabular-nums">{scoreText(selected.total_sentiment_score)}</p>}
-        </div>
+        {showTimeline ? <div className="flex gap-6">
+          <div>
+            <h2 className="text-sm font-medium">Real-time score</h2>
+            <p className={`mt-1 text-2xl font-semibold tabular-nums ${selected.sentiment_score >= 0 ? "text-green-400" : "text-red-400"}`}>{scoreText(selected.sentiment_score)}</p>
+          </div>
+          <div>
+            <h2 className="text-sm font-medium">Total score</h2>
+            <p className="mt-1 text-2xl font-semibold tabular-nums">{scoreText(selected.total_sentiment_score)}</p>
+          </div>
+        </div> : <h2 className="text-sm font-medium">Live call sentiment</h2>}
         <div className="flex items-center gap-2 text-xs">
           <span className="text-amber-300">Demo</span>
           <span className={error ? "text-amber-300" : selection ? "text-muted-foreground" : "text-brand"}>
-            {error ? "Reconnecting…" : selection ? "Reviewing" : "Live simulation"}
+            {error ? "Reconnecting…" : selection ? "Reviewing" : "Replaying call"}
           </span>
           {selection && <button type="button" className="btn-outline" onClick={() => setSelection(null)}>Back to live</button>}
         </div>
       </div>
-      {showTimeline && <div className="mt-3 h-44 w-full">
-        <Line role="img" aria-label="Running total of simulated quote sentiment scores over time. Use Previous and Next to review each quote."
-          data={{ labels: points.map((point) => formatTime(point.timestamp)), datasets: [{
-            label: "Total sentiment score (demo)", data: points.map((point) => point.total_sentiment_score),
-            borderColor: "#9aa6ff", borderWidth: 2, tension: 0.15,
-            pointRadius: points.map((_, index) => index === selectedIndex ? 6 : 2),
-            pointBackgroundColor: points.map((point, index) => index === selectedIndex ? "#ffffff" : point.sentiment_score >= 0 ? "#80d18d" : "#e06b6b"),
-            pointHitRadius: 12,
-          }] }}
-          options={{ responsive: true, maintainAspectRatio: false, animation: { duration: 250 },
-            interaction: { mode: "nearest", axis: "x", intersect: false },
-            onClick: (_, elements) => { const index = elements[0]?.index; if (index !== undefined) setSelection(points[index]); },
-            plugins: { legend: { display: false } },
-            scales: { x: { grid: { display: false }, ticks: { color: "#a3a3a3", maxRotation: 0, maxTicksLimit: 5 } },
-              y: { beginAtZero: true, grid: { color: "rgba(255,255,255,0.07)" }, ticks: { color: "#a3a3a3", maxTicksLimit: 5, precision: 0 } } } }} />
-      </div>}
+      {showTimeline && [
+        { key: "realtime", title: "Real-time", value: (point: SentimentPoint) => point.sentiment_score, color: "#9aa6ff", height: "h-36", showTime: false,
+          aria: "FinBERT sentiment score of each sentence of the call, from -100 to +100." },
+        { key: "total", title: "Total", value: (point: SentimentPoint) => point.total_sentiment_score, color: "#e0a43e", height: "h-32", showTime: true,
+          aria: "Running total of sentence sentiment scores through the call." },
+      ].map(({ key, title, value, color, height, showTime, aria }) => (
+        <div key={key} className={`mt-3 w-full ${height}`}>
+          <Line role="img" aria-label={`${aria} Use Previous and Next to review each quote.`}
+            data={{ labels: points.map((point) => formatTime(point.timestamp)), datasets: [{
+              label: `${title} sentiment score (demo)`, data: points.map(value),
+              borderColor: color, borderWidth: 2, tension: 0.15,
+              pointRadius: points.map((_, index) => index === selectedIndex ? 6 : 2),
+              pointBackgroundColor: points.map((point, index) => index === selectedIndex ? "#ffffff" : point.sentiment_score >= 0 ? "#80d18d" : "#e06b6b"),
+              pointHitRadius: 12,
+            }] }}
+            options={{ responsive: true, maintainAspectRatio: false, animation: { duration: 250 },
+              interaction: { mode: "nearest", axis: "x", intersect: false },
+              onClick: (_, elements) => { const index = elements[0]?.index; if (index !== undefined) setSelection(points[index]); },
+              plugins: { legend: { display: false }, tooltip: { displayColors: false, padding: 10, callbacks: {
+                label: (item) => `Real-time ${scoreText(points[item.dataIndex].sentiment_score)} · Total ${scoreText(points[item.dataIndex].total_sentiment_score)}`,
+                afterLabel: (item) => [points[item.dataIndex].speaker ?? "", ...wrap(`“${points[item.dataIndex].quote}”`)].filter(Boolean),
+              } } },
+              scales: { x: { display: showTime, grid: { display: false }, ticks: { color: "#a3a3a3", maxRotation: 0, maxTicksLimit: 5 } },
+                y: { ...(key === "realtime" ? { min: -100, max: 100 } : {}), title: { display: true, text: title, color },
+                  grid: { color: (ctx) => ctx.tick.value === 0 ? "rgba(255,255,255,0.3)" : "rgba(255,255,255,0.07)" },
+                  ticks: { color: "#a3a3a3", maxTicksLimit: 5, precision: 0 } } } }} />
+        </div>
+      ))}
       <div className="mt-3 flex items-center justify-between gap-3">
         <button type="button" className="btn-outline disabled:opacity-40" disabled={selectedIndex <= 0} onClick={() => step(-1)}>Previous</button>
         <time className="text-xs tabular-nums text-muted-foreground" dateTime={selected.timestamp}>{formatTime(selected.timestamp)} ET</time>
@@ -85,7 +110,7 @@ export default function RealtimeHype({ showTimeline = true }: { showTimeline?: b
       </div>
       <div className="mt-3 rounded-xl border border-white/10 bg-white/[0.03] p-4">
         <div className="flex items-center justify-between gap-3">
-          <span className="text-xs text-muted-foreground">Sample reaction</span>
+          <span className="text-xs text-muted-foreground">{selected.speaker ?? "Call"} · FinBERT</span>
           <span className={`text-sm font-semibold tabular-nums ${selected.sentiment_score >= 0 ? "text-brand" : "text-red-400"}`}>Sentiment {scoreText(selected.sentiment_score)}</span>
         </div>
         <blockquote className="mt-2 text-sm leading-relaxed">“{selected.quote}”</blockquote>

@@ -481,7 +481,7 @@ export default function ChartsFrame({ onTimestampClick, pipeline = null }: Chart
             </div>
           )}
           {visitedTabs.has("analytics") && (
-            <div className={tabPanelClass("analytics", "overflow-y-auto overflow-x-hidden")}>
+            <div className={tabPanelClass("analytics", "overflow-hidden")}>
               {dashboardId === "1" && !videoUrlParam ? <AppleAnalytics /> : (
                 <div className="mx-auto max-w-md px-6 py-10 text-center text-white/75">
                   Demo analytics are available for the Apple earnings call.

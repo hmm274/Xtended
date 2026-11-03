@@ -24,6 +24,7 @@ class Claim(BaseModel):
     claim: str
     quote: str
     speaker: Optional[str] = None
+    speaker: Optional[str] = None
     timestamp: Optional[str] = None
     category: str = "other"
     ceo_tone: int = 0               # -1 bearish, 0 neutral, +1 bullish
@@ -61,6 +62,7 @@ class SentimentPoint(BaseModel):
     id: str
     timestamp: datetime
     quote: str
+    speaker: Optional[str] = None
     sentiment_score: int = Field(ge=-100, le=100)
     total_sentiment_score: int
 
