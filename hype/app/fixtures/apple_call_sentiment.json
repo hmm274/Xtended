@@ -1,0 +1,2898 @@
+{
+ "model": "ProsusAI/finbert",
+ "source": "apple_seeking_alpha.txt",
+ "sentences": [
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Good afternoon, and welcome to the Apple Q1 Fiscal Year 2025 Earnings Conference Call.",
+   "score": 31,
+   "start": 1.7
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "My name is Suhasini Chandramouli, Director of Investor Relations.",
+   "score": 0,
+   "start": 8.1
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Today's call is being recorded.",
+   "score": -2,
+   "start": 12.9
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Speaking first today are Apple CEO, Tim Cook, and he will be followed by CFO, Kevan Parekh.",
+   "score": -2,
+   "start": 15.2
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "After that, we'll open the call to questions from analysts.",
+   "score": 6,
+   "start": 22.0
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Please note that some of the information you'll hear during our discussion today will consist of forward-looking statements, including, without limitation, those regarding revenue, gross margin, operating expenses, other income and expense, taxes, capital allocation, and future business outlook, including the potential impact of macroeconomic conditions on the company's business and results of operations.",
+   "score": 0,
+   "start": 26.3
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "These statements involve risks and uncertainties that may cause actual results or trends to differ materially from our forecast.",
+   "score": -79,
+   "start": 56.6
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "For more information, please refer to the risk factors discussed in Apple's most recently filed annual report on Form 10-K and the Form 8-K filed with the SEC today along with the associated press release.",
+   "score": 0,
+   "start": 66.1
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Apple assumes no obligation to update any forward-looking statements, which speak only as of the date they are made.",
+   "score": -4,
+   "start": 81.3
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "I'd now like to turn the call over to Tim for introductory remarks.",
+   "score": 5,
+   "start": 89.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Thank you, Suhasini.",
+   "score": 18,
+   "start": 94.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Good afternoon, everyone, and thanks for joining the call.",
+   "score": 37,
+   "start": 96.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Before I talk about our results I'd like to take a moment to acknowledge the devastating wildfires that impacted the Los Angeles area this month.",
+   "score": 0,
+   "start": 100.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "From our retail teams to Apple TV+, Apple Music, Fitness Plus, Beats and more LA is home to many of our team members.",
+   "score": 9,
+   "start": 111.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Our thoughts are with everyone who is beginning the road to recovery.",
+   "score": 28,
+   "start": 120.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "For our part, we are contributing to the relief efforts and we will continue to support our teams and the local community.",
+   "score": 83,
+   "start": 125.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Now turning to the quarter.",
+   "score": -1,
+   "start": 134.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Today, Apple is reporting revenue of $124.3 billion for the December quarter, up 4% from a year ago, and an all-time record.",
+   "score": 93,
+   "start": 136.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "EPS also set an all-time record of $2.40, 10% higher year-over-year.",
+   "score": 92,
+   "start": 145.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We achieved all-time revenue records across the majority of the countries and regions we track, including the Americas, Europe, Japan, and the rest of Asia Pacific.",
+   "score": 90,
+   "start": 150.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We also continue to see momentum in emerging markets, setting all-time revenue records in a number of markets, including Latin America, the Middle East, and South Asia, among others.",
+   "score": 93,
+   "start": 162.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "In services, we achieved an all-time revenue record, and in the past year, we've seen nearly $100 billion in revenue from our services business.",
+   "score": 91,
+   "start": 176.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "I'm also pleased to announce that we reached a new record for our installed base with over 2.35 billion active devices.",
+   "score": 91,
+   "start": 186.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "In October, we released the first set of Apple Intelligence features in U.S. English for iPhone, iPad, and Mac, and we rolled out more features and expanded to more countries in December.",
+   "score": 23,
+   "start": 195.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Now users can discover the benefits of these new features in the things they do every day.",
+   "score": 13,
+   "start": 209.6
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "They can use writing tools to help find just the right words, create fun and unique images with Image Playground and Genmoji, handle daily tasks and seek out information with a more natural and conversational Siri, create movies of their memories with a simple prompt, and touch up their photos with clean up.",
+   "score": 4,
+   "start": 216.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We introduced visual intelligence with camera control to help users instantly learn about their surroundings.",
+   "score": 11,
+   "start": 239.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Users can also seamlessly access chat GPT across iOS, iPadOS and MacOS.",
+   "score": 14,
+   "start": 247.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And we were excited to recently begin our international expansion with Apple Intelligence now available in Australia, Canada, New Zealand, South Africa, and the U.K. We're working hard to take Apple Intelligence even further.",
+   "score": 85,
+   "start": 252.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "In April, we're bringing Apple Intelligence to more languages, including French, German, Italian, Portuguese, Spanish, Japanese, Korean, and simplified Chinese, as well as localized English to Singapore and India.",
+   "score": 32,
+   "start": 269.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And we'll continue to roll out more features in the future, including an even more capable Siri.",
+   "score": 83,
+   "start": 285.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Apple Intelligence builds on years of innovations we've made across hardware and software to transform how users experience our products.",
+   "score": 45,
+   "start": 292.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Apple Intelligence also empowers users by delivering personal context that's relevant to them.",
+   "score": 26,
+   "start": 302.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And importantly, Apple Intelligence is a breakthrough for privacy and AI with innovations like Private Cloud Compute, which extends the industry-leading security and privacy of Apple devices into the cloud.",
+   "score": 59,
+   "start": 309.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Apple Intelligence opens up an exciting new frontier and is already elevating experiences across iPhone, iPad, and Mac.",
+   "score": 79,
+   "start": 324.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We're going to keep investing in innovation and in transformative tools that help users in their everyday lives.",
+   "score": 34,
+   "start": 333.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Let me now turn to our results for the quarter, starting with iPhone.",
+   "score": 3,
+   "start": 341.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "iPhone revenue came in at $69.1 billion, reaching all-time iPhone revenue records in dozens of markets and regions.",
+   "score": 84,
+   "start": 346.8
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Our iPhone 16 lineup takes the smartphone experience to the next level in so many ways, and Apple Intelligence is one of many reasons why customers are excited.",
+   "score": 37,
+   "start": 355.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "With the A18 powered iPhone 16 and iPhone 16 Plus, users are getting a big boost in battery life and incredible camera experiences with camera control.",
+   "score": 85,
+   "start": 367.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Our amazingly powerful iPhone 16 Pro models go even further with larger-than-ever displays and a pro camera system so advanced it can turn moments into masterpieces.",
+   "score": 60,
+   "start": 378.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "In Mac, revenue was $9 billion for the December quarter, 16% higher year-over-year, driven by significant excitement around the world for our latest Mac lineup.",
+   "score": 94,
+   "start": 390.6
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "The Mac is more than just a powerful tool.",
+   "score": 10,
+   "start": 402.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "It's a launchpad to enable users to bring their best ideas and boldest creations to life.",
+   "score": 17,
+   "start": 405.6
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And there are so many reasons to choose Mac, from the breathtaking performance of the M4 family of chips to the groundbreaking and growing capabilities of Apple Intelligence.",
+   "score": 28,
+   "start": 412.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Every product in the Mac lineup offers something extraordinary, whether that's the super portable MacBook Air, the powerhouse MacBook Pro, the world's best all-in-one iMac, or the small wonder that is the Mac Mini, which is not only stunningly capable, but is our first carbon neutral Mac.",
+   "score": 20,
+   "start": 425.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "All of this is enabled by the unparalleled power of Apple Silicon.",
+   "score": 17,
+   "start": 446.6
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "iPad revenue was $8.1 billion, up 15% from a year ago, driven by strong interest for our latest products.",
+   "score": 94,
+   "start": 451.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We love hearing from customers, who are discovering for the first time the versatility of iPad from the ultra-portal iPad Mini, built from the ground up for Apple intelligence, to the powerful M4 iPad Pro in a stunningly thin and light design.",
+   "score": 31,
+   "start": 459.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "iPad is there for our users whenever they need it and wherever they go and we are pleased to see so much excitement and enthusiasm for our lineup.",
+   "score": 70,
+   "start": 477.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Wearables home and accessories revenue came in at $11.7 billion.",
+   "score": 11,
+   "start": 488.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "With its most advanced display yet and a thinner more comfortable design, the all-new Apple Watch Series 10 is the perfect companion to help users pursue their health and fitness goals this year.",
+   "score": 67,
+   "start": 492.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "From the powerful Vitals app to more customizable activity rings, users have an ever-increasing set of innovative health tools at their fingertips and watchOS 11.",
+   "score": 16,
+   "start": 507.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Health innovation has long been a focus for us, and we're committed to continuing to advance this work, because we know how much it matters to our users.",
+   "score": 44,
+   "start": 519.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We've introduced new hearing health features on AirPods Pro 2, and new sleep apnea notifications on Apple Watch are also helping users learn of a potentially serious condition that's thought to affect up to a billion people worldwide.",
+   "score": 60,
+   "start": 530.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "During the quarter, we also brought Apple Vision Pro to even more countries, enabling more customers to discover the magic of spatial computing.",
+   "score": 83,
+   "start": 548.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Users are enjoying incredible immersive entertainment experiences and powerful new features and enhancements to Mac virtual display.",
+   "score": 69,
+   "start": 558.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Vision Pro is also supercharging the creative process and the incredibly talented director John M. Chu recently shared how its extraordinary capabilities helped him bring the movie Wicked to life.",
+   "score": 39,
+   "start": 568.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Turning to services, we set an all-time revenue record of $26.3 billion for the December quarter, growing 14% from a year ago.",
+   "score": 93,
+   "start": 583.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We set all-time records in the Americas, Europe, and rest of Asia-Pacific, and a December quarter record in Japan.",
+   "score": 80,
+   "start": 592.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Five years since launch, Apple TV+ continues to be home to incredible storytelling that viewers love.",
+   "score": 36,
+   "start": 600.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "There's nothing quite like the anticipation that comes when a fan favorite returns, and we were thrilled to debut the second season of Severance earlier this month.",
+   "score": 21,
+   "start": 608.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We have so much in store for our subscribers this year with new shows like The Studio and Your Friends and Neighbors.",
+   "score": 31,
+   "start": 620.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And we can't wait for the premiere of Formula 1 starring Brad Pitt on June 27, which will take viewers inside the sport in a truly unprecedented way.",
+   "score": 25,
+   "start": 629.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We're excited that Apple TV+ continues to draw attention and accolades.",
+   "score": 91,
+   "start": 640.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "To-date, Apple TV+ productions have earned more than 2,500 nominations and 538 wins.",
+   "score": 65,
+   "start": 645.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "During the quarter, we were also excited to launch a new Find My Service that can help our users when they lose their luggage.",
+   "score": 53,
+   "start": 651.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "For the first time, if you put an air tag in your suitcase, you'll be able to share its location information with many major airlines, so they can quickly track down your bags if they get lost.",
+   "score": 10,
+   "start": 661.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Turning to retail, our teams went above and beyond to help customers find the perfect gift throughout the holiday season.",
+   "score": 38,
+   "start": 675.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We also celebrated openings of new stores in China, Spain, and the U.S. and we were excited to announce plans to connect with even more customers this year by adding a fifth store in the UAE and bringing our online store to Saudi Arabia this summer.",
+   "score": 82,
+   "start": 684.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We can't wait to welcome customers to the first of several flagship store locations in Saudi Arabia that were opening beginning in 2026.",
+   "score": 76,
+   "start": 702.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "I just had the chance to visit both countries last month, and I had a great time meeting with customers and team members.",
+   "score": 69,
+   "start": 712.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "There's an incredible energy and passion for technology in these growing markets.",
+   "score": 23,
+   "start": 721.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Every day, I get deeply moving notes about the many ways our technology is enriching our users' lives.",
+   "score": 8,
+   "start": 727.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "I recently got a note from a customer who put his watch on his father's wrist when he feared something was wrong with him.",
+   "score": -73,
+   "start": 735.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "The watch alerted them that the father was an AFib and they were able to get him to the hospital for potentially life-saving treatment.",
+   "score": 64,
+   "start": 744.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Another user put his new watch on for the first time and within 15 minutes was notified of a low heart rate that led to a necessary pacemaker.",
+   "score": -1,
+   "start": 754.6
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And there are so many touching notes around the profound impact of our new hearing health feature like a recent user who told me it had changed her life, allowing her to take part in conversations with her children and grandchildren.",
+   "score": 11,
+   "start": 765.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "These are the kind of stories that remind us of how profoundly important our work is, and it drives us to innovate each and every day.",
+   "score": 12,
+   "start": 782.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "At Apple, the future is full of promise and potential.",
+   "score": 28,
+   "start": 792.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We're always searching across a world of possibilities, finding those places where we can do the most good and putting all of our energy and ingenuity into making something special.",
+   "score": 15,
+   "start": 796.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "With that, I'll turn it over to Kevin.",
+   "score": 2,
+   "start": 809.8
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Thanks Tim, and good afternoon everyone.",
+   "score": 34,
+   "start": 812.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "I'm going to cover the results for the first quarter of our fiscal year.",
+   "score": 6,
+   "start": 815.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We are very pleased to report an all-time high for revenue with December quarter revenue of $124.3 billion, up 4% year-over-year.",
+   "score": 93,
+   "start": 820.9
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We achieved all-time revenue records in the Americas, Europe, Japan, and rest of Asia Pacific and grew in the vast majority of markets we track.",
+   "score": 91,
+   "start": 830.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Products revenue was $98 billion, up 2% year-over-year, driven by growth from iPad and Mac.",
+   "score": 94,
+   "start": 841.1
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Thanks to our incredible customer satisfaction and strong loyalty, our installed base of active devices reached an all-time high across all products and geographic segments and is now over 2.35 billion active devices.",
+   "score": 83,
+   "start": 847.9
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Services revenue reached an all-time record of $26.3 billion, up 14% year-over-year.",
+   "score": 93,
+   "start": 864.0
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We grew in every geographic segment and achieved all-time records in both developed and emerging markets.",
+   "score": 84,
+   "start": 870.2
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Company gross margin was 46.9% at the high-end of our guidance range and up 70 basis points sequentially, primarily driven by favorable mix.",
+   "score": 93,
+   "start": 878.0
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Products gross margin was 39.3%, up 300 basis points sequentially, primarily driven by favorable mix and leverage.",
+   "score": 94,
+   "start": 888.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Services gross margin was 75%, up 100 basis points sequentially, primarily driven by mix.",
+   "score": 94,
+   "start": 896.8
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Operating expenses of $15.4 billion landed at the midpoint of our guidance range and up 7% year-over-year.",
+   "score": 90,
+   "start": 903.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "This strong business performance resulted in all-time records for both net income at $36.3 billion and diluted earnings per share of $2.40, up 10% year-over-year.",
+   "score": 93,
+   "start": 911.3
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Operating cash flow was also strong at $29.9 billion, which included the impact of the $11.9 billion we paid during the quarter in connection with the state aid decision.",
+   "score": 91,
+   "start": 923.3
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Now, I'm going to provide some more details for each of our revenue categories.",
+   "score": 3,
+   "start": 935.9
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "iPhone revenue was $69.1 billion, roughly flat to the prior year.",
+   "score": -75,
+   "start": 941.8
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We grew in the majority of markets we track and reached all-time revenue records in several developed markets, including Canada, Western Europe, and Japan and in emerging markets like Latin America, the Middle East, and South Asia.",
+   "score": 89,
+   "start": 946.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "The iPhone Active installed base grew to an all-time high in total in an average geographic segment.",
+   "score": 93,
+   "start": 963.8
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We also set an all-time record for upgraders.",
+   "score": 83,
+   "start": 971.2
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "According to a recent survey from Kantar during the December quarter, iPhone was a top-selling model in the U.S., Urban China, India, the U.K., France, Australia, and Japan.",
+   "score": 88,
+   "start": 974.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We continue to see high levels of customer satisfaction in the U.S. at 96% as measured by 451 research.",
+   "score": 92,
+   "start": 987.3
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Mac generated $9 billion in revenue, up 16% year-over-year.",
+   "score": 94,
+   "start": 995.0
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We saw strength across our lineup from the new Mac Mini to the latest MacBook Air and MacBook Pro models.",
+   "score": 93,
+   "start": 999.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "This incredible performance was broad-based with double-digit growth in every geographic segment.",
+   "score": 88,
+   "start": 1007.1
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "With our latest advances in Apple Silicon and our fastest neural engine ever, customers are able to take advantage of the full capabilities of AI and Mac.",
+   "score": 61,
+   "start": 1014.3
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "The Mac installed base reached an all-time high and we saw a double-digit growth for both upgraders and customers new to the Mac.",
+   "score": 94,
+   "start": 1025.8
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Additionally, customer satisfaction in the U.S. was recently measured at 94%.",
+   "score": 53,
+   "start": 1035.3
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "iPad revenue was $8.1 billion, up 15% year-over-year, driven by the new iPad Mini and latest iPad Air.",
+   "score": 94,
+   "start": 1041.0
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "The iPad installed base reached another all-time high, and over half of the customers who purchased an iPad during the quarter were new to the product.",
+   "score": 74,
+   "start": 1048.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Customer satisfaction was at 96% in the U.S. based on the latest reports from 451 Research.",
+   "score": 36,
+   "start": 1059.8
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Wearable's home and accessories revenue was $11.7 billion, down 2% year-over-year.",
+   "score": -97,
+   "start": 1066.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Customers are excited about the new AirPods 4 and the latest hearing health features in AirPods Pro 2.",
+   "score": 74,
+   "start": 1072.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "On watch, although we face a difficult compare against the watch Ultra 2 launch last year, the Apple Watch installed base reached a new all-time high, with over half of customers purchasing an Apple Watch during the quarter being new to the product.",
+   "score": 91,
+   "start": 1080.2
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Customer satisfaction for watch in the U.S. was reported at 94%.",
+   "score": 37,
+   "start": 1098.7
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Our services revenue reached an all-time high of $26.3 billion, up 14% year-over-year.",
+   "score": 94,
+   "start": 1103.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Services continues to see strong momentum, and the growth of our installed base of active devices gives us great opportunities for the future.",
+   "score": 93,
+   "start": 1109.8
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We also see increased customer engagement with our services offerings.",
+   "score": 92,
+   "start": 1120.3
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Both transacting and paid accounts reached new all-time highs, with paid accounts growing double-digits year-over-year.",
+   "score": 91,
+   "start": 1125.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Paid subscriptions also grew double-digits.",
+   "score": 89,
+   "start": 1134.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We have well over 1 billion paid subscriptions across the services on our platform.",
+   "score": 15,
+   "start": 1137.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We remain focused on improving the breadth and quality of our services offerings, from new games on Apple Arcade to exciting new programming on Fitness Plus, and the continued expansion of features like Tap to Pay, now live in 20 markets.",
+   "score": 88,
+   "start": 1143.7
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Turning to enterprise, we have seen businesses continue to expand their deployments of our products and services.",
+   "score": 89,
+   "start": 1161.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Deutsche Bank launched its Mac as Choice program for the developers and also issued the latest MacBook Air as a standard computer for their entire mortgage lending division.",
+   "score": 22,
+   "start": 1169.8
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And we're excited to see leading enterprises such as SAP leverage Apple Intelligence in the U.S., with features like writing tools, summarize, and priority notifications to enhance both their employee and customer experiences.",
+   "score": 80,
+   "start": 1182.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We also see strong demand in our emerging markets.",
+   "score": 94,
+   "start": 1199.3
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "For example, Zomato, a leading food ordering and delivery company in India, has deployed 1,000 of Macs across their workforce to foster innovation.",
+   "score": 77,
+   "start": 1203.1
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "In Vision Pro continues to see more use cases in enterprise, with Cisco's new spatial meetings delivering a fully immersive video conferencing experience for remote collaboration and learning.",
+   "score": 64,
+   "start": 1214.0
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Let me quickly summarize our cash position and capital return program.",
+   "score": 2,
+   "start": 1228.2
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We ended the quarter with $141 billion in cash and marketable securities.",
+   "score": 6,
+   "start": 1233.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We repaid $1 billion in maturing debt and decreased commercial paper by $8 billion, resulting in $97 billion in total debt.",
+   "score": -73,
+   "start": 1238.8
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Therefore, net cash at the end of the quarter was $45 billion.",
+   "score": -7,
+   "start": 1247.9
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "During the quarter, we returned over $30 billion to shareholders.",
+   "score": 26,
+   "start": 1252.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "This included $3.9 billion in dividends and equivalents and $23.3 billion through open market repurchases of 100 million Apple shares.",
+   "score": 5,
+   "start": 1257.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "As usual, we will provide an update to our capital return program when we report results for the March quarter.",
+   "score": 2,
+   "start": 1267.3
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "As we move ahead into the March quarter, I'd like to review our outlook which includes the types of forward-looking information that Suhasini referred to at the beginning of the call.",
+   "score": 4,
+   "start": 1275.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "The color we're providing today assumes that the macroeconomic outlook doesn't worsen from what we're projecting today for the current quarter.",
+   "score": 76,
+   "start": 1289.1
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "As the dollar is strengthened significantly, we expect foreign exchange to be a headwind and to have a negative impact on revenue of about 2.5 percentage points on a year-over-year basis.",
+   "score": -96,
+   "start": 1299.7
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Despite that headwind, we expect our March quarter total company revenue to grow low to mid-single-digits year-over-year.",
+   "score": -19,
+   "start": 1313.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We expect services revenue to grow low-double-digits year-over-year.",
+   "score": 93,
+   "start": 1322.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "When you remove the negative impact of the foreign exchange headwinds I described earlier, the year-over-year growth rate would be comparable to that of the December quarter.",
+   "score": 47,
+   "start": 1327.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We expect gross margin to be between 46.5% and 47.5%.",
+   "score": 9,
+   "start": 1340.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We expect operating expenses to be between $15.1 billion and $15.3 billion.",
+   "score": -22,
+   "start": 1344.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We expect OI&E to be around negative $300 million, excluding any potential impact from the mark-to-market of minority investments, and our tax rate to be around 16%.",
+   "score": 9,
+   "start": 1350.0
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Finally, today our Board of Directors has declared a cash dividend of $0.25 per share of common stock payable on February 13, 2025, to shareholders of record as of February 10, 2025.",
+   "score": 5,
+   "start": 1362.2
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "With that, let's open to call the questions.",
+   "score": 2,
+   "start": 1375.8
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Thank you, Kevin.",
+   "score": 49,
+   "start": 1379.0
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "We ask that you limit yourself to two questions.",
+   "score": -1,
+   "start": 1380.3
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Operator, may we have the first question please?",
+   "score": 0,
+   "start": 1383.8
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Question-and-Answer Session",
+   "score": -2,
+   "start": 1387.4
+  },
+  {
+   "speaker": "Operator",
+   "text": "Certainly, we will go ahead and take our first question from Erik Woodring with Morgan Stanley.",
+   "score": 6,
+   "start": 1389.4
+  },
+  {
+   "speaker": "Operator",
+   "text": "Please go ahead.",
+   "score": 4,
+   "start": 1396.4
+  },
+  {
+   "speaker": "Erik Woodring",
+   "text": "Great guys, Thanks so much for taking my questions.",
+   "score": 62,
+   "start": 1397.6
+  },
+  {
+   "speaker": "Erik Woodring",
+   "text": "Tim, in your prepared remarks, you had noted that iPhone 16 models are selling better in markets where Apple Intelligence is available?",
+   "score": 81,
+   "start": 1401.4
+  },
+  {
+   "speaker": "Erik Woodring",
+   "text": "And I'm just wondering if you could double-click on that comment a bit and share any other details you believe could better help us understand how Apple Intelligence is really impacting iPhone demand and/or what features you find that users are using most often already?",
+   "score": 0,
+   "start": 1411.4
+  },
+  {
+   "speaker": "Erik Woodring",
+   "text": "And then I just have a quick follow-up.",
+   "score": 0,
+   "start": 1431.5
+  },
+  {
+   "speaker": "Erik Woodring",
+   "text": "Thank you.",
+   "score": 15,
+   "start": 1434.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Yes, Eric.",
+   "score": 9,
+   "start": 1435.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Hi, it's Tim.",
+   "score": -4,
+   "start": 1435.8
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "The -- we did see that the markets where we had rolled out Apple Intelligence, that the year-over-year performance on the iPhone 16 family was stronger than those where Apple Intelligence was not available.",
+   "score": 93,
+   "start": 1436.8
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "In terms of the features that people are using, they're using all of the ones that I'd referenced in my opening comments from writing tools to image playground and Genmoji to visual intelligence and more.",
+   "score": 1,
+   "start": 1452.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so we see all of those being used.",
+   "score": 4,
+   "start": 1467.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "The cleanup is another one that is popular and people love seeing that one demoed in the stores as well.",
+   "score": 4,
+   "start": 1470.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We only had 2, 2.5 weeks or so during the December quarter of the second release of [18.2] (ph) and then only had the U.K. and the other English language countries for the 2.5 weeks.",
+   "score": -3,
+   "start": 1477.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so we've got just the early indications at the moment, but we were glad…",
+   "score": 62,
+   "start": 1491.2
+  },
+  {
+   "speaker": "Erik Woodring",
+   "text": "Okay, that's really helpful.",
+   "score": 50,
+   "start": 1496.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Yes.",
+   "score": 9,
+   "start": 1499.0
+  },
+  {
+   "speaker": "Erik Woodring",
+   "text": "Okay, thank you for that, Tim.",
+   "score": 52,
+   "start": 1499.3
+  },
+  {
+   "speaker": "Erik Woodring",
+   "text": "It's helpful.",
+   "score": 22,
+   "start": 1501.5
+  },
+  {
+   "speaker": "Erik Woodring",
+   "text": "And then, you know, if we just touch on China, obviously, in the news fairly frequently, if we set aside China Macro, which I understand is still challenging, can you maybe talk about the headwinds that that Apple faces, whether that's, you know, shifting preferences for Western technology brands in favor of domestic vendors, or is this just a function of not necessarily having Apple intelligence available with the iPhone 16, which is, you know, not necessarily helping replacement cycles.",
+   "score": -18,
+   "start": 1502.5
+  },
+  {
+   "speaker": "Erik Woodring",
+   "text": "Just maybe double clicking on, on what you think and what you're hearing in China as a regard as it relates to the iPhone.",
+   "score": 1,
+   "start": 1539.0
+  },
+  {
+   "speaker": "Erik Woodring",
+   "text": "Thanks so much.",
+   "score": 68,
+   "start": 1548.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Yes, sure.",
+   "score": 9,
+   "start": 1549.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "If you look at our greater China revenue for the quarter, we were down 11% year-over-year.",
+   "score": -97,
+   "start": 1549.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And over half of the decline that we experienced was driven by change in channel inventory from the beginning to the end of the quarter.",
+   "score": -94,
+   "start": 1556.6
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And of course on the Apple intelligence side we have not rolled out in China and as we just talked about we did see better results in the markets that we had rolled out in than markets we hadn't rolled out in.",
+   "score": 93,
+   "start": 1566.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And of course, it's the most competitive market in the world.",
+   "score": 36,
+   "start": 1582.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so all of those things are true.",
+   "score": 3,
+   "start": 1586.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "In terms of the macro situation, there was a fiscal stimulus or subsidy announced in very recently in January that did not affect the December quarter.",
+   "score": -5,
+   "start": 1589.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "There were some provincial subsidies in the December quarter, but the national program was announced, I believe, on January 20.",
+   "score": 1,
+   "start": 1600.6
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And it does cover the categories that we have products in from smartphones to tablets and PCs and smart watches up to a certain, a maximum price point.",
+   "score": 7,
+   "start": 1610.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so we do see fiscal stimulus occurring and we'll be glad to talk about what that looks like on the next call.",
+   "score": 21,
+   "start": 1621.2
+  },
+  {
+   "speaker": "Erik Woodring",
+   "text": "Great.",
+   "score": 9,
+   "start": 1629.6
+  },
+  {
+   "speaker": "Erik Woodring",
+   "text": "Thanks so much, Tim.",
+   "score": 83,
+   "start": 1630.0
+  },
+  {
+   "speaker": "Erik Woodring",
+   "text": "Good luck.",
+   "score": 56,
+   "start": 1631.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Thank you.",
+   "score": 15,
+   "start": 1632.3
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Thank you, Eric.",
+   "score": 46,
+   "start": 1633.0
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Operator, can we have the next question, please?",
+   "score": 0,
+   "start": 1634.2
+  },
+  {
+   "speaker": "Operator",
+   "text": "Our next question is from Ben Reitzes with Melius.",
+   "score": -1,
+   "start": 1637.8
+  },
+  {
+   "speaker": "Operator",
+   "text": "Please go ahead.",
+   "score": 4,
+   "start": 1641.5
+  },
+  {
+   "speaker": "Ben Reitzes",
+   "text": "Hey, guys.",
+   "score": 12,
+   "start": 1642.7
+  },
+  {
+   "speaker": "Ben Reitzes",
+   "text": "Thanks a lot for the question.",
+   "score": 20,
+   "start": 1643.4
+  },
+  {
+   "speaker": "Ben Reitzes",
+   "text": "And, hey, Tim, I wanted to ask you who -- you knew this one was coming, but there's a perception that you're a big beneficiary of lower cost of compute and I was wondering if you could give your worldly perspective here on the DeepSeek situation and if you are going to, if you, if anything's happened to change your views in terms of a tailwind to margins and your ability to execute even due to the potential for cost to come down due to that development and probably what was going to happen anyway.",
+   "score": -1,
+   "start": 1645.6
+  },
+  {
+   "speaker": "Ben Reitzes",
+   "text": "But I'd love your perspective on that and then have a quick follow-up.",
+   "score": 10,
+   "start": 1682.9
+  },
+  {
+   "speaker": "Ben Reitzes",
+   "text": "Thanks.",
+   "score": 13,
+   "start": 1688.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Sure.",
+   "score": 9,
+   "start": 1688.6
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "In general, I think innovation that drives efficiency is a good thing.",
+   "score": 42,
+   "start": 1688.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And that's what you see in that model.",
+   "score": 3,
+   "start": 1694.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Our tight integration of silicon and software, I think, will continue to serve us very well.",
+   "score": 91,
+   "start": 1697.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "As you know, we do things on the device, and we do things in the private cloud and which mimics from a architectural point of view the -- what happens on the device.",
+   "score": -2,
+   "start": 1703.8
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And from a CapEx point of view, we've always taken a very prudent and deliberate approach to our expenditure and we continue to leverage a hybrid model, which I think continues to serve us well.",
+   "score": 76,
+   "start": 1716.0
+  },
+  {
+   "speaker": "Ben Reitzes",
+   "text": "Oh, great.",
+   "score": -2,
+   "start": 1730.4
+  },
+  {
+   "speaker": "Ben Reitzes",
+   "text": "All right.",
+   "score": 6,
+   "start": 1731.2
+  },
+  {
+   "speaker": "Ben Reitzes",
+   "text": "Thanks, Tim.",
+   "score": 49,
+   "start": 1731.9
+  },
+  {
+   "speaker": "Ben Reitzes",
+   "text": "And then, you know, just with regard to, you know, the iPhone trajectory, do you feel like, I guess, what is -- you obviously don't talk about new products and stuff like that, but do you feel that there's a lot of room for form factor innovation in the future?",
+   "score": 3,
+   "start": 1732.8
+  },
+  {
+   "speaker": "Ben Reitzes",
+   "text": "Or do you feel that the current lineup kind of it shows where you're going?",
+   "score": 0,
+   "start": 1752.1
+  },
+  {
+   "speaker": "Ben Reitzes",
+   "text": "I guess without pulling punches wondering if you, you thought you know in terms of the phone innovation if there's a lot more to come and you could see the kind of current market changing a bit over the next two to three years.",
+   "score": 6,
+   "start": 1757.7
+  },
+  {
+   "speaker": "Ben Reitzes",
+   "text": "Thanks.",
+   "score": 13,
+   "start": 1774.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "I think, Ben, I think there's a lot more to come and I could not feel more optimistic about our product pipeline.",
+   "score": 43,
+   "start": 1775.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "So I think there's a lot of innovation left on the smartphone.",
+   "score": 34,
+   "start": 1783.4
+  },
+  {
+   "speaker": "Ben Reitzes",
+   "text": "Thanks a lot, Tim.",
+   "score": 45,
+   "start": 1788.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Yes, thank you.",
+   "score": 59,
+   "start": 1789.4
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Thank you, Ben.",
+   "score": 42,
+   "start": 1790.5
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Operator, could we have the next question, please?",
+   "score": 0,
+   "start": 1791.6
+  },
+  {
+   "speaker": "Operator",
+   "text": "Our next question is from Michael Ng with Goldman Sachs.",
+   "score": 0,
+   "start": 1795.3
+  },
+  {
+   "speaker": "Operator",
+   "text": "Please go ahead.",
+   "score": 4,
+   "start": 1799.5
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "Good afternoon.",
+   "score": 23,
+   "start": 1800.7
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "Thank you for the question.",
+   "score": 11,
+   "start": 1801.8
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "I have two as well.",
+   "score": 4,
+   "start": 1803.8
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "First, it was encouraging to hear about the record for iPhone upgraders, which I think is something you haven't said for about a year now.",
+   "score": 31,
+   "start": 1805.2
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "I was wondering if you could talk a little bit about what you would attribute this upgrade strength to?",
+   "score": 13,
+   "start": 1815.4
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "Has Apple Intelligence played a role in helping upgrades in the markets that you've launched in?",
+   "score": 15,
+   "start": 1823.1
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "Thanks.",
+   "score": 13,
+   "start": 1830.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Yes, thank you for the question.",
+   "score": 17,
+   "start": 1830.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "If you look at iPhone, we did set an all-time record for upgraders, so we've never seen a higher level of upgraders before.",
+   "score": 57,
+   "start": 1833.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "The installed base hit a new all-time high as well.",
+   "score": 90,
+   "start": 1842.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And if you look at the 16, compared to the 15 from launch, which occurred, as you know, in September, so this is across now two quarters from September to the end of the December fiscal quarter, the 16 outperformed the 15.",
+   "score": 18,
+   "start": 1846.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so I think you can conclude from that, that there are compelling reasons to upgrade.",
+   "score": 63,
+   "start": 1862.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And in the markets where we had launched Apple Intelligence, they outperformed the markets that we did not.",
+   "score": 80,
+   "start": 1869.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "So lots…",
+   "score": 11,
+   "start": 1876.9
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "Great, thank you, Tim.",
+   "score": 82,
+   "start": 1877.5
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "That's…",
+   "score": 8,
+   "start": 1879.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Yes, lots of good color there.",
+   "score": 71,
+   "start": 1879.7
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "Great, thank you, Tim.",
+   "score": 82,
+   "start": 1881.9
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "That's very clear.",
+   "score": 6,
+   "start": 1883.5
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "And then I had one about the iPad Pro and for the thinner version.",
+   "score": 2,
+   "start": 1884.9
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "I was just wondering if you could talk about that thin form factor for the iPad Pro.",
+   "score": 4,
+   "start": 1889.7
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "How did it help iPad sales overall and what did your kind of marketing consumer research tell you about how consumers valued that thin product form factor?",
+   "score": 7,
+   "start": 1896.0
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "Thank you.",
+   "score": 15,
+   "start": 1907.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "It's a good question.",
+   "score": 7,
+   "start": 1908.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "iPad overall grew 15% for the quarter and it was more driven by iPad Air and the entry level iPad than it was the top level iPad.",
+   "score": 77,
+   "start": 1909.8
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "But overall we could not be more pleased with the iPad category growing 15%.",
+   "score": 90,
+   "start": 1919.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "It's a great achievement for the quarter.",
+   "score": 92,
+   "start": 1925.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And probably what is most important is that over half of the sales in the December quarter went to customers who were new to the iPad.",
+   "score": 9,
+   "start": 1928.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "So that tells us that there's a good amount of customers there to attract.",
+   "score": 85,
+   "start": 1938.0
+  },
+  {
+   "speaker": "Michael Ng",
+   "text": "Thank you very much, Tim.",
+   "score": 64,
+   "start": 1943.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Yes.",
+   "score": 9,
+   "start": 1945.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Thank you.",
+   "score": 15,
+   "start": 1945.6
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Thanks, Mike.",
+   "score": 70,
+   "start": 1946.3
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Operator, could we have the next question, please?",
+   "score": 0,
+   "start": 1947.3
+  },
+  {
+   "speaker": "Operator",
+   "text": "Our next question is from Amit Daryanani from Evercore.",
+   "score": 0,
+   "start": 1951.0
+  },
+  {
+   "speaker": "Operator",
+   "text": "Please go ahead.",
+   "score": 4,
+   "start": 1955.1
+  },
+  {
+   "speaker": "Amit Daryanani",
+   "text": "Good afternoon, everyone.",
+   "score": 13,
+   "start": 1956.3
+  },
+  {
+   "speaker": "Amit Daryanani",
+   "text": "I have two as well.",
+   "score": 4,
+   "start": 1958.1
+  },
+  {
+   "speaker": "Amit Daryanani",
+   "text": "Maybe to start with, you folks are seeing some very robust growth trends in emerging markets right now for Apple products?",
+   "score": 92,
+   "start": 1959.6
+  },
+  {
+   "speaker": "Amit Daryanani",
+   "text": "Can you just add a high level, just talk about the durability of growth that you see in emerging markets?",
+   "score": 6,
+   "start": 1968.6
+  },
+  {
+   "speaker": "Amit Daryanani",
+   "text": "And then do you think the summation of these emerging markets are starting to get big enough or perhaps starting to grow fast enough that it can actually offset some of the China headwinds you're going through?",
+   "score": 47,
+   "start": 1976.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We have great results in a number of emerging markets.",
+   "score": 89,
+   "start": 1992.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And as you know from past calls, I'm particularly keen on India.",
+   "score": 10,
+   "start": 1996.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "India set a December quarter record during the quarter.",
+   "score": 77,
+   "start": 2000.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And we're opening more stores there.",
+   "score": 70,
+   "start": 2004.8
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We've announced that we're going to open four new stores there.",
+   "score": 58,
+   "start": 2007.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We also, the iPhone was the top selling model in India for the quarter.",
+   "score": 81,
+   "start": 2012.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And it's the second largest smartphone market in the world and the third largest for PCs and tablets and so there's a huge market and we are -- we have very modest share in these markets.",
+   "score": 12,
+   "start": 2017.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so I think there's lots of upside there.",
+   "score": 27,
+   "start": 2031.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And that's just one of the emerging markets.",
+   "score": 2,
+   "start": 2034.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Yes, maybe I'll add, Amit, that in emerging markets we're also seeing double-digit growth on the install base, both in total and for the iPhone as well.",
+   "score": 94,
+   "start": 2037.8
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "So that's also an encouraging sign.",
+   "score": 86,
+   "start": 2049.1
+  },
+  {
+   "speaker": "Amit Daryanani",
+   "text": "Perfect.",
+   "score": 11,
+   "start": 2051.7
+  },
+  {
+   "speaker": "Amit Daryanani",
+   "text": "Thank you.",
+   "score": 15,
+   "start": 2052.3
+  },
+  {
+   "speaker": "Amit Daryanani",
+   "text": "And then, you know, just a question on gross margins for the March quarter.",
+   "score": -3,
+   "start": 2053.0
+  },
+  {
+   "speaker": "Amit Daryanani",
+   "text": "You folks are guiding gross margin is flattish on a sequential basis.",
+   "score": -2,
+   "start": 2058.6
+  },
+  {
+   "speaker": "Amit Daryanani",
+   "text": "Typically, I think it tends to be guided up a little bit, 50 basis points, so sequentially.",
+   "score": 3,
+   "start": 2063.7
+  },
+  {
+   "speaker": "Amit Daryanani",
+   "text": "Can we just touch on like, what are the offsets of the puts and takes you see here on gross margins?",
+   "score": 2,
+   "start": 2070.5
+  },
+  {
+   "speaker": "Amit Daryanani",
+   "text": "And Kevan, maybe you can just talked about its FX having an outsized impact in your margin profile as well in March?",
+   "score": -13,
+   "start": 2077.9
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Yes, Amit, let me take that One.",
+   "score": 6,
+   "start": 2086.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "You know, as we mentioned in my remarks, we're guiding to 46.5% to 47.5%.",
+   "score": 53,
+   "start": 2088.8
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "So we think it's, you know, we're very pleased with that level of guidance.",
+   "score": 89,
+   "start": 2094.3
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "As you mentioned, there's always puts and takes.",
+   "score": -2,
+   "start": 2099.8
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We do think there's going to be some FX headwinds, which we talked about, that's going to affect, you know, our revenue growth as well.",
+   "score": -78,
+   "start": 2103.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "You know, it'll have an impact here on the margin, a sequential impact on margins.",
+   "score": -2,
+   "start": 2113.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "But we think that's going to be offset by favorable costs and the relative mix of services.",
+   "score": 91,
+   "start": 2119.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We also, as you know, when we move from Q1 to Q2, especially on the product side, because Q1 is such a large quarter for a products business, we do have a loss of leverage.",
+   "score": -91,
+   "start": 2126.2
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "So there are some puts and takes, and I think we feel good about the range.",
+   "score": 72,
+   "start": 2139.0
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We think it's a very, very strong guide for gross margin.",
+   "score": 91,
+   "start": 2144.6
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Thanks, Amit.",
+   "score": 62,
+   "start": 2148.8
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Operator, could we get the next question, please?",
+   "score": 0,
+   "start": 2149.8
+  },
+  {
+   "speaker": "Operator",
+   "text": "Our next question is from Wamsi Mohan with Bank of America.",
+   "score": 2,
+   "start": 2153.4
+  },
+  {
+   "speaker": "Operator",
+   "text": "Please go ahead.",
+   "score": 4,
+   "start": 2157.8
+  },
+  {
+   "speaker": "Wamsi Mohan",
+   "text": "Yes, thank you so much.",
+   "score": 76,
+   "start": 2159.0
+  },
+  {
+   "speaker": "Wamsi Mohan",
+   "text": "Tim, I want to follow-up on your comment about channel inventory in China.",
+   "score": 2,
+   "start": 2160.7
+  },
+  {
+   "speaker": "Wamsi Mohan",
+   "text": "I was wondering if you could maybe address more broadly if channel inventory across your different product lines and regions?",
+   "score": 9,
+   "start": 2166.1
+  },
+  {
+   "speaker": "Wamsi Mohan",
+   "text": "Do you feel they're elevated or out of range in any other regions?",
+   "score": -12,
+   "start": 2175.4
+  },
+  {
+   "speaker": "Wamsi Mohan",
+   "text": "And given the clearing event that kind of happened in China, I guess in the quarter, should we think of a more normal progression quarter-on-quarter into the March quarter in China in particular, and I will follow.",
+   "score": 2,
+   "start": 2180.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Yes, I don't want to project sales for the current quarter by region, but if you if you look at the channel inventory and look at iPhone in the aggregate, so on a worldwide basis we're very comfortable with our channel inventory position in the -- in China my point was that our channel inventory reduced from the beginning of the quarter to the end of the quarter, and that was over half of the reduction in the reported results.",
+   "score": -74,
+   "start": 2196.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so if you look, part of the reason for that is that our sales were a bit higher than we forecasted them to be toward the end of the quarter.",
+   "score": 53,
+   "start": 2228.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so we ended a little leaner than we had expected to.",
+   "score": -30,
+   "start": 2238.8
+  },
+  {
+   "speaker": "Wamsi Mohan",
+   "text": "Okay, that's very clear.",
+   "score": 7,
+   "start": 2242.9
+  },
+  {
+   "speaker": "Wamsi Mohan",
+   "text": "Thank you.",
+   "score": 15,
+   "start": 2244.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Yes, thank you.",
+   "score": 59,
+   "start": 2245.4
+  },
+  {
+   "speaker": "Wamsi Mohan",
+   "text": "And then maybe as my follow-up, your services growth has been very strong and I know you've kind of been navigating some pretty challenging regulatory burdens on the business globally.",
+   "score": 88,
+   "start": 2246.6
+  },
+  {
+   "speaker": "Wamsi Mohan",
+   "text": "So how should investors think about maybe either a top line or margin headwind that let's say you're currently absorbing in your results that could potentially maybe reverse in a more balanced regulatory environment?",
+   "score": -13,
+   "start": 2260.2
+  },
+  {
+   "speaker": "Wamsi Mohan",
+   "text": "Thank you so much.",
+   "score": 38,
+   "start": 2276.2
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Yes.",
+   "score": 9,
+   "start": 2277.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "So I think one, I just wanted to kind of reiterate the fact that, you know, our services business had an all-time record for December quarter of 14%.",
+   "score": 26,
+   "start": 2277.9
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And that was a one strength that we saw across all geographic segments and also was very broad base across all of our services.",
+   "score": 47,
+   "start": 2288.9
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "So we have, as you know, a very broad services portfolio.",
+   "score": 15,
+   "start": 2298.3
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And so we do see, you know, good momentum across the board.",
+   "score": 93,
+   "start": 2302.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And as well, we continue to see increasing engagement across the customer base, across all of the service offerings, both transacting and paid accounts.",
+   "score": 92,
+   "start": 2306.9
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We talked about reaching all-time highs, and we have over now 1 billion paid subscriptions across the services platform.",
+   "score": 76,
+   "start": 2318.2
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "All right.",
+   "score": 6,
+   "start": 2327.1
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Thanks, Wamsi.",
+   "score": 60,
+   "start": 2327.9
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Operator, could we get the next question, please?",
+   "score": 0,
+   "start": 2328.9
+  },
+  {
+   "speaker": "Operator",
+   "text": "Our next question is from Samik Chatterjee with JPMorgan.",
+   "score": 0,
+   "start": 2332.5
+  },
+  {
+   "speaker": "Operator",
+   "text": "Please go ahead.",
+   "score": 4,
+   "start": 2336.8
+  },
+  {
+   "speaker": "Samik Chatterjee",
+   "text": "Thanks for taking my questions.",
+   "score": 12,
+   "start": 2337.9
+  },
+  {
+   "speaker": "Samik Chatterjee",
+   "text": "I guess for the first one, if I -- I mean, you had a great quarter on Macs and iPads both.",
+   "score": 51,
+   "start": 2340.2
+  },
+  {
+   "speaker": "Samik Chatterjee",
+   "text": "And I'm just curious, in terms of if you can help us think about the sustainability of this double-digit growth that you saw in both the product lines, and more interest are also here, we are talking about Apple Intelligence sort of influencing volumes on iPhones, but any thoughts on sort of how -- what does that influence look like in terms of volumes for Macs, for example, where I think there's a lot of conversation on AI PCs, how you're thinking about the impact there?",
+   "score": 4,
+   "start": 2346.9
+  },
+  {
+   "speaker": "Samik Chatterjee",
+   "text": "And I have a quick follow-up.",
+   "score": 2,
+   "start": 2382.2
+  },
+  {
+   "speaker": "Samik Chatterjee",
+   "text": "Thank you.",
+   "score": 15,
+   "start": 2384.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Yes.",
+   "score": 9,
+   "start": 2385.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "If you look at Mac, Mac was up 16% and on iPad, we were up 15%.",
+   "score": 76,
+   "start": 2385.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "The Mac was driven by the very strong uptake on our new products during the quarter and the continued success of the MacBook Air.",
+   "score": 93,
+   "start": 2390.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so as you know, we've launched an M4-based MacBook Pro, an iMac and a Mac Mini during the quarter.",
+   "score": 27,
+   "start": 2399.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We believe we've got the best AI PC out there for running workloads.",
+   "score": 72,
+   "start": 2407.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "The silicon in the Mac is, and it has been for several years now, designed by us and really designed for these workloads.",
+   "score": 10,
+   "start": 2412.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so I don't want to project at the category level for the future, but we're incredibly pleased with both the Mac and the iPad for the quarter.",
+   "score": 81,
+   "start": 2421.3
+  },
+  {
+   "speaker": "Samik Chatterjee",
+   "text": "Okay.",
+   "score": 8,
+   "start": 2432.0
+  },
+  {
+   "speaker": "Samik Chatterjee",
+   "text": "And Tim, I'm going to use your earlier discussion about India as a strong emerging market to sort of ask you about the supply chain planning there in terms of how much of the supply chain planning there that you're doing is more of a reflection of the growth expectations from that market relative to in terms of diversification of the supply chain?",
+   "score": 3,
+   "start": 2432.4
+  },
+  {
+   "speaker": "Samik Chatterjee",
+   "text": "And how should we sort of think about that strategy in terms of that particular country?",
+   "score": 1,
+   "start": 2458.3
+  },
+  {
+   "speaker": "Samik Chatterjee",
+   "text": "Thank you.",
+   "score": 15,
+   "start": 2464.8
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Yes.",
+   "score": 9,
+   "start": 2465.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "If you look at the manufacturing we do there, we do manufacturing both for the domestic market, and we export.",
+   "score": 2,
+   "start": 2465.8
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so in -- our business needs a certain economies of scale for it to make sense to manufacture in country.",
+   "score": 22,
+   "start": 2474.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so that really means that we're going to be both a use for the domestic market and an export market.",
+   "score": 31,
+   "start": 2482.0
+  },
+  {
+   "speaker": "Samik Chatterjee",
+   "text": "Great.",
+   "score": 9,
+   "start": 2489.7
+  },
+  {
+   "speaker": "Samik Chatterjee",
+   "text": "Thank you.",
+   "score": 15,
+   "start": 2490.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Yes, thanks.",
+   "score": 68,
+   "start": 2490.9
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Thank you, Samik.",
+   "score": 46,
+   "start": 2491.8
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Operator, could we get the next question, please?",
+   "score": 0,
+   "start": 2493.1
+  },
+  {
+   "speaker": "Operator",
+   "text": "Our next question is from David Vogt with UBS.",
+   "score": 0,
+   "start": 2496.7
+  },
+  {
+   "speaker": "Operator",
+   "text": "Please go ahead.",
+   "score": 4,
+   "start": 2500.1
+  },
+  {
+   "speaker": "David Vogt",
+   "text": "Great, thanks, guys, for taking my question.",
+   "score": 67,
+   "start": 2501.3
+  },
+  {
+   "speaker": "David Vogt",
+   "text": "So maybe, Tim, this is for you.",
+   "score": 4,
+   "start": 2504.6
+  },
+  {
+   "speaker": "David Vogt",
+   "text": "I'm trying to think about your commentary around Apple Intelligence being sort of a momentum driver for the iPhone business.",
+   "score": 9,
+   "start": 2506.9
+  },
+  {
+   "speaker": "David Vogt",
+   "text": "But when I think about your kind of framework for the March quarter, if I kind of adjust for channel inventory over the last couple of years, kind of, feels like your iPhone revenue for the March quarter is going to be relatively similar to the quarter two years ago and even the quarter last year?",
+   "score": 10,
+   "start": 2516.1
+  },
+  {
+   "speaker": "David Vogt",
+   "text": "So how do we square kind of the momentum versus kind of the iPhone business effectively really kind of unchanged over the last couple of years?",
+   "score": 6,
+   "start": 2538.2
+  },
+  {
+   "speaker": "David Vogt",
+   "text": "And then second, when I think about kind of the gross margin profile of the business, obviously, you've done a great job in taking gross margins up.",
+   "score": 90,
+   "start": 2548.8
+  },
+  {
+   "speaker": "David Vogt",
+   "text": "Where do you think we sit in terms of, on the services side at least, where margins could go?",
+   "score": 5,
+   "start": 2559.7
+  },
+  {
+   "speaker": "David Vogt",
+   "text": "It looks like the 75% margin has been incredibly successful quarter.",
+   "score": 92,
+   "start": 2566.6
+  },
+  {
+   "speaker": "David Vogt",
+   "text": "But just trying to get a sense for where do you think this number could go over the intermediate term?",
+   "score": 3,
+   "start": 2571.7
+  },
+  {
+   "speaker": "David Vogt",
+   "text": "Thank you.",
+   "score": 15,
+   "start": 2579.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Yes.",
+   "score": 9,
+   "start": 2580.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "If you look at Apple Intelligence, what my point earlier was, that markets where we had rolled out Apple Intelligence during the Q1 period performed better on a year-over-year basis than markets where we had not.",
+   "score": 75,
+   "start": 2580.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so that gives us -- it's a positive indicator that we were pleased with.",
+   "score": 87,
+   "start": 2596.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "There are many compelling reasons to upgrade.",
+   "score": 20,
+   "start": 2601.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And the other thing I would say, that I think I mentioned earlier, is that if you look at it from a launch to the end of the December quarter, and so that goes back to September, the 16 family is outperforming the 15 family.",
+   "score": -15,
+   "start": 2605.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so I think those are two good data points.",
+   "score": 60,
+   "start": 2621.6
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Our next round of language rollouts will be in April.",
+   "score": 1,
+   "start": 2625.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so it will be at the -- in our Q3 quarter.",
+   "score": 4,
+   "start": 2629.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And I'll let Kevan take the gross margin question.",
+   "score": 1,
+   "start": 2632.4
+  },
+  {
+   "speaker": "David Vogt",
+   "text": "Yes, great.",
+   "score": 27,
+   "start": 2636.1
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Hi, David.",
+   "score": 9,
+   "start": 2636.9
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "How are you?",
+   "score": 12,
+   "start": 2637.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "So on the Services gross margin, I think maybe just stepping back a second.",
+   "score": 12,
+   "start": 2638.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Services business in general in aggregate is accretive to the overall company margin.",
+   "score": 23,
+   "start": 2644.1
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And one of the things, as an important reminder, is we've got a very broad services portfolio.",
+   "score": 31,
+   "start": 2650.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And those businesses have very different margin profiles.",
+   "score": -4,
+   "start": 2657.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And so I think, one, it's because of the nature of those businesses and in part also because of the way we account for them.",
+   "score": 6,
+   "start": 2661.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And so one of the big factors that drive the Services gross margins and relative performance of those different businesses within the portfolio.",
+   "score": 4,
+   "start": 2670.8
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "We also have the dynamic of some scale businesses like payment services, iCloud, that are actually growing.",
+   "score": 62,
+   "start": 2681.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And there, when we add incremental users, those end up being accretive to margins as well.",
+   "score": 9,
+   "start": 2689.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And so in general, what we saw in the December quarter was nice momentum across our entire services business that allows us to deliver that 75% margin at the services level.",
+   "score": 93,
+   "start": 2696.1
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And I think our guidance takes into consideration what we think we're going to land from a company standpoint of 46.5% to 47.5%, which again, we think is a strong guide.",
+   "score": 81,
+   "start": 2708.9
+  },
+  {
+   "speaker": "David Vogt",
+   "text": "Great, thanks, guys.",
+   "score": 80,
+   "start": 2721.5
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "All right, thank you, David.",
+   "score": 49,
+   "start": 2722.9
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Operator, could we have the next question, please?",
+   "score": 0,
+   "start": 2725.0
+  },
+  {
+   "speaker": "Operator",
+   "text": "Our next question is from Krish Sankar with TD Cowen.",
+   "score": 1,
+   "start": 2728.7
+  },
+  {
+   "speaker": "Operator",
+   "text": "Please go ahead.",
+   "score": 4,
+   "start": 2732.7
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "Yes, thanks for taking my question.",
+   "score": 28,
+   "start": 2733.9
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "I also had two of them.",
+   "score": -1,
+   "start": 2736.4
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "One, the first one for Tim.",
+   "score": 3,
+   "start": 2738.2
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "You had very strong Mac growth, 16% year-over-year last quarter.",
+   "score": 93,
+   "start": 2740.2
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "Just wondering how much of that was driven by some of the Mac silicon innovation versus a replacement cycle for Macs?",
+   "score": 2,
+   "start": 2744.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "I don't know the answer to your question precisely, but I think it is a combination of these products are so compelling, the M4-based products are so compelling, that it's driving both upgrades at the double-digit level and it's driving switchers at a double-digit level.",
+   "score": 17,
+   "start": 2753.6
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so we're seeing both come out, and I think it's just because of the compelling products.",
+   "score": 43,
+   "start": 2773.7
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "Got it.",
+   "score": 5,
+   "start": 2780.5
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "Got it.",
+   "score": 5,
+   "start": 2781.0
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "Thanks for that, Tim.",
+   "score": 25,
+   "start": 2781.5
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "And then a follow-up for Kevan on the gross margin.",
+   "score": 4,
+   "start": 2783.1
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "I want to ask you on the product side.",
+   "score": 3,
+   "start": 2786.9
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "Last quarter, you had 39.3%, which is very strong, similar to a year ago period.",
+   "score": 78,
+   "start": 2789.7
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "I'm kind of curious how much more levels do you have on the product side to improve the gross margin?",
+   "score": 20,
+   "start": 2795.6
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "Or do you think with some of the more new AI-related devices, there's more upside to gross margin from here on the product hardware side?",
+   "score": 25,
+   "start": 2803.1
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Yes.",
+   "score": 9,
+   "start": 2813.3
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Thanks, Krish, for the question.",
+   "score": 27,
+   "start": 2813.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "So on the product side, as you mentioned, we had pretty strong sequential improvement, 300 basis points, for the December quarter.",
+   "score": 93,
+   "start": 2816.0
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "That was really driven by, we talked about, favorable mix and leverage.",
+   "score": 51,
+   "start": 2825.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "As you know, in Q1, again, it's a launch quarter for many products, and so we tend to benefit from the leverage that we get from that higher volume.",
+   "score": 74,
+   "start": 2830.9
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "I would say, in general, our gross margin on products is driven by a number of factors.",
+   "score": 4,
+   "start": 2841.9
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "One of them is the various product launches that we have.",
+   "score": 2,
+   "start": 2848.3
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Different products do have different margin profiles.",
+   "score": -3,
+   "start": 2852.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And so that mix does make a difference.",
+   "score": 21,
+   "start": 2856.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And in particular, what we're seeing is, for example, many of our mix is across like phone, for example, we're seeing customers gravitate towards our Pro products because of things like affordability that allows our customers to get into our best products, which have favorable gross margins.",
+   "score": 43,
+   "start": 2859.4
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "So we're continuing to see that trend, that impacted us in the December quarter.",
+   "score": -23,
+   "start": 2881.0
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "As well, I think we're in a favorable commodity environment from a cost standpoint.",
+   "score": 59,
+   "start": 2887.0
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And so we're benefiting from that as well in the December quarter.",
+   "score": 94,
+   "start": 2893.1
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And then that's going to be, as we talked about, we're going to have a foreign exchange headwind heading into the March quarter, but we figured that's contemplated in the guidance range that we gave, the 46.5% to 47.5%.",
+   "score": -29,
+   "start": 2898.0
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "Thanks, Kevan.",
+   "score": 83,
+   "start": 2914.3
+  },
+  {
+   "speaker": "Krish Sankar",
+   "text": "Thanks, Tim.",
+   "score": 49,
+   "start": 2915.3
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Thank you, Krish.",
+   "score": 50,
+   "start": 2916.2
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Operator, could we get the next question, please?",
+   "score": 0,
+   "start": 2917.4
+  },
+  {
+   "speaker": "Operator",
+   "text": "Our next question is from Richard Kramer with Arete Research.",
+   "score": 0,
+   "start": 2921.1
+  },
+  {
+   "speaker": "Operator",
+   "text": "Please go ahead.",
+   "score": 4,
+   "start": 2925.6
+  },
+  {
+   "speaker": "Richard Kramer",
+   "text": "Thanks very much.",
+   "score": 29,
+   "start": 2926.8
+  },
+  {
+   "speaker": "Richard Kramer",
+   "text": "My first question is for Tim.",
+   "score": -1,
+   "start": 2928.1
+  },
+  {
+   "speaker": "Richard Kramer",
+   "text": "I'd like to ask about what might accelerate the pace of Apple Intelligence adoption.",
+   "score": 14,
+   "start": 2930.2
+  },
+  {
+   "speaker": "Richard Kramer",
+   "text": "I guess do you see this simply as a question of time i.e., to launch more markets and languages or increase the percentage of installed base devices that can support it?",
+   "score": 27,
+   "start": 2936.4
+  },
+  {
+   "speaker": "Richard Kramer",
+   "text": "Or is it a question of money, i.e., shifting R&D or marketing spend towards AI?",
+   "score": -1,
+   "start": 2949.0
+  },
+  {
+   "speaker": "Richard Kramer",
+   "text": "And based on other prior Apple services, do you expect a sort of tipping point where adoption will go mainstream?",
+   "score": 15,
+   "start": 2954.8
+  },
+  {
+   "speaker": "Richard Kramer",
+   "text": "Thanks.",
+   "score": 13,
+   "start": 2963.2
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "I do believe it will go mainstream.",
+   "score": 47,
+   "start": 2963.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "I'm getting feedback from people using different features today.",
+   "score": 6,
+   "start": 2966.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And this is -- keep in mind that on the iPhone side of our business, you either have to have an iPhone 15 Pro or iPhone 16 to use Apple Intelligence.",
+   "score": 2,
+   "start": 2971.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so the -- as that base grows, I think the usage will continue to grow.",
+   "score": 91,
+   "start": 2982.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And I think -- I know from my own personal experience, once you start using the features, you can't imagine not using them anymore.",
+   "score": 1,
+   "start": 2987.6
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "I know I get 100s of e-mails a day, and the summarization function is so important.",
+   "score": 2,
+   "start": 2997.3
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "So I think it's a combination of that.",
+   "score": 1,
+   "start": 3003.5
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And of course, in April, we roll out a whole series of new languages that we had mentioned, and so the base grows further.",
+   "score": 63,
+   "start": 3006.3
+  },
+  {
+   "speaker": "Richard Kramer",
+   "text": "Okay, thank you.",
+   "score": 66,
+   "start": 3015.4
+  },
+  {
+   "speaker": "Richard Kramer",
+   "text": "And then, Kevan, one of Luca's legacies was really getting Apple to record margin levels and also maintaining very consistent pricing across the product range.",
+   "score": 38,
+   "start": 3016.6
+  },
+  {
+   "speaker": "Richard Kramer",
+   "text": "But taking the current high levels of profitability as fairly stable, what observations might you share about price sensitivity of users and whether having a wider range of pricing across the products might unlocks potentially further market share gains or boost overall product growth?",
+   "score": 75,
+   "start": 3028.3
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "Yes, it's a good question.",
+   "score": 15,
+   "start": 3049.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "I think one, I don't think we're going to really depart from what served us pretty well to now.",
+   "score": 22,
+   "start": 3051.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "I mean we always take it into consideration, looking at short-term -- comparison between the short term and the long term.",
+   "score": 1,
+   "start": 3058.5
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "I think we've had a pretty disciplined pricing strategy, which would serve us pretty well.",
+   "score": 88,
+   "start": 3067.6
+  },
+  {
+   "speaker": "Kevan Parekh",
+   "text": "And I think we're going to continually kind of stick with that as far as I can tell.",
+   "score": 14,
+   "start": 3074.3
+  },
+  {
+   "speaker": "Richard Kramer",
+   "text": "Okay, thanks.",
+   "score": 65,
+   "start": 3080.5
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Thank you, Richard.",
+   "score": 39,
+   "start": 3081.5
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Operator, could we get the next question, please?",
+   "score": 0,
+   "start": 3082.9
+  },
+  {
+   "speaker": "Operator",
+   "text": "Our next question is from Atif Malik with Citi.",
+   "score": 0,
+   "start": 3086.5
+  },
+  {
+   "speaker": "Operator",
+   "text": "Please go ahead.",
+   "score": 4,
+   "start": 3090.0
+  },
+  {
+   "speaker": "Atif Malik",
+   "text": "Hi, thank you for taking my question.",
+   "score": 21,
+   "start": 3091.2
+  },
+  {
+   "speaker": "Atif Malik",
+   "text": "How do you guys see the potential tariff impact to your product for consumer demand under Trump 2.0 you guys did find under Trump 1.0?",
+   "score": 5,
+   "start": 3093.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "We are monitoring the situation and don't have anything more to add than that.",
+   "score": -1,
+   "start": 3103.9
+  },
+  {
+   "speaker": "Atif Malik",
+   "text": "Great.",
+   "score": 9,
+   "start": 3109.7
+  },
+  {
+   "speaker": "Atif Malik",
+   "text": "And Tim, as a follow-up, there is a lot of discussion on agentic AI, the use of agents.",
+   "score": 4,
+   "start": 3110.1
+  },
+  {
+   "speaker": "Atif Malik",
+   "text": "Do you guys see the upgraded series expected in April as something that will, let's say, be the killer application among the suite of features that you have announced in Apple Intelligence?",
+   "score": 24,
+   "start": 3116.6
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "I think the killer feature is different for different people.",
+   "score": 0,
+   "start": 3130.6
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "But I think for most, they're going to find that they're going to use many of the features every day.",
+   "score": 27,
+   "start": 3135.1
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And certainly, one of those is the -- is Siri, and that will be coming over the next several months.",
+   "score": 6,
+   "start": 3142.6
+  },
+  {
+   "speaker": "Atif Malik",
+   "text": "Thank you.",
+   "score": 15,
+   "start": 3150.0
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "All right.",
+   "score": 6,
+   "start": 3150.7
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Thank you, Atif.",
+   "score": 57,
+   "start": 3151.5
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Operator, could we please get the last question?",
+   "score": -1,
+   "start": 3152.7
+  },
+  {
+   "speaker": "Operator",
+   "text": "Our last question is from Ben Bollin from Cleveland Research Company.",
+   "score": -3,
+   "start": 3156.2
+  },
+  {
+   "speaker": "Operator",
+   "text": "Please go ahead.",
+   "score": 4,
+   "start": 3161.4
+  },
+  {
+   "speaker": "Ben Bollin",
+   "text": "Good evening, everyone.",
+   "score": 12,
+   "start": 3162.5
+  },
+  {
+   "speaker": "Ben Bollin",
+   "text": "Thanks for taking the question.",
+   "score": 18,
+   "start": 3164.2
+  },
+  {
+   "speaker": "Ben Bollin",
+   "text": "Tim, I'm interested in your thoughts and how you would have us think about the average useful life of these devices in the wild.",
+   "score": 4,
+   "start": 3166.5
+  },
+  {
+   "speaker": "Ben Bollin",
+   "text": "And in particular, curious, if you look at the strength you saw in fiscal ‘21 and how that might support accelerated refresh opportunity into the future?",
+   "score": 39,
+   "start": 3176.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Yes.",
+   "score": 9,
+   "start": 3187.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Ben, I think it's different for different types of users.",
+   "score": 3,
+   "start": 3187.7
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "I mean you have very early adopter kind of users that are very quick to jump on the latest technology that upgrade very frequently.",
+   "score": 8,
+   "start": 3191.9
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And then you have people that are on the entire opposite side of that barbell.",
+   "score": -5,
+   "start": 3201.6
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And most people are between those two points.",
+   "score": -15,
+   "start": 3207.4
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "And so I do think there were lots of units that are sold during the COVID period of time, and it's a huge opportunity for us as a company to -- for more than one of the product categories.",
+   "score": 36,
+   "start": 3210.8
+  },
+  {
+   "speaker": "Ben Bollin",
+   "text": "That’s it from me.",
+   "score": 4,
+   "start": 3224.7
+  },
+  {
+   "speaker": "Ben Bollin",
+   "text": "Thanks, Tim.",
+   "score": 49,
+   "start": 3226.0
+  },
+  {
+   "speaker": "Tim Cook",
+   "text": "Thank you.",
+   "score": 15,
+   "start": 3226.9
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "All right.",
+   "score": 6,
+   "start": 3227.7
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Thanks, Ben.",
+   "score": 35,
+   "start": 3228.4
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "A replay of today's call will be available for two weeks on Apple Podcasts or as a webcast on apple.com/investor and via telephone.",
+   "score": 0,
+   "start": 3229.3
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "The number for the telephone replay is 866-583-1035.",
+   "score": -3,
+   "start": 3239.0
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Please enter confirmation code 7398532 followed by the pound sign.",
+   "score": 1,
+   "start": 3242.9
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "These replays will be available by approximately 5 p.m. at Pacific Time today.",
+   "score": 0,
+   "start": 3247.8
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Members of the press with additional questions can contact Josh Rosenstock at 408-862-1142.",
+   "score": -2,
+   "start": 3253.6
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "And financial analysts can contact me, Suhasini Chandramouli, with additional questions at 408-974-3123.",
+   "score": 1,
+   "start": 3260.3
+  },
+  {
+   "speaker": "Suhasini Chandramouli",
+   "text": "Thanks again for joining us here today.",
+   "score": 72,
+   "start": 3268.0
+  },
+  {
+   "speaker": "Operator",
+   "text": "Once again, this does conclude today's conference.",
+   "score": 7,
+   "start": 3270.9
+  },
+  {
+   "speaker": "Operator",
+   "text": "We do appreciate your participation.",
+   "score": 39,
+   "start": 3274.6
+  }
+ ]
+}

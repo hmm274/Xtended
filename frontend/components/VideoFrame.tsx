@@ -1,6 +1,7 @@
 import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import preloadedVideos from "@/lib/preloaded_videos.json";
+import { setVideoTime } from "@/lib/videoClock";
 
 interface VideoFrameProps {
   timestamp: number;
@@ -81,6 +82,27 @@ export default function VideoFrame({ timestamp, seekNonce }: VideoFrameProps) {
     }
   }, [timestamp, videoId, seekNonce]);
 
+  // Track playback time for the live Hype charts. After a "listening" handshake, the YouTube
+  // player posts infoDelivery messages with currentTime several times a second.
+  useEffect(() => {
+    setVideoTime(null);
+    const onMessage = (event: MessageEvent) => {
+      if (event.source !== iframeRef.current?.contentWindow || typeof event.data !== "string") return;
+      try {
+        const data = JSON.parse(event.data);
+        if (data.event === "infoDelivery" && typeof data.info?.currentTime === "number") setVideoTime(data.info.currentTime);
+      } catch {
+        // not a player message
+      }
+    };
+    window.addEventListener("message", onMessage);
+    return () => { window.removeEventListener("message", onMessage); setVideoTime(null); };
+  }, [videoId]);
+
+  const listenToPlayer = () => {
+    iframeRef.current?.contentWindow?.postMessage(JSON.stringify({ event: "listening", id: 1, channel: "widget" }), "*");
+  };
+
   // The outline is drawn from the frame's measured size, so re-measure whenever it resizes
   useLayoutEffect(() => {
     const frame = frameRef.current;
@@ -129,6 +151,7 @@ export default function VideoFrame({ timestamp, seekNonce }: VideoFrameProps) {
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
+            onLoad={listenToPlayer}
           ></iframe>
         ) : (
           <div className="flex h-full items-center justify-center text-muted-foreground">

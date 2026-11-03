@@ -24,6 +24,7 @@ class Claim(BaseModel):
     claim: str
     quote: str
     speaker: Optional[str] = None
+    speaker: Optional[str] = None
     timestamp: Optional[str] = None
     category: str = "other"
     ceo_tone: int = 0               # -1 bearish, 0 neutral, +1 bullish
@@ -46,6 +47,7 @@ class DemoPost(BaseModel):
 
 class AnalyticsPoint(BaseModel):
     timestamp: datetime
+    video_time: Optional[float] = None  # seconds into the call's video, in video mode
     posts: int = Field(ge=0)
     likes: int = Field(ge=0)
     reposts: int = Field(ge=0)
@@ -60,7 +62,9 @@ class DemoAnalytics(BaseModel):
 class SentimentPoint(BaseModel):
     id: str
     timestamp: datetime
+    video_time: Optional[float] = None  # seconds into the call's video, in video mode
     quote: str
+    speaker: Optional[str] = None
     sentiment_score: int = Field(ge=-100, le=100)
     total_sentiment_score: int
 

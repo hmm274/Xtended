@@ -30,9 +30,9 @@ export interface DodgedItem {
 }
 export interface WhoGroup { who: Who; posts: number; agreement: number }
 export interface DemoPost { text: string; published_date: string; likes: number; reposts: number; views: number }
-export interface AnalyticsPoint { timestamp: string; posts: number; likes: number; reposts: number; views: number }
+export interface AnalyticsPoint { timestamp: string; video_time?: number | null; posts: number; likes: number; reposts: number; views: number }
 export interface DemoAnalytics { mock: true; points: AnalyticsPoint[] }
-export interface SentimentPoint { id: string; timestamp: string; quote: string; sentiment_score: number; total_sentiment_score: number }
+export interface SentimentPoint { id: string; timestamp: string; video_time?: number | null; quote: string; speaker?: string | null; sentiment_score: number; total_sentiment_score: number }
 export interface DemoSentiment { mock: true; points: SentimentPoint[] }
 
 export interface ModuleResult<T> { tier: number; data?: T; error?: string }
