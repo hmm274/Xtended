@@ -1,7 +1,7 @@
 """Runs the pipeline in a background thread so the UI can show claims before X results arrive."""
 import json, threading, time, uuid
 from concurrent.futures import ThreadPoolExecutor
-from . import cache, config, modules
+from . import cache, config, demo_store, modules
 from .pipeline import claims as claims_step, reaction, scoring
 from .schemas import Analysis, AnalyzeRequest, Job
 
@@ -16,6 +16,11 @@ def _set(job: Job, **kw):
 
 
 def _mock(job: Job, req: AnalyzeRequest):
+    if req.ticker.upper().lstrip("$") == "AAPL" and req.call_date == "2025-01-30":
+        _set(job, stage="done", message="Apple demo data", analysis=demo_store.get_demo("AAPL"))
+        return
+    if req.ticker.upper().lstrip("$") != "NWRB":
+        raise ValueError("No demo data for this call. Configure an AI provider for live analysis.")
     data = json.loads((config.ROOT / "app" / "fixtures" / "demo_analysis.json").read_text())
     full = Analysis(**data)
     _set(job, stage="extracting", message="Reading the call")

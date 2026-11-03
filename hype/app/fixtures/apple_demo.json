@@ -1,0 +1,65 @@
+{
+  "ticker": "AAPL",
+  "company": "Apple",
+  "call_date": "2025-01-30",
+  "story": "Apple reported record revenue while questions remained about iPhone demand and China.",
+  "price_move_pct": null,
+  "overall_x_sentiment": 10,
+  "hype_gap": 48,
+  "hype_label": "Illustrative score",
+  "mock": true,
+  "demo_posts": [
+    {"text": "Sample post: Apple's record revenue is encouraging, but I'm watching iPhone growth.", "published_date": "2025-01-30", "likes": 126, "reposts": 34, "views": 8400},
+    {"text": "Sample post: Curious whether Apple Intelligence will drive more upgrades this year.", "published_date": "2025-01-31", "likes": 89, "reposts": 21, "views": 5600},
+    {"text": "Sample post: Services growth looks strong, while China remains a question.", "published_date": "2025-02-01", "likes": 175, "reposts": 48, "views": 11200}
+  ],
+  "sources": ["https://www.apple.com/newsroom/2025/01/apple-reports-first-quarter-results/"],
+  "modules": {},
+  "claims": [
+    {
+      "id": "apple-revenue",
+      "claim": "Apple reported record quarterly revenue of $124.3 billion, up 4% year over year.",
+      "quote": "Today, Apple is reporting revenue of $124.3 billion for the December quarter, up 4% from a year ago, and an all-time record.",
+      "speaker": "Tim Cook, CEO",
+      "timestamp": null,
+      "category": "revenue",
+      "ceo_tone": 1,
+      "jargon": [],
+      "verdict": "BELIEVED",
+      "x_sentiment": 65,
+      "reason": "Illustrative reaction: investors welcome the revenue record while looking closely at product growth.",
+      "evidence": [{"summary": "Sample investor reaction: The revenue record looks encouraging, but I want to see what drove the growth.", "url": null, "who": "retail", "verified": false}],
+      "gap": 0.1
+    },
+    {
+      "id": "apple-intelligence",
+      "claim": "Apple highlighted its rollout of Apple Intelligence across devices and markets.",
+      "quote": "In October, we released the first set of Apple Intelligence features in U.S. English for iPhone, iPad, and Mac, and we rolled out more features and expanded to more countries in December.",
+      "speaker": "Tim Cook, CEO",
+      "timestamp": null,
+      "category": "product",
+      "ceo_tone": 1,
+      "jargon": [],
+      "verdict": "DOUBTED",
+      "x_sentiment": -20,
+      "reason": "Illustrative reaction: investors ask how quickly AI features will translate into iPhone sales.",
+      "evidence": [{"summary": "Sample analyst reaction: The rollout is promising, but its effect on upgrades remains to be seen.", "url": null, "who": "analyst", "verified": false}],
+      "gap": 0.7
+    },
+    {
+      "id": "apple-services",
+      "claim": "Apple said services revenue reached a record $26.3 billion, up 14%.",
+      "quote": "Turning to services, we set an all-time revenue record of $26.3 billion for the December quarter, growing 14% from a year ago.",
+      "speaker": "Tim Cook, CEO",
+      "timestamp": null,
+      "category": "services",
+      "ceo_tone": 1,
+      "jargon": [],
+      "verdict": "BELIEVED",
+      "x_sentiment": 40,
+      "reason": "Illustrative reaction: investors see services growth as a positive alongside questions about hardware.",
+      "evidence": [{"summary": "Sample investor reaction: Services growth stands out, even as iPhone demand deserves a closer look.", "url": null, "who": "retail", "verified": false}],
+      "gap": 0.3
+    }
+  ]
+}

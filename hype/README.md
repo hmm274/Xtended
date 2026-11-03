@@ -35,6 +35,20 @@ Unverified links get a warning in the UI. Click them before demoing.
 
 ## Demo-day checklist
 
+For the Apple demo, start the Hype API on port 8002 and open the Apple dashboard in SimpliEarn.
+The Hype tab has a **Load Apple demo** button, and the Analytics tab shows sample post totals.
+Both use a seeded in-memory SQLite database (`GET /api/demo/apple`); it resets when the service
+restarts and needs no AI key. The scores, verdicts, posts, and engagement counts are simulated.
+Apple's call quotes are drawn from the bundled transcript. The fictional posts have no real links.
+The Analytics tab displays four stacked charts from `GET /api/demo/apple/analytics`.
+That endpoint generates fictional cumulative totals every five seconds, shared by all viewers,
+and retains the latest 60 points in SQLite. The browser polls every three seconds. It makes no X
+or AI requests; restart the service to reset the simulated feed.
+The Apple Hype tab uses `GET /api/demo/apple/sentiment` for a clickable live timeline.
+Each generated quote has a placeholder sentiment score from -100 to 100; the chart shows the
+running sum of those scores, not the final scoring equation. Previous/Next review individual
+quotes, and Back to live resumes following new points. Quotes stay selected during updates.
+
 1. Confirm the model name at docs.x.ai and set `GROK_MODEL` if it differs from `grok-4.7`.
 2. Run your demo ticker once before judging. Results cache in `cache/`, so the on-stage run is instant.
 3. Open every evidence link on your demo ticker, especially unverified ones.

@@ -1,4 +1,5 @@
 """Data shapes shared by every tier. Tier 2/3 add fields or modules; nothing here needs to change."""
+from datetime import date, datetime
 from typing import Literal, Optional
 from pydantic import BaseModel, Field
 
@@ -35,6 +36,40 @@ class Claim(BaseModel):
     gap: Optional[float] = None     # 0..1 distance between management tone and market verdict
 
 
+class DemoPost(BaseModel):
+    text: str
+    published_date: date
+    likes: int = Field(ge=0)
+    reposts: int = Field(ge=0)
+    views: int = Field(ge=0)
+
+
+class AnalyticsPoint(BaseModel):
+    timestamp: datetime
+    posts: int = Field(ge=0)
+    likes: int = Field(ge=0)
+    reposts: int = Field(ge=0)
+    views: int = Field(ge=0)
+
+
+class DemoAnalytics(BaseModel):
+    mock: Literal[True] = True
+    points: list[AnalyticsPoint]
+
+
+class SentimentPoint(BaseModel):
+    id: str
+    timestamp: datetime
+    quote: str
+    sentiment_score: int = Field(ge=-100, le=100)
+    total_sentiment_score: int
+
+
+class DemoSentiment(BaseModel):
+    mock: Literal[True] = True
+    points: list[SentimentPoint]
+
+
 class AnalyzeRequest(BaseModel):
     ticker: str = Field(..., min_length=1, max_length=10)
     company: str
@@ -56,6 +91,7 @@ class Analysis(BaseModel):
     sources: list[str] = []         # every URL Grok cited
     modules: dict = {}              # Tier 2/3 outputs land here, keyed by module name
     mock: bool = False
+    demo_posts: list[DemoPost] = []  # fictional examples, never live X data
 
 
 class Job(BaseModel):

@@ -6,6 +6,8 @@ import StockChart from "./StockChart";
 import EconomicIndicatorsChart from "./EconomicIndicatorsChart";
 import QoQComparison from "./QoQComparison";
 import HypePanel from "./HypePanel";
+import HypeVsReality from "./hype/HypeVsReality";
+import AppleAnalytics from "./hype/AppleAnalytics";
 import { useSearchParams } from "next/navigation";
 import { API_BASE_URL, SENTIMENT_API_BASE_URL } from "@/lib/api-config";
 import type { RedFlag } from "./SentimentGraph";
@@ -52,7 +54,7 @@ const APPLE_QUARTER_ORDER = [
   "aapl_2023Q4",
 ] as const;
 
-type ChartsTab = "stock" | "sentiment" | "compare" | "hype";
+type ChartsTab = "stock" | "sentiment" | "compare" | "hype" | "analytics";
 type IndicatorView = "stock" | "VIX" | "TNX" | "DXY";
 
 const NO_RED_FLAGS: RedFlag[] = [];
@@ -231,8 +233,8 @@ export default function ChartsFrame({ onTimestampClick, pipeline = null }: Chart
       { id: "sentiment", label: "Sentiment" },
       { id: "compare", label: "Compare" },
       { id: "hype", label: "Hype" },
+      { id: "analytics", label: "Analytics" },
     ];
-    const n = tabs.length;
     const activeIndex = tabs.findIndex((t) => t.id === activeTab);
     // Width of the S-curve joining an inactive tab's bottom border to the frame's top edge
     const curveWidth = 24;
@@ -272,8 +274,7 @@ export default function ChartsFrame({ onTimestampClick, pipeline = null }: Chart
             <button
               key={tab.id}
               type="button"
-              className="flex justify-center items-center h-[40px] cursor-pointer relative"
-              style={{ width: `${100 / n}%` }}
+              className="flex flex-1 justify-center items-center h-[40px] cursor-pointer relative"
               onClick={() => setActiveTab(tab.id)}
             >
               <h1 className={`flex justify-center items-center font-medium text-xs w-full h-full transition-opacity ${motion} ${
@@ -292,11 +293,11 @@ export default function ChartsFrame({ onTimestampClick, pipeline = null }: Chart
           {/* Bottom border left and right of the active tab, scaled from the outer edges */}
           <div
             className={`absolute bottom-0 left-0 h-px w-full bg-white/8 origin-left transition-transform ${motion}`}
-            style={{ transform: `scaleX(${activeIndex / n})` }}
+            style={{ transform: `scaleX(${activeIndex / tabs.length})` }}
           />
           <div
             className={`absolute bottom-0 right-0 h-px w-full bg-white/8 origin-right transition-transform ${motion}`}
-            style={{ transform: `scaleX(${(n - 1 - activeIndex) / n})` }}
+            style={{ transform: `scaleX(${(tabs.length - 1 - activeIndex) / tabs.length})` }}
           />
 
           {/* S-curves from the neighbouring bottom border up into the frame's top edge.
@@ -306,7 +307,7 @@ export default function ChartsFrame({ onTimestampClick, pipeline = null }: Chart
               outer edge has nothing to join, so it fades out there. */}
           <div
             className={`absolute top-0 left-0 h-full transition-transform ${motion}`}
-            style={{ width: `${100 / n}%`, transform: `translateX(${activeIndex * 100}%)` }}
+            style={{ width: `${100 / tabs.length}%`, transform: `translateX(${activeIndex * 100}%)` }}
           >
             {curve(true, activeIndex > 0)}
             {curve(false, activeIndex < tabs.length - 1)}
@@ -314,14 +315,10 @@ export default function ChartsFrame({ onTimestampClick, pipeline = null }: Chart
 
           {/* Dividers only between two inactive tabs; next to the active tab the S-curve
               forms the transition and a divider would cross it */}
-          {tabs.slice(0, -1).map((tab, i) => (
-            <div
-              key={tab.id}
-              className={`absolute top-1/2 w-[0.5px] h-[18px] bg-white/12 -translate-x-1/2 -translate-y-1/2 rounded-full rotate-20 transition-opacity ${motion} ${
-                i !== activeIndex && i + 1 !== activeIndex ? "opacity-100" : "opacity-0"
-              }`}
-              style={{ left: `${((i + 1) * 100) / n}%` }}
-            />
+          {tabs.slice(1).map((tab, i) => (
+            <div key={tab.id} className={`absolute top-1/2 w-[0.5px] h-[18px] bg-white/12 -translate-x-1/2 -translate-y-1/2 rounded-full rotate-20 transition-opacity ${motion} ${
+              activeIndex !== i && activeIndex !== i + 1 ? "opacity-100" : "opacity-0"
+            }`} style={{ left: `${((i + 1) / tabs.length) * 100}%` }} />
           ))}
         </div>
       </div>
@@ -462,11 +459,26 @@ export default function ChartsFrame({ onTimestampClick, pipeline = null }: Chart
               )}
             </div>
           )}
-
-          {/* Mounted on first visit, so HypePanel only calls the Hype API once the tab is opened */}
           {visitedTabs.has("hype") && (
             <div className={tabPanelClass("hype", "overflow-y-auto overflow-x-hidden")}>
-              <HypePanel dashboardId={dashboardId} />
+              {dashboardId && /^[1-6]$/.test(dashboardId) && !videoUrlParam ? (
+                dashboardId === "1" ? (
+                  <HypeVsReality key={dashboardId} dashboardId={dashboardId} />
+                ) : <HypePanel key={dashboardId} dashboardId={dashboardId} />
+              ) : (
+                <div className="mx-auto max-w-md px-6 py-10 text-center text-white/75">
+                  Open a call from the demo library to use Hype vs. Reality.
+                </div>
+              )}
+            </div>
+          )}
+          {visitedTabs.has("analytics") && (
+            <div className={tabPanelClass("analytics", "overflow-y-auto overflow-x-hidden")}>
+              {dashboardId === "1" && !videoUrlParam ? <AppleAnalytics /> : (
+                <div className="mx-auto max-w-md px-6 py-10 text-center text-white/75">
+                  Demo analytics are available for the Apple earnings call.
+                </div>
+              )}
             </div>
           )}
         </div>

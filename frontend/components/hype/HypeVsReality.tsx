@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { HYPE_API_BASE_URL } from "@/lib/api-config";
+import RealtimeHype from "./RealtimeHype";
 import type { Analysis, Claim, DodgedItem, Jargon, Job, Stage, Verdict, WhoGroup } from "./types";
 
 // ---------- shared visual language ----------
@@ -186,6 +187,10 @@ function WhoPanel({ groups, revealed }: { groups: WhoGroup[]; revealed: boolean 
 // ---------- main ----------
 
 export default function HypeVsReality({ dashboardId }: { dashboardId: string }) {
+  return dashboardId === "1" ? <RealtimeHype /> : <ClaimAnalysis dashboardId={dashboardId} />;
+}
+
+function ClaimAnalysis({ dashboardId }: { dashboardId: string }) {
   const [job, setJob] = useState<Job | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
@@ -241,6 +246,21 @@ export default function HypeVsReality({ dashboardId }: { dashboardId: string }) 
     }
   };
 
+  const loadAppleDemo = async () => {
+    const token = ++runToken.current;
+    setError(null); setRevealed(false); setJob(null);
+    try {
+      const res = await fetch(`${HYPE_API_BASE_URL}/api/demo/apple`);
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.detail || `Request failed (${res.status})`);
+      if (runToken.current === token) {
+        setJob({ id: "apple-demo", stage: "done", message: "Apple demo", analysis: data, error: null });
+      }
+    } catch (e) {
+      setError(e instanceof Error ? `${e.message}. Is the hype service running on port 8002?` : String(e));
+    }
+  };
+
   const stepIndex = job ? (job.stage === "running_modules" ? 2 : STEPS.findIndex((s) => s.stage === job.stage)) : -1;
   const mood = a?.overall_x_sentiment;
   const dodged = a?.modules?.dodged;
@@ -256,8 +276,9 @@ export default function HypeVsReality({ dashboardId }: { dashboardId: string }) 
             <p className="mt-1 text-sm text-muted-foreground">Does the market believe what management said? Each claim is checked against how investors, analysts, and the press reacted.</p>
           </div>
           <div className="flex items-center gap-2">
-            {a?.mock && <span className="text-xs text-[#e0a43e]">Sample data (no API key set)</span>}
+            {a?.mock && <span className="text-xs text-[#e0a43e]">Demo: scores and reactions are simulated</span>}
             {a && <button type="button" className="btn-outline" onClick={() => setPresent(!present)}>{present ? "Exit present" : "Present"}</button>}
+            {dashboardId === "1" && <button type="button" className="btn-outline" disabled={running} onClick={loadAppleDemo}>Load Apple demo</button>}
             <button type="button" className="btn-primary" disabled={running} onClick={() => run(false)}>
               {running ? "Analyzing…" : a ? "Run again" : "Check the market's reaction"}
             </button>
@@ -297,7 +318,9 @@ export default function HypeVsReality({ dashboardId }: { dashboardId: string }) 
                 <div><dt className="text-xs text-muted-foreground">Investor mood</dt>
                   <dd className="text-2xl font-semibold tabular-nums">{mood == null ? "–" : `${mood > 0 ? "+" : ""}${mood} ${mood >= 25 ? "positive" : mood <= -25 ? "negative" : "mixed"}`}</dd></div>
               </dl>
-              {!present && <p className="mt-3 max-w-[70ch] text-xs text-muted-foreground">Hype Gap measures how far management&apos;s framing is from what investors concluded. 0 means the market fully buys the story; 100 means it rejects everything management pitched.</p>}
+              {a.mock ? (
+                <p className="mt-3 max-w-[70ch] text-xs text-muted-foreground">The score, verdicts and example reactions are placeholders for the demo. They are not measured investor sentiment or real posts.</p>
+              ) : !present && <p className="mt-3 max-w-[70ch] text-xs text-muted-foreground">Hype Gap measures how far management&apos;s framing is from what investors concluded. 0 means the market fully buys the story; 100 means it rejects everything management pitched.</p>}
             </div>
 
             {/* claims */}

@@ -7,7 +7,6 @@ import VideoFrame from "@/components/VideoFrame";
 import SummaryFrame from "@/components/SummaryFrame";
 import ChartsFrame from "@/components/ChartsFrame";
 import ChatFrame from "@/components/ChatFrame";
-import HypeVsReality from "@/components/hype/HypeVsReality";
 import type { PipelineState } from "@/components/ChartsFrame";
 import type { Message } from "@/components/ChatBot";
 import { useAuth } from "@/lib/auth/AuthContext";
@@ -233,9 +232,6 @@ function DashboardContent() {
     if (!chatOpen) animation.onfinish = () => setChatClosing(false);
   }, [chatOpen]);
 
-  const hypeDashboardId =
-    !jobId && !searchParams.get("video_url") ? searchParams.get("id") || "1" : null;
-
   const handleTimestampSeek = (nextTimestamp: number) => {
     setTimestamp(nextTimestamp);
     setSeekNonce((current) => current + 1);
@@ -288,12 +284,6 @@ function DashboardContent() {
             </div>
           )}
         </main>
-        {/* Hype vs. Reality (Grok): preloaded calls only, since it reads their on-disk transcripts */}
-        {hypeDashboardId && (
-          <div className="px-[40px] pb-[40px] max-w-[1536px] m-auto">
-            <HypeVsReality dashboardId={hypeDashboardId} />
-          </div>
-        )}
       </div>
     </div>
   );

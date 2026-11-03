@@ -3,8 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
-from . import config, dashboards, jobs, modules
-from .schemas import AnalyzeRequest, Job
+from . import config, dashboards, demo_store, jobs, modules
+from .schemas import Analysis, AnalyzeRequest, DemoAnalytics, DemoSentiment, Job
 
 app = FastAPI(title="SimpliEarn: Hype vs. Reality")
 # Open CORS so SimpliEarn's own frontend (any port) can call this API during the hackathon
@@ -15,6 +15,25 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], all
 def health():
     return {"ok": True, "mock": config.MOCK, "provider": config.PROVIDER, "model": config.GROK_MODEL,
             "modules": [m.NAME for m in modules.enabled()]}
+
+
+@app.get("/api/demo/apple", response_model=Analysis)
+def apple_demo():
+    """Return the seeded Apple demo without calling an AI provider."""
+    demo = demo_store.get_demo("AAPL")
+    if demo is None:
+        raise HTTPException(404, "Apple demo is unavailable")
+    return demo
+
+
+@app.get("/api/demo/apple/analytics", response_model=DemoAnalytics)
+def apple_demo_analytics():
+    return demo_store.get_analytics()
+
+
+@app.get("/api/demo/apple/sentiment", response_model=DemoSentiment)
+def apple_demo_sentiment():
+    return demo_store.get_sentiment()
 
 
 @app.post("/api/analyze", response_model=Job)
