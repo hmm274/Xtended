@@ -13,7 +13,7 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], all
 
 @app.get("/api/health")
 def health():
-    return {"ok": True, "mock": config.MOCK, "model": config.GROK_MODEL,
+    return {"ok": True, "mock": config.MOCK, "provider": config.PROVIDER, "model": config.GROK_MODEL,
             "modules": [m.NAME for m in modules.enabled()]}
 
 

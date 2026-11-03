@@ -1,4 +1,4 @@
-"""Thin wrapper around xAI's OpenAI-compatible Responses API."""
+"""Thin wrapper around the Responses API. Works with OpenAI or xAI (see config.PROVIDER)."""
 import json, re, time
 from openai import OpenAI
 from . import config
@@ -13,7 +13,7 @@ class GrokError(RuntimeError):
 def client() -> OpenAI:
     global _client
     if _client is None:
-        _client = OpenAI(api_key=config.XAI_API_KEY, base_url="https://api.x.ai/v1",
+        _client = OpenAI(api_key=config.API_KEY, base_url=config.BASE_URL,
                          timeout=config.REQUEST_TIMEOUT)
     return _client
 
@@ -33,8 +33,26 @@ def _citations(resp) -> list[str]:
     return sorted(u for u in urls if u)
 
 
+X_HINT = ("web_search (look specifically for investor reactions on X/Twitter, Reddit, StockTwits, "
+          "and financial news and analyst coverage)")
+
+
+def adapt(prompt: str, tools: list | None):
+    """OpenAI has no x_search tool: swap it for web_search and point the search at social reactions."""
+    if config.PROVIDER != "openai" or not tools:
+        return prompt, tools
+    kept, seen = [], set()
+    for t in tools:
+        kind = "web_search" if t.get("type") == "x_search" else t.get("type")
+        if kind not in seen:
+            seen.add(kind)
+            kept.append({**t, "type": kind})
+    return prompt.replace("x_search", X_HINT), kept
+
+
 def call(prompt: str, tools: list | None = None, model: str | None = None, retries: int = 2):
     """Returns (text, cited_urls). Retries transient failures with backoff."""
+    prompt, tools = adapt(prompt, tools)
     last = None
     for attempt in range(retries + 1):
         try:
@@ -47,7 +65,7 @@ def call(prompt: str, tools: list | None = None, model: str | None = None, retri
         except Exception as e:  # network, rate limit, 5xx
             last = e
             time.sleep(2 * (attempt + 1))
-    raise GrokError(f"Grok request failed: {last}")
+    raise GrokError(f"{config.PROVIDER} request failed: {last}")
 
 
 def parse_json(text: str) -> dict:

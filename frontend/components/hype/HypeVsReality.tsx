@@ -18,7 +18,7 @@ const WHO: Record<string, string> = {
 };
 const STEPS: { stage: Stage; label: string }[] = [
   { stage: "extracting", label: "Read the call" },
-  { stage: "checking_market", label: "Check reactions on X" },
+  { stage: "checking_market", label: "Check investor reactions" },
   { stage: "done", label: "Score the gap" },
 ];
 const pos = (v: number) => `${((Math.max(-1, Math.min(1, v)) + 1) / 2) * 100}%`;
@@ -115,7 +115,7 @@ function ClaimRow({ c, index, revealed }: { c: Claim; index: number; revealed: b
                   {url && (
                     <p className="mt-0.5">
                       <a href={url} target="_blank" rel="noopener noreferrer" className="text-brand underline-offset-2 hover:underline">View post</a>
-                      {!e.verified && <span className="ml-2 text-xs text-muted-foreground">(not in Grok&apos;s citations, check before showing)</span>}
+                      {!e.verified && <span className="ml-2 text-xs text-muted-foreground">(not in the model&apos;s citations, check before showing)</span>}
                     </p>
                   )}
                 </li>
@@ -134,7 +134,7 @@ function DodgedPanel({ items }: { items: DodgedItem[] }) {
   return (
     <section className="surface rounded-[var(--radius)] p-5">
       <h3 className="text-lg font-semibold">What management didn&apos;t address</h3>
-      <p className="mb-4 mt-1 text-sm text-muted-foreground">Topics investors were asking about on X that the call skipped or deflected</p>
+      <p className="mb-4 mt-1 text-sm text-muted-foreground">Topics investors were asking about that the call skipped or deflected</p>
       <ol>
         {items.map((i, k) => {
           const url = safeUrl(i.evidence_url);
@@ -253,10 +253,10 @@ export default function HypeVsReality({ dashboardId }: { dashboardId: string }) 
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div>
             <h2 className="text-xl font-semibold">Hype vs. Reality</h2>
-            <p className="mt-1 text-sm text-muted-foreground">Does the market believe what management said? Each claim is checked against live reactions on X with Grok.</p>
+            <p className="mt-1 text-sm text-muted-foreground">Does the market believe what management said? Each claim is checked against how investors, analysts, and the press reacted.</p>
           </div>
           <div className="flex items-center gap-2">
-            {a?.mock && <span className="text-xs text-[#e0a43e]">Sample data (no xAI key set)</span>}
+            {a?.mock && <span className="text-xs text-[#e0a43e]">Sample data (no API key set)</span>}
             {a && <button type="button" className="btn-outline" onClick={() => setPresent(!present)}>{present ? "Exit present" : "Present"}</button>}
             <button type="button" className="btn-primary" disabled={running} onClick={() => run(false)}>
               {running ? "Analyzing…" : a ? "Run again" : "Check the market's reaction"}
@@ -294,17 +294,17 @@ export default function HypeVsReality({ dashboardId }: { dashboardId: string }) 
                 <div><dt className="text-xs text-muted-foreground">Stock next day</dt>
                   <dd className="text-2xl font-semibold tabular-nums" style={{ color: a.price_move_pct == null ? undefined : a.price_move_pct >= 0 ? VERDICT.BELIEVED.color : VERDICT.CONTRADICTED.color }}>
                     {a.price_move_pct == null ? "–" : `${a.price_move_pct > 0 ? "+" : ""}${a.price_move_pct}%`}</dd></div>
-                <div><dt className="text-xs text-muted-foreground">Mood on X</dt>
+                <div><dt className="text-xs text-muted-foreground">Investor mood</dt>
                   <dd className="text-2xl font-semibold tabular-nums">{mood == null ? "–" : `${mood > 0 ? "+" : ""}${mood} ${mood >= 25 ? "positive" : mood <= -25 ? "negative" : "mixed"}`}</dd></div>
               </dl>
-              {!present && <p className="mt-3 max-w-[70ch] text-xs text-muted-foreground">Hype Gap measures how far management&apos;s framing is from what investors on X concluded. 0 means the market fully buys the story; 100 means it rejects everything management pitched.</p>}
+              {!present && <p className="mt-3 max-w-[70ch] text-xs text-muted-foreground">Hype Gap measures how far management&apos;s framing is from what investors concluded. 0 means the market fully buys the story; 100 means it rejects everything management pitched.</p>}
             </div>
 
             {/* claims */}
             <div className="mt-8 hidden grid-cols-[1fr_220px_110px] gap-6 px-4 pb-2 text-xs text-muted-foreground lg:grid">
               <span className="flex gap-5">
                 <span className="inline-flex items-center gap-1.5"><i className="size-3 rounded-full border-2" style={{ borderColor: SAID }} />What management said</span>
-                <span className="inline-flex items-center gap-1.5"><i className="size-3 rounded-full bg-foreground" />What X thinks</span>
+                <span className="inline-flex items-center gap-1.5"><i className="size-3 rounded-full bg-foreground" />What investors think</span>
               </span>
               <span className="flex justify-between"><span>Bearish</span><span>Bullish</span></span>
               <span />

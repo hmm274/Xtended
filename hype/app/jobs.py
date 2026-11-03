@@ -48,7 +48,7 @@ def _run(job: Job, req: AnalyzeRequest):
         a = Analysis(ticker=tkr, company=req.company, call_date=req.call_date)
         _set(job, stage="extracting", message="Reading the call", analysis=a)
         a.claims = claims_step.extract(tkr, req.company, req.call_date, req.transcript)
-        _set(job, stage="checking_market", message="Checking reactions on X (can take 1-2 min)",
+        _set(job, stage="checking_market", message="Checking investor reactions online (can take 1-2 min)",
              analysis=a.model_copy(deep=True))
 
         # Modules that only need the claims (e.g. "dodged") run in parallel with the slow X check,
