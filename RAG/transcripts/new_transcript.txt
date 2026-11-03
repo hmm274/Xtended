@@ -1,0 +1,490 @@
+Oportun Financial Corporation (NASDAQ:OPRT) Q4 2024 Earnings Conference Call February 12, 2025 5:00 PM ET
+
+Company Participants
+
+Dorian Hare - SVP, IR
+Raul Vazquez - CEO
+Jonathan Coblentz - CFO & CAO
+
+Conference Call Participants
+
+Rick Shane - JP Morgan
+John Hecht - Jefferies
+Hal Goetsch - B. Riley Securities
+Gowshi Sri - Singular Research
+Brendan McCarthy - Sidoti
+Vincent Caintic - BTIG
+
+Operator
+
+Good afternoon, and welcome to Oportun Financial's Fourth Quarter 2024 Earnings Call. At this time, all participants are in a listen-only mode. A question-and-answer session will follow the formal presentation. [Operator Instructions]. Please note this conference is being recorded.
+
+I'll now turn the conference over to your host, Dorian Hare, Senior Vice President, Investor Relations. Thank you. You may begin.
+
+Dorian Hare
+
+Thanks, and hello everyone. With me to discuss Oportun's fourth quarter 2024 results are Raul Vazquez, Chief Executive Officer; and Jonathan Coblentz, Chief Financial Officer and Chief Administrative Officer.
+
+I'll remind everyone on the call or webcast that some of the remarks made today will include forward-looking statements relating to our business, future results of operations and financial position, including projected adjusted ROE attainment, planned products and services, business strategy, expense savings measures and plans and objectives of management for our future operations.
+
+Actual results may differ materially from those contemplated or implied by these forward-looking statements, and we caution you not to place undue reliance on these forward-looking statements.
+
+A more detailed discussion of the Risk Factors that could cause these results to differ materially are set forth in our earnings press release and in our filings with the Securities and Exchange Commission under the caption, Risk Factors, including our upcoming Form 10-K filing for the year ended December 31, 2024.
+
+Any forward-looking statements that we make on this call are based on assumptions as of today, and we undertake no obligation to update these statements as a result of new information or future events other than as required by law.
+
+Also on today's call, we will present both GAAP and non-GAAP financial measures, which we believe can be useful measures for the period-to-period comparisons of our core business, and which will provide useful information to investors regarding our financial condition and results of operations.
+
+A full list of definitions can be found in our earnings materials, available at the Investor Relations section on our website. Non-GAAP financial measures are presented in addition to, and not as a substitute for, financial measures calculated in accordance with GAAP.
+
+A reconciliation of these non-GAAP to GAAP financial measures is included in our earnings press release, our fourth quarter 2024 financial supplement and the appendix section of the fourth quarter 2024 earnings presentation, all of which are available at the Investor Relations section of our website at investor.oportun.com.
+
+In addition, this call is being webcast, and an archived version will be available after the call, along with a copy of our prepared remarks.
+
+With that, I will turn the call over to Raul.
+
+Raul Vazquez
+
+Thanks, Dorian, and good afternoon, everyone. Thank you for joining us.
+
+We ended the fourth quarter with stronger than anticipated results, demonstrating that we've turned the corner in improving our financial performance and are entering 2025 with momentum, discipline, and focus.
+
+We met or exceeded the guidance expectations that we set for the fourth quarter, and every quarter throughout 2024. The four key headlines from Q4, in my view, are: a return to GAAP profitability, improved credit performance, a return to originations growth, and ongoing expense discipline.
+
+First, and importantly, Q4 marked our return to GAAP profitability. Our $9 million of net income was a $51 million year-over-year improvement and drove an ROE of 10%. Adjusted net income of $22 million was a $30 million year-over-year improvement, and we generated an adjusted ROE of 25%.
+
+Moreover, we generated $41 million of adjusted EBITDA, a $31 million increase from last year's level and exceeded the top end of our guidance by 37%. We were able to achieve these results through improved credit performance, a return to originations growth, and continued expense discipline. I'd like to reiterate that we expect to be profitable on a GAAP basis for full year 2025.
+
+Second, regarding improved credit performance. Our net charge-off rate was 11.7%, an improvement of 55 basis points year-over-year and the lowest level of losses since the third quarter of 2022. In dollars, the positive trends continued as our net charge-offs improved year-over-year for the fifth consecutive quarter, in this instance by 12%.
+
+I'm also pleased with our ongoing progress in reducing 30-plus day delinquencies, which were 4.8% for the quarter and better by 113 basis points year-over-year. That's the fourth consecutive quarter of year-over-year improvement.
+
+Third, originations were $522 million during Q4, returning to growth at 19% year-over-year. Even with a conservative credit box, we increased the number of loans originated by 23%.
+
+And lastly, we reported $89 million in operating expenses, down 31% year-over-year, which was our lowest quarterly figure since the second quarter of 2019. Without the benefit from one-time items, our 4Q 2024 operating expense would have been approximately $95 million, still below the $97.5 million target we set at the beginning of 2024.
+
+Building on our 2024 progress, we will continue to advance our three key strategic priorities in 2025, which are: improving credit outcomes, fortifying business economics, and identifying high-quality originations. Regarding credit outcomes, we expect to reduce our net charge-off rate in 2025 by benefiting from our V12 credit model for a full year and from our back book of loans shrinking to just 1% of our owned portfolio by year-end. We expect to attain an adjusted ROE in the teens, up from 8% in 2024, by generating 10% to 15% full year originations growth, returning to revenue growth by year-end, and targeting a 5% full year decline in operating expenses. And we'll continue to identify high-quality originations under our current conservative credit standards by reinvesting in marketing and targeting high quality new members while continuing to support our best existing members.
+
+We are also prioritizing the growth of secured personal loans within our owned portfolio, as they offer superior unit economics compared to unsecured loans. During 2024, secured personal loan losses ran approximately 500 basis points lower compared to unsecured personal loans, with fourth quarter revenue per loan approximately 75% higher due to larger average loan sizes.
+
+Finally, I'd like to provide a preview of 2025 guidance. Jonathan will share with you that we're increasing our full year adjusted EPS expectations by 7% at the mid-point. Our updated adjusted EPS range is $1.10 to $1.30, reflecting a 53% to 81% increase over 2024's $0.72.
+
+In summary, our results are a testament to our team's execution and we are at the beginning of a new chapter for Oportun. With the strong foundation we worked diligently to build in 2024, we remain more focused than ever to drive growth and shareholder value in 2025.
+
+With that, I will turn it over to Jonathan for additional details on our financial and credit performance, as well as our guidance.
+
+Jonathan Coblentz
+
+Thanks, Raul, and good afternoon, everyone.
+
+As Raul mentioned, you can see on Slide 6 that we had a strong fourth quarter in which we met or exceeded the guidance expectations that we set. We're confident that Oportun is poised to carry this momentum into 2025 by further enhancing our profitability, including by being GAAP profitable on a full year basis, as we track towards our long-term financial objectives.
+
+As shown on Slide 7, Oportun delivered total revenue of $251 million in the fourth quarter. We were GAAP profitable at $9 million of net income with diluted EPS of $0.20, and we were profitable on an adjusted basis for the fourth consecutive quarter with adjusted net income of $21.5 million, for adjusted EPS of $0.49.
+
+While maintaining credit discipline, originations of $522 million were up 19% year-over-year. Sequentially, originations were up 9%, aligning with the typical seasonal pattern for a ramp throughout the year.
+
+Total revenue of $251 million exceeded the top end of our guidance by $1 million and declined by 4% year-over-year, due to a decline in average daily principal balance in our personal loans portfolio as a result of prior credit tightening actions. This impact was partially offset by a 155 basis points increase in portfolio yield to 34.2%.
+
+Given the successful completion of the sale of our credit card portfolio in mid-November, it's important to keep in mind that while the sale was accretive to the bottom line, our credit card business contributed $4 million of total revenue for 4Q 2024 and $34 million for the full year.
+
+Our total net decrease in fair value of $84 million was primarily driven by current period charge-offs of $80 million, which improved 12% year-over-year.
+
+Q4 interest expense of $74 million was up $22 million year-over-year, primarily due to a one-time $17 million non-cash write-off of deferred financing costs related to the repayment of our prior corporate financing facility as part of the November refinancing. This amount was slightly below the $18 million estimate I indicated on our third quarter earnings call.
+
+Net revenue was $93 million, up 30% year-over-year, as lower net charge-offs and lower non-cash fair value marks on our asset backed notes more than offset lower total revenue and higher interest expense. Excluding the one-time, non-cash write-off of $17 million of deferred financing fees included in interest expense that I mentioned a moment ago, net revenue would have been $110 million, up 53% year-over-year. As a reminder, we elected to stop fair valuing new debt financings in 2023, and we expect the fair value impact to be minimal after this year as prior financings approach maturity.
+
+Turning now to operating expenses and efficiency, our $89 million in total operating expenses in Q4 reflected a 31% reduction from the prior-year period. I'd note that this figure includes approximately $6 million in one-time benefits, including those related to capitalization of previously accrued expenses associated with our debt refinancing, true-ups related to estimated costs of exiting the credit card product, and other benefits that we wouldn't expect to occur as part of a normalized run rate. Without the benefit of these one-time items, our 4Q 2024 operating expense would have been approximately $95 million, still below our $97.5 million target. Accordingly, expect $97.5 million in quarterly operating expenses during 2025, reflecting our $95 million exit rate plus a modest increased investment in marketing to drive originations growth.
+
+Adjusted net income was $22 million, a $30 million improvement compared to the prior-year quarter, while adjusted EPS of $0.49 was an increase of $0.70 versus last year. The improvement was principally driven by our sharply reduced cost structure, along with higher net revenue.
+
+Adjusted EBITDA, which excludes the impact of fair value mark-to-market adjustments on our loan portfolio and notes, was $41 million in the fourth quarter. This reflected a year-over-year increase of $31 million, or 315%, driven by our sharply reduced cost structure along with lower net charge-offs.
+
+I'm pleased that our adjusted EBITDA margin increased year-over-year by 12.6 percentage points from 3.8% to 16.3%. Our adjusted EBITDA performance exceeded the high end of our guidance by $11 million, primarily on lower than anticipated operating expenses and net charge-offs.
+
+Let me now shift to more details on our strong Q4 credit performance, another testament to the significant progress that we've made. Our front book of loans, originated since July 2022, continues to perform quite well, while our back book of pre-July 2022 loans continues to roll off. As you can see on Slide 8 of our earnings presentation, our more recent credit vintages have outperformed their predecessors and, as a result, the losses on our front book 12-plus months after disbursement are now running up to 500 basis points lower than losses on our back-book, whereas previously we had seen a 400 basis point improvement. This improvement is driven by our continued fine tuning of our credit model.
+
+Furthermore, you can see our annualized net charge-off rate for the quarter by front-book versus back-book on Slide 9. In Q4, the front book had an annualized net charge-off rate of 10.5%, which is within the 9% to 11% net charge-off range that we are targeting in our unit economics model.
+
+Importantly, back book continues to decline, and as of the end of 2024, it was only 5% of our year-end loan portfolio, but 18% of gross charge-offs. As Raul mentioned, we expect the back book to further diminish to 1% of our portfolio at the end of 2025.
+
+Finally, as you can see on Slide 10, our net charge-off rate of 11.7% in 4Q 2024 improved 55 basis points compared to last year and was our lowest rate since 3Q 2022. So in summary, we continue to feel very good about the quality of the credit we are originating.
+
+As shown on Slide 13, I'm also confident in the stability of our hardworking members, an outcome driven by our credit underwriting model, which actively seeks to identify people with strong stability in their communities. Prior to approving a loan to a new or existing borrower, we verify employment for all borrowers, who for fourth quarter originations had a median gross income of approximately $50,000. Additionally, our borrowers had an average of 5.7 years at their current job and 6.4 years at their current residence. Moreover, 91% of our approved members had their loan proceeds disbursed to their U.S. bank accounts, rather than opting to receive disbursements in the form of a check.
+
+Regarding our capital and liquidity, as shown on Slide 14, we de-leveraged by reducing our debt-to-equity ratio from 8.7x to 7.9x quarter-over-quarter, as we were GAAP profitable and utilized part of the $91 million of our operating cash flow to reduce debt outstanding by $49 million.
+
+As of December 31, total cash was $215 million, of which $60 million was unrestricted and $155 million was restricted. Further bolstering our liquidity was $227 million in available funding capacity under our warehouse lines and remaining whole loan sale agreement capacity of $45 million.
+
+Following the fourth quarter in January, we issued $425 million in ABS notes, which freed up $438 million in warehouse capacity for future originations. The transaction was a significant success, being over 7x oversubscribed and pricing at a 6.95% weighted average yield, 127 basis points lower than our previous August 2024 transaction.
+
+Our access to capital markets is well established. Since June of 2023, Oportun has raised approximately $2.8 billion in diversified financings, including whole loan sales, securitizations and warehouse agreements from fixed income investors and banks. We anticipate we will come to market a few more times this year with ABS deals.
+
+Turning now to our guidance as shown on Slide 15, our outlook for the first quarter is: Total revenue of $225 million to $230 million, annualized net charge-off rate of 12.30% plus or minus 15 basis points, adjusted EBITDA of $18 million to $22 million. On a year-over-year basis, our Q1 guidance reflects, a 9% decline in total revenue, largely due to the absence of $12 million of revenue we generated from the credit card portfolio in the prior-year quarter. Excluding credit card revenue, our 1Q guidance reflects only a 5% decline on an organic basis; and an approximately 7% year-over-year decline in the average daily portfolio balance. Despite the revenue decline, our 1Q 2025 adjusted EBITDA guidance at the mid-point of $20 million highlights our continued focus on operating expense management, and is an $18 million improvement over 1Q 2024's $2 million.
+
+We expect 1Q 2025's annualized net charge-off rate at the mid-point of our guidance to increase by about 30 basis points year-over-year. However, as you can see on the bottom of Slide 16, we expect 1Q 2025 dollar net charge-offs to decline in the 4% range. And if 1Q 2025's average daily portfolio balance were to remain flat year-over-year rather than decline by 7%, the 1Q 2025 annualized net charge-off rate would be approximately 80 basis points lower at 11.5%.
+
+We expect the elevated net charge-off rate in 1Q 2025 to be temporary. As you will see from the full year guidance for net charge-offs that I will share with you in a moment, we expect the average annualized net charge-off rate for Q2 through Q4 to be 11.2%.
+
+Our guidance for the full year is: total revenue of $945 million to $970 million, annualized net charge-off rate of 11.5% plus or minus 50 basis points, adjusted EBITDA of $135 million to $145 million, adjusted net income of $53 million to $63 million, and adjusted EPS of $1.10 to $1.30.
+
+Despite our anticipated 3% decline in average daily principal balance and absence of $34 million in credit card revenue, the top end of our full year revenue guidance reflects modest growth over last year's $968 million total revenue, excluding credit card.
+
+As Raul mentioned, we anticipate returning to total quarterly revenue growth on a reported basis prior to year-end, and we expect to grow full year 2025 originations in our 10% to 15% target range.
+
+The mid-point of our full year 2025 annualized net charge-off rate guidance at 11.5% reflects a 50 basis point reduction from 2024's 12% level and implies ongoing improvement following Q1. As you can see from the bottom of Slide 16, we expect full year 2025 net charge-offs in dollars to decline in the 7% range.
+
+Furthermore, were 2025 average daily principal balance to be flat with 2024 rather than to decline by approximately 3% as anticipated, the net charge-off rate would be 30 basis points lower at 11.2%, even closer to our 9% to 11% target range.
+
+Our full year 2025 adjusted EPS range is a 7% uplift at the mid-point from the preliminary expectations we first provided in October of last year. I'm pleased that, with full year operating expenses expected to decline in the 5% range, our 2025 adjusted EBITDA and adjusted EPS expectations at the mid-points imply strong year-over-year growth of 33% and 67%, respectively.
+
+Next, I'd like to update you on our progress towards our long-term unit economics targets. While our long-term targets are GAAP targets, I'll be using adjusted metric actuals for comparison because they remove non-recurring items and provide a better sense of our future run rate.
+
+It's clear on Slide 17 that we've made significant progress in Q4. Adjusted ROE was 25%, which was a 33 percentage point year-over-year improvement. The increase was driven principally by cost reductions, a higher loan yield, and lower net charge-offs.
+
+Full year 2024's adjusted ROE was 8%, a 23 percentage point improvement over full year 2023. Although we're pleased that we reached the 20% to 28% adjusted ROE range in the fourth quarter at 25%, it's our objective to attain this level on an annual basis.
+
+Slide 18 shows how we will continue to focus on improving our credit performance, reducing expenses as a percentage of owned principal balance, and reducing leverage to drive improvement in shareholder returns.
+
+Raul, back over to you.
+
+Raul Vazquez
+
+Thanks, Jonathan.
+
+Before I finish, I have an important announcement to share. Jonathan has decided to retire and will be stepping down as Chief Financial Officer and Chief Administrative Officer. On behalf of the entire Oportun team, I want to congratulate him and express my deepest gratitude for his more than 15 years of dedicated service. Jonathan joined Oportun in 2009, when our loan portfolio was $5 million, and built the highly professional finance function we benefit from today. His contributions have been instrumental in our growth, including by helping to expand our loan portfolio to $3 billion and providing key leadership in taking us public in 2019.
+
+Jonathan will continue as our CFO until March 28 to support a smooth transition to Casey Mueller, who will serve as our interim CFO. We have engaged an executive search firm to conduct a thorough process to identify Jonathan’s successor, considering both internal and external candidates. Casey has been with Oportun since 2018, joining us from OneMain to help make our finance function public company ready. He currently serves as our Principal Accounting Officer and Global Controller, with additional responsibility for FP&A. I am confident in his ability to provide strong leadership, ensuring continuity and maintaining the momentum we've discussed today.
+
+On a personal note, Jonathan has been an incredible partner to me over the past 13 years, and I will miss working with him. I know I speak for everyone at Oportun in wishing him all the best in his next chapter.
+
+To close, I'd like to emphasize three key points: first, we're pleased with our return to GAAP profitability in the fourth quarter, and with our quarterly GAAP ROE of 10% and adjusted ROE of 25%; second, we have clear line of sight towards substantially improving our profitability from 2024's levels and we expect to be GAAP profitable on a full year basis. Confident in our outlook, we've increased our full year 2025 adjusted EPS expectations to be $1.10 to $1.30, reflecting 53% to 81% year-over-year growth; and finally, we believe we will generate an adjusted ROE in the teens this year while making progress towards 20% to 28% ROEs on an annual basis.
+
+We see a bright future ahead for Oportun by remaining laser-focused on improving credit outcomes, fortifying business economics, and identifying high-quality originations. I want to thank our talented employees for all that we accomplished together in 2024, and for their ongoing dedication to our mission of empowering members to build a better future.
+
+With that, Operator, let's open up the line for questions.
+
+Question-and-Answer Session
+
+Operator
+
+Thank you. And at this time, we'll conduct our question-and-answer session. [Operator Instructions].
+
+Our first question comes from Rick Shane with JP Morgan. Please state your question.
+
+Rick Shane
+
+Thanks for taking my question. And first of all, I'm not big on congratulations on earnings calls, but Jonathan, I do want to acknowledge that I know you've worked very, very hard to leave the company on such good footing and that's got to be very satisfying and we are going to miss working with you. So thank you very much.
+
+Jonathan Coblentz
+
+That's very kind of you to say, Rick and I will miss working with you as well. So thank you.
+
+Rick Shane
+
+Thank you. With that now I'm going to ask you some tough questions.
+
+Jonathan Coblentz
+
+Shoot, go right ahead and expect nothing less.
+
+Rick Shane
+
+Yes, exactly. And I'm sure of all the things you're not going to miss; this part of the Q&A is one of them. Look, when we look at the guidance and again we're still going through the numbers, what essentially happened for 2025 is you move the low end up $0.10, you move the high end up a nickel. The $0.05 of that really comes from a different expectation on share count. Can you tell us what's driving the share count expectation? If you said it, I missed it, I apologize. But also on the low end, what’s the -- what are the other factors that are contributing to tightening that guidance?
+
+Jonathan Coblentz
+
+Sure. So first of all, the share count is just an updated projection. I think you're referring to the fact that we had a $0.50 share count when we gave the preliminary guidance and now it's 48.2. So that's just reflective of our view of future share awards and employee turnover. So nothing, I actually don't view that as all that material a change.
+
+In terms of the top-line, look, I think this is a strong number for us, right? We continue to revenue is going to be up organically. We're doing what we said we were going to do in terms of keeping originations, not originations, excuse me, keeping operating expenses flat throughout the year at $97.5 million. And the credit guide is improved, right? 11.5% plus or minus 50 basis points. So those are the main drivers.
+
+And then obviously, we've continued to have good success in our financings. We did our first securitization of the year in January at a 6.95% yield. So that's below our 8% unit economics target. Is that helpful? Raul, anything to that?
+
+Raul Vazquez
+
+Yes. I think just going back to the EPS range, right? Rick, first of all, we feel really good coming into the year and that's reflected by taking the mid-point up 7%. In terms of not necessarily taking them up by the same amount, it's just early in the year, right? And I think even when we look at some of the readings from the economy this morning, it's clear that just we're going to have to watch things closely. So I don't think there's anything to read into it aside from us recognizing it's early in the year and it makes sense to be a bit conservative.
+
+Rick Shane
+
+Got it. No, it makes sense. I mean, trust me, we -- the cross currents that we're all trying to figure out in terms of how this impacts the consumer are pretty confusing at the moment. And I know that we sometimes get caught up in the change in direction on a minute by minute basis as well. So thank you guys.
+
+Raul Vazquez
+
+Sure. Thank you, Rick.
+
+Operator
+
+And our next question comes from John Hecht with Jefferies. Please state your question.
+
+John Hecht
+
+Afternoon guys and congratulations on achieving all the objectives and clearly the business looks like it's making a good turn. First question, as you lean into growth, you guys have a lot of channels that you can utilize MetaBank, your branches, MoneyGram and some other retail partners. Where do you think that will growth come through all those channels or are you going to rely on one of those more than the other? And I guess, are all of those channels still active and presenting a good opportunity for growth?
+
+Raul Vazquez
+
+It's a great question, John. So yes, all the channels are active. They work in combination with each other. Really what we've seen in the past, for example, what we had in our latest investor presentation was that regardless of what channel someone started in, almost three quarters of applicants used our mobile and digital channels in some way, right, even if they started in retail, started in the contact center. So we think each of the channels plays an important role in our originations numbers. So we are bullish about all the channels.
+
+We have seen quite a bit of strength in our retail channel and our contact centers. I think our teams there are doing just fantastic work. They've become more productive in 2024 relative to 2023. They drove very healthy originations. So we've got the good fortune of, I think entering 2025 with a lot of confidence in all of our channels, but in particular liking what we're seeing from retail in the contact center.
+
+John Hecht
+
+Okay. That's helpful. And then, I guess, second question, given -- I have one after this, given growth expectations for this year, how do we think and then thinking about the rate environment, which now anticipates maybe one federal fund shift, how do we think about cost of capital over the course of this year given maturity runoff and so forth and then any targets for leverage over the next several quarters?
+
+Jonathan Coblentz
+
+Sure. So John, I think we're going to see two opposing factors driving our cost of funds. On the one hand, as our first securitization of the year that we did in January with a 6.95% yield shows the pricing we're able to get on new debt issuances in the asset backed market is very strong. On the other hand, so we would hope to come to market a few more times. And though the curve is relatively flat for the benchmarks and we'll see where that goes. Credit spreads in the asset backed market continue to tighten, so that's favorable.
+
+On the other hand, while 6.95% is a terrific yield in the current market, we continue to have debt at 2% that is running off, right? Those are the deals we were able to do in 2021 when rates were much lower. So I think over the long-term, we'll see a lower cost of funds, but throughout this year we may see slightly higher cost of funds before it becomes lower just because of the relative timing between financings and the runoff.
+
+And then, your question about leverage, we haven't given specific guidance. We obviously took a nice step forward this past quarter in reducing debt to equity by eight-tenths of a turn. We would expect as we continue to have GAAP profitability. And we also avail ourselves of the opportunity to prepay our corporate debt where we're allowed to make up to $60 million of prepayments without penalty that, that those two combined factors will allow us to continue to improve our debt to equity ratio.
+
+John Hecht
+
+Okay. And final question, Jonathan for you. And I want to reiterate Rick's congratulations and then sorry to see you go. It's been fun working with you, but I wish you all the best of luck and hopefully we keep in touch. But the last question is, is there any considerations for fair value marks this year? Last year, I think you had to get through some of the marks on the liabilities. Is there anything just on the fair value mark this year that's worth already mentioning from a temporary impact?
+
+Jonathan Coblentz
+
+Sure. So just at a high level and we don't give specific guidance about fair value marks, the expectation is built into our bottom line guidance certainly. When we think about the loans, right, ultimately, as you know, that's driven by the discount rate, which is the combination of benchmark rates and credit spreads, our loss expectation and the average life.
+
+And so if we see credit continue to improve, if we see rates and credit spreads continue to come down, we could get some benefit there. We're not giving specific guidance, but that would all be favorable. Then of course, on the asset backed notes, though we no longer include their impact in adjusted net income, they do still run through GAAP. And as you'll see on Page 35 of the earnings deck, the remaining discount on the notes is $22.3 million as of year-end. So we would expect those notes to be down to a very low balance by the end of the year and to largely be prepaid by early 2026 just according to their terms. So that will be flowing through the P&L on a GAAP basis as a negative over the course of the year.
+
+John Hecht
+
+Great. Appreciate that. Thanks.
+
+Raul Vazquez
+
+Thank you, John.
+
+Operator
+
+Thank you. And our next question comes from Hal Goetsch with B. Riley Securities. Please state your question.
+
+Hal Goetsch
+
+Jonathan, well done. Thank you very much. Congratulations on your retirement.
+
+Jonathan Coblentz
+
+Thank you, Hal.
+
+Hal Goetsch
+
+On the origination side, you guys really came in kind of well above maybe what you guided to and another firm, Upstart, reported similar kind of upside surprises. And I'm just wondering if you'd give us your color on the top of funnel. What happened there? I think maybe consumers saw a fourth rate cut that happened in December that maybe got discovery happening in your digital channels at a higher rate. Maybe lower rates also allowed you to approve more borrowers. Can you just share with us what you saw throughout the quarter? Was it heavier maybe in December with maybe consumers inquiring and pleasantly being surprised they were approved for loans that you granted to them? Give us your thoughts on that.
+
+Raul Vazquez
+
+Yes. Hal, this is Raul. Thanks for the question. So our decisions to drive growth are driven first and foremost by just what is our view on credit. So when you look at our presentation and see on Page 9 that the front book is running at about 10.5% annualized losses, back book continues to shrink. Our go-forward view as Jonathan described, right, for the year is that losses are going to improve by 50 basis points, right, seeing those losses on the front book be within our target range of 9% to 11% gave us the confidence to lean into growth.
+
+So what we were able to do is we invested a bit more in marketing than we have the last couple of years to try to drive that growth. So top of the funnel from a demand perspective, we felt was already healthy and we poured a bit more on that in terms of driving marketing. Credit box isn't really opening up. We like where credit box is. V12 is helping to drive these improved results. So then it just, it flowed through all the way down to that 19% originations growth.
+
+So we go into the year feeling confident in our ability to drive 10% to 15% originations growth for the full year. Recognizing that that's going to help to drive revenue growth again in the back half of the year and positioning us well not just for 2025, but assuming the economy remains constructed, which today we think it is, right, that means a good year for us in 2025 and hopefully some good momentum even going into 2026.
+
+Hal Goetsch
+
+Yes, terrific. Thanks, Raul. Could you just repeat, make sure I caught the impact of the credit card sale on Q1 and the full year. Just repeat that for me if you had a second.
+
+Jonathan Coblentz
+
+Sure. On the total revenue?
+
+Hal Goetsch
+
+Yes, yes. Total revenue, yes.
+
+Jonathan Coblentz
+
+Yes, yes. So what we said in our prepared remarks was that when you're looking at our total revenue number for this year in 2025, since credit cards got sold in November, you really need to go back and look at ex-credit card revenue numbers from 2024. And so for the full year, which really was only through mid-November, we had $34 million of total revenue from credit card and for the fourth quarter, we had $4 million of total revenue from credit card.
+
+Raul Vazquez
+
+The last thing you'll see when we push the script out is for Q1, it's an absence of $12 million in revenue year-over-year.
+
+Jonathan Coblentz
+
+Right, because that's how much revenue we had in the first quarter of 2024, good color, Raul.
+
+Hal Goetsch
+
+Okay, terrific. That's what I needed. Thank you.
+
+Raul Vazquez
+
+Sure.
+
+Operator
+
+Your next question comes from Gowshi Sri with Singular Research. Please state your question.
+
+Gowshi Sri
+
+Good morning. Good afternoon, I guess. Can you hear me?
+
+Raul Vazquez
+
+Yes, we can.
+
+Gowshi Sri
+
+Yes. Thank you. Thanks for taking my question. My first question is, well, congratulations on your results by the way, and the 19% year-over-year growth in origination as you continue, you say that back into FY2025 is 10% to 15%. What is, can you give us some color on what is driving that growth? Is it some relaxation on your side or is it -- is there a demand? What is driving that demand?
+
+Raul Vazquez
+
+Yes, it's a great question. We mentioned that if you remove the one-time benefits in OpEx for Q4, that would give you about a $95 million run rate. We would suggest that, for models that you really target $97.5 million per quarter in OpEx and that difference you can think of as a modest investment in marketing, right? So looking at, at least the $2.5 million incremental expense in marketing and that's really what's going to drive the growth. It's not opening up the credit box. We don't think we need to do that. We don't think that would be wise at this time. It's really about just being able to drive some additional demand through marketing efforts, which we really haven't been doing the last two years.
+
+Gowshi Sri
+
+Okay. I know your portfolio yield is around 34%. Can you give us some, given the little bit competitive space that it is, how do you assess the competitive landscape in the personal loan market for FY2025?
+
+Raul Vazquez
+
+Yes. So we think right now, when we look at the behavior of the competition. Everyone seems to be acting rationally, which we think is very helpful for us as we think about 2025 and as we put together the guidance that we've shared. I think, as we all know, right, the Fed is pausing rate cuts a bit. They continue to look at things closely and trying to figure out how many cuts they're going to have.
+
+And thankfully, I think what we're seeing from competition is no one is bringing down pricing irrationally. I think pricing continues to reflect the higher cost of capital, not just for us, but for our competitors. So we think that the competitive picture is one that is again, rational and constructive and one in which we can drive growth.
+
+Gowshi Sri
+
+Awesome. I'll take the rest offline. Thank you, again. Congratulations and good luck, Jonathan.
+
+Jonathan Coblentz
+
+Thank you. Thank you very much.
+
+Operator
+
+Your next question comes from Brendan McCarthy with Sidoti. Please state your question.
+
+Brendan McCarthy
+
+Great. Good afternoon, everybody. And Jonathan, first off, congratulations on your retirement. I'm going to miss working together, but…
+
+Jonathan Coblentz
+
+Thank you, Brendan.
+
+Brendan McCarthy
+
+Sure, sure. And wanted to start off just as a follow-up on the operating expense question. Just looking at the OpEx adjusted OpEx ratio here, it looks like it slowly trended down. It's right around that 13% level in the fourth quarter 2024. Do you have a long-term target for that measure?
+
+Jonathan Coblentz
+
+We do. Our long-term target is what we have in our unit economics of 12.5%.
+
+Raul Vazquez
+
+Yes. So the progress, Brendan that we expect to make in that is going to be driven by two factors, really. Number one, right, we want to continue to look for opportunities to lower operating expense, right? I think as we look at future years, that's continuing to figure out how do we become more streamlined, more efficient, how do we renegotiate multi-year contracts, right, that weren't up for negotiation last year. So on the numerator side; we're going to try to do everything we can to keep looking for reductions on OpEx. More importantly, I think on the denominator side, we're going to grow average daily principal balance, right, and that'll help us get from the 13.1% down to the 12.5% will really be both elements.
+
+Brendan McCarthy
+
+Great, great. That's helpful. And then, like you said, Raul, probably the $97.5 million is probably a reasonable run rate, quarterly run rate for OpEx kind of going forward.
+
+Raul Vazquez
+
+We think so. In particular, as we shift to growth mode, right? So as we shift to growth, there's going to be that incremental marketing expense. There'll be other parts of the organization that will have to make sure are ready to support that level of growth. So we think it is the appropriate level as we shift back to growing the portfolio.
+
+Brendan McCarthy
+
+Got it. That's helpful. I wanted to ask a question on portfolio yield. Looks like it had a nice 155 basis point increase year-over-year in the fourth quarter. What factors really drove that increase and maybe can you touch on the underwriting trends that you saw?
+
+Jonathan Coblentz
+
+Yes. I mean the main factors were obviously we adjusted pricing, as did many other consumer lenders this year, and higher origination growth, which we had -- we certainly had high growth, strong growth in the fourth quarter because that will drive more yield because of the recognition up front of the origination fees in interest income.
+
+Raul Vazquez
+
+The other dynamic that helps us in terms of yield is that some of the loans that had longer-terms are being paid off. If someone were to come back and wants to get a new loan, that gives us an opportunity to reflect the new pricing as opposed to the pricing that they may have received, say two, three or even four years ago, Brendan.
+
+Brendan McCarthy
+
+Great. That's helpful. And then one more question for me. Just on the back book and utilizing net charge-off rate, it looks like it's kind of been maintained right around that mid-20% range. Is that a reasonable expectation going forward and just kind of looking at the back book as it rolls off, it'll obviously be favorable for gross charge-offs. But I guess that kind of mid-20% range.
+
+Jonathan Coblentz
+
+We're not providing specific guidance on the back book. It's a very good question. Certainly, when we provide our loss guidance that is inclusive of the portfolio we have today, which includes back book loans and their runoff, as well as the new originations we expect to make and how we expect them to perform. So certainly that's in there. We don't have a separate guidance that I can share with you.
+
+The one thing I will note is, since this is a closed pool back book that is just running off, right, as you get towards the tail though, it gets smaller and smaller, right? You can have denominator effects that can push up the percentage, right? That's just the math you would expect. But we don't have a specific guidance. But it could go slightly higher for that reason.
+
+Raul Vazquez
+
+Certainly, what we're looking forward to is as you will see on Page 9 of our investor deck, right? We expect that by the end of this year that'll be down to 1%. So its disproportionate impact on losses will start to get smaller and smaller over time.
+
+Jonathan Coblentz
+
+That's right.
+
+Brendan McCarthy
+
+Got it. That makes sense. Very helpful. Thanks, Raul. Thanks, Jonathan. That's all from me.
+
+Raul Vazquez
+
+Thank you, Brendan.
+
+Jonathan Coblentz
+
+Thank you.
+
+Operator
+
+Thank you. [Operator Instructions].
+
+Our next question comes from Vincent Caintic with BTIG. Please state your question.
+
+Vincent Caintic
+
+Hi, good afternoon. Thanks for taking my questions. I have two of them. So I'll just ask both now. So nice guidance for 2025 and it's above consensus estimates. I'm just wondering if you can maybe talk about some of the sensitivities to the macro from that guidance. And we've been seeing kind of a lot of changes, whether politically or otherwise, in the past couple of weeks, including with now inflation running at 3%. So just wondering how sensitive it is as it does seem like a lot of your -- lot of the guidance is sort of driven off of the actions that you're taking. So that's question one.
+
+And then question two related to kind of prior comments about the industry kind of showing good growth trends that we've seen from a lot of other consumer finance companies and fintechs. A lot of this growth was alluded to earlier. And I'm just wondering, one of the investor questions that I've been getting is that whereas I guess, if a fintech or somebody else is growing that much, can Oportun or other lenders also be growing at the same amount or is there just kind of finite TAM where if somebody's growing then somebody else must be losing that share or so forth. I just wanted to get your thoughts on that. Thank you.
+
+Jonathan Coblentz
+
+Sure. No, thank you. I'll take the first question, Vincent and Raul will cover the second one.
+
+First of all, in setting guidance, we don't just look at one scenario, we look at multiple scenarios. And so those scenarios factor in sensitivities and both positive and negative. So that's already factored in when we do provide the guidance. As you heard Raul say on the call, right, we're watching the macro environment very carefully, right? And obviously, we did get a slightly uptick inflation number this morning.
+
+We still feel very good about our credit that all the trends are very positive. So it's nothing that we're concerned about now. But the key sensitivity would be any impact from inflation that could cause us to have to tighten. And so you in order to make sure that losses didn't go up and that would be an impact to originations. But again, we feel good about the guidance we've presented and it does factor in multiple scenarios. And all the trends right now are very favorable.
+
+Raul Vazquez
+
+Just add a little bit to that, Vincent. One of the reasons we feel good about our ability to underwrite, say even with inflation at 3% is as we've talked about, right, we're using V12 right now of our underwriting engine. V12 was built with the largest data set we've ever used. And maybe most importantly, kind of in response to your question, it was used including data from this inflationary period, right?
+
+So what we were able to do was include our learnings in this period where our borrowers and all of us have been dealing with higher inflation. So we think that that gives us an opportunity, even if inflation were to move from where it is today, start to kind of glide back up a little bit, right? We feel that the underwriting that we've got in place today was built with that kind of environment in mind.
+
+We would certainly keep making adjustments. You see on Page 8 where we show the vintages and the performance that our ability to make adjustments demonstrates, the ability to keep improving performance where you see Q3 of 2023 is better than the prior quarters, Q4 of 2023 is better than Q3 and Q1 of 2024 is better than Q4 of 2023. So again, that shows the ability to keep making adjustments as needed to react to the environment. Let me pause there and see if you have any follow-up questions on number one before I go to number two.
+
+Vincent Caintic
+
+That's great. Thank you.
+
+Raul Vazquez
+
+Sure. So on your second question, in terms of, in some ways, I think it's a question of is it a zero-sum game, right, from a growth perspective, is that part of your question?
+
+Vincent Caintic
+
+Yes, that's exactly. And I think that when I talk to investors and covering consumer finance, it's -- there's this view that if there's just a lot of growth, especially from the fintechs, that it's taking away from brick-and-mortar or things. So that is a zero-sum game to your point, rather than one where there's enough growth and customers to serve. So just wanted to get your opinion on that.
+
+Raul Vazquez
+
+Yes. So I think for us, one of the things that we've been able to do well throughout our history is to really be able to find a niche that is not well served by others. So we're not a traditional subprime lender. If someone's had a lot of experience with credit and for whatever reason it didn't work out, we declined them early in the process because our models aren't built to underwrite those individuals. We do best with people that have thin files or even no files when they first come to us, right?
+
+We can underwrite someone who has no data at the bureaus, no credit score whatsoever. So I think one of the things that we've been able to do is to stay out of that zero-sum game that you're describing and that I understand certainly why it's driving the question. Because we've been taking individuals that have been in the informal economy or individuals that have relied only on very, very expensive credit. So we think of that almost as a different pool than the pool, say, that the traditional fintechs are focused on.
+
+Vincent Caintic
+
+Okay, great. That's very helpful. Thank you. And my congratulations to Jonathan again. I know we've been talking over the past decade, and so we'll miss you and nice to leave investors with a nice gift of these results. Thank you.
+
+Jonathan Coblentz
+
+Thank you, Vincent. Very kind of you.
+
+Operator
+
+Thank you. And there are no further questions at this time. I'll hand the floor back over to management for closing remarks.
+
+Raul Vazquez
+
+Well, thank you again, everyone, for joining us on today's call. We look forward to speaking with you again soon.
+
+Operator
+
+Thank you. This concludes today's call. All parties may disconnect. Have a good day.

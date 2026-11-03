@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "company": "Apple Inc.",
+        "symbol": "AAPL",
+        "quarter": 1,
+        "date": "2025-01-30",
+        "link": "https://www.youtube.com/live/DCP8UZ6Cfp0",
+        "image": "/images/thumbnails/aapl_q1_2025.jpg"
+    },
+    {
+        "id": 2,
+        "company": "CVS Health Corporation",
+        "symbol": "CVS",
+        "quarter": 3,
+        "date": "2024-11-06",
+        "link": "https://youtu.be/8K4aHLrekqQ",
+        "image": "/images/thumbnails/cvs_q3_2024.jpg"
+    },
+    {
+        "id": 3,
+        "company": "Alphabet Inc.",
+        "symbol": "GOOGL",
+        "quarter": 4,
+        "date": "2025-02-04",
+        "link": "https://www.youtube.com/live/URIsVKPmhGg",
+        "image": "/images/thumbnails/googl_q4_2024.jpg"
+    },
+    {
+        "id": 4,
+        "company": "Shell plc",
+        "symbol": "SHEL",
+        "quarter": 4,
+        "date": "2025-02-08",
+        "link": "https://youtu.be/vBPoEo9Beao",
+        "image": "/images/thumbnails/shel_q4_2024.jpg"
+    },
+    {
+        "id": 5,
+        "company": "Tesla, Inc.",
+        "symbol": "TSLA",
+        "quarter": 4,
+        "date": "2025-01-29",
+        "link": "https://www.youtube.com/live/Gub5qCTutZo",
+        "image": "/images/thumbnails/tsla_q4_2024.jpg"
+    },
+    {
+        "id": 6,
+        "company": "Walmart Inc.",
+        "symbol": "WMT",
+        "quarter": 4,
+        "date": "2025-02-20",
+        "link": "https://youtu.be/AeznZIbgXhk",
+        "image": "/images/thumbnails/wmt_q4_2024.jpg"
+    }
+]

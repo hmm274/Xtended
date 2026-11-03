@@ -1,0 +1,1588 @@
+
+
+[Applause]
+
+a
+
+[Applause]
+
+he
+
+
+
+he
+hey
+
+
+he he
+
+n
+
+
+
+good afternoon everyone and welcome to
+Tesla's fourth quarter 2024 Q&A webcast
+my name is Travis axod the head of
+investor relations here at Tesla and I
+joined today by Elon Musk and B Tesa and
+a nber of other Executives our Q4
+results were announced at about 3 p.m.
+central Time in the update deck we
+published at the same link as this
+webcast during this call we will discuss
+our business Outlook and make
+forward-looking statements these
+comments are based on our predictions
+and expectations as of today actual
+events or results could differ
+materially due to a nber of risks and
+uncertainties including those mentioned
+in our most recent filings with the
+SEC during the question and answer port
+of today's call please limit yourself to
+one question and one followup please use
+the raise hand button to join the
+question que before we jp into Q&A
+Elon has some opening remarks Elon 
+thank you so in smary in Q4 we set a
+record and delivered vehicles at an
+annualized rate of nearly 2 million a
+year  so congratulations to the Tesla
+team on  excellent work re achieving
+record production and deliveries  we
+model y was the best selling vehicle of
+of  any kind for 2024 that's worth
+noting not just the best electric
+vehicle the best vehicle of any kind on
+Earth nber one with model y  we are
+staying focused on on maximizing voles
+and obviously doubling down
+well I don't know
+what really I I was going to say
+doubling down on autonomy but really
+it's like autonomy is like 10 Xing
+things frankly doubling is not even
+enough  we made many critical
+investments in 2024 in manufacturing Ai
+and Robotics that will  bear immense
+fruit in the future immense like it's in
+fact to such a scale that it is
+difficult to
+comprehend  and I've said this before
+and I'll stand by it  I see a path I'm
+not saying it's an easy path but I see a
+path to Tesla being the most valuable
+company in the world world by far not
+even close like maybe several times more
+than I mean
+there is a path where Tesla is worth
+more than the next top five companies
+combined there's a path to
+that I mean I I think it's like an
+incredibly it's like a difficult path
+but it is an achievable
+path 
+so  and that is overwhelmingly due to
+autonomous vehicles and autonomous
+hanoid
+robots
+so our focus is is is actually building
+towards that
+ and and that that's what we're laying
+the ground We Lay the ground workor for
+that in 2024 we'll continue to lay the
+ground workor for that in
+2025  in fact more than lay the ground
+workor actually so we building the
+structure be we're building the
+manufacturing lines  and
+ let you
+know I'd like setting up for what I
+think will be an epic
+2026 and a ridiculous 27 and 28
+ridiculously
+good that is my
+prediction
+ and you know as you very few very few
+people understand the value of full self
+driving and our ability to monetize the
+fleet  you you know I some of these
+things I've said for quite a long time
+and I know people have said well you
+know he's the boy required wolf like
+several times I'm telling you there's a
+damn wolf this
+time and you can drive it in fact it can
+drive you it's a self-driving
+wolf  you know for a lot of people
+that they're like their experience of
+Tesla autonomy  is is like if if it's
+even a year old if it's even two years
+old that it's like meeting it's like
+meeting someone when they're like a
+toddler and thinking that they're going
+to be a toddler forever but obviously
+they not going to be a toddler forever
+they grow up but but if their last
+experience was like oh FSD was a toddler
+it's like well it's growing up now have
+you seen it it's like walks and talks 
+and  that's really what we've got 
+and it's difficult to for people to
+understand this because han intuition
+is linear as opposed to what we're
+seeing is exponential progress 
+so that's why my nber one
+recommendation for anyone who doubts is
+simply try it have you tried it when's
+last time you tried it and the only
+people who are skeptical the only people
+who are skeptical are those who have not
+tried
+it so you know a car goes a passenger
+car typically has only about 10 hours of
+utility per week out of
+168  very small
+percentage once that car is autonomous
+ my rough estimate is that it is is in
+use for at least a third of the hours of
+the week so call it 50 maybe 55 hours of
+the week  and it can be use for both
+ Caro delivery and people delivery so
+even let's say people are asleep but you
+you can deliver packages in the middle
+of the night or resupply restaurants or
+whatever the case may be whatever people
+need  at all hours of the day or night
+ that same asset the thing that that
+that is these things that already
+exist with no incremental cost change
+just a software update
+now have five times or more the utility
+than they currently
+have I I am I I'm I think this will be
+the
+largest asset value increase in han
+history maybe there's something bigger
+but I'm I just don't know what it
+is  and so people who look in the rear
+view mirror  are looking for past
+precedent except I I don't think there
+is one so 
+but you know the but but the reality of
+autonomy is upon us and I repeat my
+advice try driving the car or let it
+drive
+you  so now it it works very well in
+the US but of course it will over time
+work just as well everywhere
+else
+
+yeah 
+so we're working hard to grow our annual
+voles
+ our constraint this year our current
+constraint is battery packs this year
+but we we're working on addressing that
+constraint
+ and I think we will make progress on
+addressing that
+constraint  and then things are really
+going to go ballistic next year and
+really ballistic in 27 and and 28 so
+ yeah so a bit more on on full self
+driving our Q4 Vehicle Safety report
+shows continued year-over-year
+Improvement in safety for vehicles so
+that the safety nbers if somebody has
+supervis full celf driving to an on or
+not the safety differences are gigantic
+ so  and people have seen the 
+immense improvement with version 13 and
+with incremental versions in version 13
+and then version 14 is going to be yet
+another Step Beyond that that is very
+significant  we launched the cortex
+training cluster at gigafactory Austin
+which was a significant contributor to
+FSD advancement  and we continue to
+invest in training infrastructure out of
+Texas
+headquarters  so the the training
+needs for Optimus or Optimus hanoid
+robot are probably at least ultimately
+10x
+ what what's needed for the car at
+least to get to the full range of of of
+useful roles you can say like if how
+many different roles are there for a
+hanoid robot versus a car  hanoid
+robot
+is has probably well a
+thousand times more uses and and more
+complex things than in a car that that
+doesn't mean the the training scales by
+a thousand but
+it's
+probably you know 10x now you can do
+this progressively so it doesn't mean
+like Orel are going to spend like $500
+billion in training Compu
+  because we obviously train Optimus
+to to do enough tasks to match the
+output of Optimus
+robots  but but and Ally the cost of
+training is dropping dramatically with
+time so but but it is it is 
+like is one of those things where I
+think longterm Optimus will
+be Optimus has the potential to be north
+of $1 trillion in Revenue like it's it's
+really
+bananas
+ so then you can obviously afford a
+lot of training compute in that
+situation in fact even $500 billion
+training compute in that situation would
+be quite a good
+deal
+
+yeah the future is going to be
+incredibly
+different from the past that's for sure
+we live at this unbelievable infection
+point in han
+history so
+ yeah
+so you know the proofs the proof is in
+the pudding so we're going to be
+launching unsupervised full
+self-driving  as a paid service in
+Austin in
+June
+so 
+you have talked with the team we feel
+confident in being able to do an initial
+launch of unsupervised no one in the car
+full self driving in Austin in June 
+we already have  Teslas operating
+autonomously onid full driving at our
+Factory in Fremont and we'll soon be 
+doing that at our Factory in
+Texas so thousands of cars every day are
+driving with no one in them at our
+Fremont Factory
+ in in California they will soon be
+doing that in Austin  and then
+elsewhere in the world the rest of our
+factories which is pretty cool  and
+the cars aren't just driving to exactly
+the same spot because obviously it all
+wouldn't Glide at the same
+spot the cars are actually programmed
+with with where with what Lane they need
+to park into to be picked up for
+delivery so they they drive from the
+factory End of Line to their spe to
+their destination parking spot and in
+the and the for to be picked up for
+delivery to
+customers  and they're doing this
+reliably every day thousands of times a
+day it's pretty cool  like I said
+these Teslas will be in the wild with no
+one in them  in June in Austin
+so what I'm saying is this is not some
+far off mythical situation it's
+literally H you know five six months
+away five months away type of thing 
+and while we're stepping at putting our
+toe in the water gently at first just to
+make sure everything's
+cool  our solution our sort of a our
+solution our solution is a general ized
+AI solution it is not does not require
+High Precision maps of a
+locality  so we're just want to be
+cautious it's not that it doesn't work
+Beyond oron in fact it does we just want
+to be put a toe in the water make sure
+everything's okay then you know put a
+few more toes in the water then put a
+foot in the
+water  with safety of the general
+public as and those in the car as our
+top priority
+ with regard to
+Optimus  obviously I'm making you know
+these Revenue predictions predictions
+that sound absolutely insane I realize
+that 
+but but they are I think they will prove
+to be
+accurate
+ yeah  now now with Optimus there's
+there's a lot of uncertainty on on the
+exact timing because
+you it's not like a train arriving at
+the station for Optimus we are designing
+the train and the station and in real
+time while also bullying the
+tracks and and so they're like why did
+people should why didn't the train
+arrive exactly at 12:05 and like we're
+Lally designing the train and the track
+in the station in real time while like
+how can we predict this thing with
+absolute Precision it's impossible 
+you know the the normal internal plan
+calls for roughly 10,000 Optimus robots
+to be built this year will we succeed in
+building 10,000 exactly by the end of
+December this year  probably not we we
+but I but will we succeed in making
+several thousand yes I think we
+will  will those several thousand
+Optimus robots be doing useful things by
+the end of the year yes I'm confident
+they will they will do useful things
+  that
+those Optimus in use at the Tesla
+factories  production design one will
+inform how what we change for production
+design two which we expect to launch
+next year  and our goal is to ramp
+prop Optimus production faster than
+maybe anything's ever been ramped 
+meaning like aspirationally an order of
+magnitude ramp per year now if we aspire
+to an order of magnitude R per year
+perhaps we only end up with a half order
+of B to per year but that's the kind of
+growth that we're talking
+about  it doesn't take very many years
+before you know we're making a 100
+million of these things a
+year if you go up by let's say a factor
+you know by 5x per
+year it's insane insane not 50%
+500% so you know these are Big growth
+nbers
+ yeah but we do need to this is an
+entirely new supply chain it's is
+entirely new technology there's nothing
+off the cell shelf to use we try
+desperately with Optimus to to use any
+existing Motors act you know any any
+actuators sensors nothing nothing worked
+for a han right robot at any price we
+had to design everything from from
+physics first principles to work for a
+hanoid robot  and with the most
+sophisticated hand that has ever been
+made before by
+far
+ right Optimus will be able to like
+play the
+piano  and and be able to thread a
+needle I mean this is the level of
+precision no one has been able to
+achieve
+ and so it's  it's really something
+special 
+so
+ yeah so and my prediction long term
+is that Optimus will be overwhelmingly
+the value of the
+company  regarding energy back up back
+to
+Earth
+
+Elon have can you come back here for a
+minute okay back to Earth U energy
+storage is a big deal  will become
+it's it's already super important will
+become incredibly important in the
+future and and it is something that
+enables far greater energy output to the
+grid than is currently possible 
+because the the grid the the grids
+are the vast majority of the grid has no
+energy storage capability so they have
+to design the power plants to for you
+know for very high peaks  and assing
+that there's no energy storage once you
+have grid grid energy storage and home
+based energy storage the actual total
+energy output per year of the grid is
+dramatically greater than people think
+maybe it's it's at least double  this
+will drive the demand of stationary 
+battery packs and and especially the
+grid scale ones to in insane basically
+as much demand as we could possibly make
+
+so  we
+have our second Factory which is in in
+Shanghai that's starting operation and
+we're building a third Factory so we're
+trying to ramp output of the stationary
+battery storage as quickly as possible
+now there is a challenge here where we
+have to be careful to that we're not
+robbing robbing for one pocket to take
+to another pocket because for a given
+gwatt hours per year of of sale output
+we have S does it go into stationary
+applications or mobile applications they
+can't go both into both so we have to
+make that tradeoff
+ yeah
+ but but over overall the demand for
+total gwatt hours of batteries whether
+mobile or stationary that will grow to
+in in a very very big way over
+time
+
+so in conclusion  2025 really is is a
+pivotal DEA for Tesla
+and I and when people look back on 2025
+and the launch of unsupervised felf
+driving  true real world AI that that
+actually
+works I think they may regard it as the
+biggest year in Tesla
+history maybe even bigger than offest
+car the Roadster or or the model the
+model 3 or model
+line that in fact I think it probably
+will be viewed 25 as maybe the most
+important year in tes
+industry  there is no company in the
+world that is as good at real world AI
+as
+Tesla I don't even know who's in second
+place like you say like who's in second
+place for real world AI I need a very
+big telescope to see them that's how far
+behind they
+are all right great thank you very much
+Elon and has some uping remarks as well
+yeah I'll talk about things on earth
+as Elon mentioned in Q4 we set records
+in vehicle deliveries and energy storage
+deployments in an uncertain macro
+environment we were able to grow Auto
+and energy storage voles both
+sequentially and on a year on-ear basis
+for this I would like to thank the
+efforts of everyone at Tesla to make
+this a reality and our customers who
+helped us achieve this fed coming into
+the fourth quarter our Focus was to
+reduce inventory levels in the
+automotive business and we accomplished
+that by ending the quarter with the
+lowest finished good inventory in the
+last two years this was a result of
+offering not only attractive financing
+options but also other discounts and
+programs which impacted asps while we
+saw vole growth in almost all regions
+that we operating we hit a new record of
+for deliveries in the greater China
+Market this is an encouraging Trend
+since we grew vole in a highly
+competitive BB Market on the automotive
+margin front we saw a quar or quarter
+decline primarily due to lower asps and
+due to the recognition of FSD related
+Revenue in Q3 from feuture releases our
+journey on cost reduction continues and
+we were able to get our overall cost per
+car down below
+$35,000 driven primarily by material
+cost this was despite increased
+depreciation and other costs as we
+prepare for the transition to the new
+model y for which we recently started
+taking orders in all markets all our
+factories will start producing the new
+model y next month while we feel
+confident in our team's abilities to
+ramp production quickly know that it is
+an unprecedented change and we're not
+aware of anybody else taking the
+bestselling car on the planet and
+updating all factories at the same
+time this change over will result in
+several weeks of lost production in the
+quter as a result margins will be
+impacted due to idle capacity other ramp
+related cost as is common in any launch
+but will be overcome as production is
+ramped we'll be introducing several new
+products throughout 2025 we are still on
+track to launch a more affordable model
+in the first half of 2025 and we'll
+continue to expand our lineup from there
+on a dollar for dollar basis we believe
+we have the most compelling lineup today
+compared to the industry and it will
+continue to get better from here as
+always all our products come with the
+best software in the industry autonomy
+features and capable of full autonomy in
+the future and despite the premi
+experience the total cost of ownership
+is close to mass Market less premi
+competitors energy storage deployments
+reached in alltime high in
+Q4 and this and resulted in  but
+declined sequentially this was a result
+of high  this sorry growth came from
+AP pack and power both businesses
+continue to be Supply constrainted and
+like Elon mentioned we're trying to ramp
+up production with mega Factory 
+Shanghai coming online  this quarter
+onwards while quarterly deployments will
+likely continue to fluctuate
+sequentially we expect at least 50%
+growth in deployments year-over year in
+2025 gross profit and margins in the
+service and other business was up
+year-over-year but declined sequentially
+this was the result of higher service
+enter cost and lower profit from used
+car business the businesses within
+service and other primarily support our
+new car business especially through
+their impact on total cost of ownership
+therefore while we manage them to be
+positive on a gap basis we do not expect
+similar margins as the rest of the
+business there's a lot of uncertainty
+around tariffs over the years we've
+tried to localize our supply chain in
+every Market but we are still very
+reliant on parts from across the the
+world for all our businesses therefore
+the imposition of tariffs which is very
+likely and any reciprocity will have an
+impact on our business and
+profitability our operating expenses
+grew both year-over-year and
+sequentially the biggest drival of the
+increase was R&D as we continue to
+invest in AI related
+initiatives the remaining increase came
+from growth in our sales capabilities
+and marketing efforts from referral
+program
+for 2025 we expect operating expenses to
+increase to support our growth
+initiatives it is important to point out
+that the net income in Q4 was impacted
+by a 600 million Mark to Market benefit
+from Bitcoin due to the adoption of a
+new accounting standard for digital
+assets whereby we'll change we'll take
+Mark to Market adjustments through other
+income every reporting period going
+forward our free cash flow for the
+quarter was 2 billion and despite cap
+increase of over 2.4 billion in 2024 we
+were able to generate free cash flow of
+3.6 billion for the year capex effic
+efficiency is something we are extremely
+focused on while we have invested in AI
+related initiatives we've done so in a
+very targeted manner to to utilize this
+spend to get immediate benefits the
+buildout of Cortex was accelerated
+because of the
+role actually help accelerate the 
+roll out of FSD V version 13 a
+culative AI related capex including
+infrastructure so far has been
+approximately 5 billion and for 2025 we
+expect our capex to be flat on a year
+year
+basis in conclusion you know like Elon
+said 2025 is going to be a pivotal year
+for Tesla there are a lot of Investments
+which we made and will continue to make
+in this coming year which will set the
+pace for the next face of growth and you
+know it is something which now I'm
+getting out out of Earth it is going to
+be out of this world and we just are
+playing putting the light foundation and
+that's all I have great thank you very
+much viov  now we will move over to
+investor questions  and we'll start
+with say.com the first question is  is
+unsupervised FSD still planed to be
+released in Texas and California this
+year what hurdles still exist to make
+that happen
+you address the Texas piece I think
+already so yeah I'm confident that we
+will release UNS supervised Fs in
+California  this year as well
+ you know yeah in fact I think we
+will most likely release unsupervised
+FSD in many regions of the country of
+the US by the end of this year  like I
+said we're just putting a toe in the
+water then few toes then put then leg
+then you know make sure everything's
+cool  and
+ we we're looking for a safety level
+that is significantly above the average
+han driver so it's not anywhere like
+much safer not like a little bit safer
+than han way safer than
+han  so the standard has to be very
+high because the moment there's any kind
+of you know accident with an autonomous
+car this
+immediately gets worldwide headlines
+even though about 40,000 people die
+every year in car accidents in the US
+and that most of them don't even get a
+mention
+anywhere but if somebody scrapes a shin
+with an autonomous car it's it's
+headline
+use we want why that
+yeah  so it's really from an ex the
+only thing holding us back is an excess
+oftion  but people can suddenly get a
+feel for how well the car would perform
+as unsupervised FSD by Simply Having car
+allowing the car to drive you around
+your city and see how many times did you
+have to intervene not where you wanted
+to intervene or were a little concerned
+but how many times do you have to
+intervene for for definite safety
+reasons and you will find that that is
+currently very rare  and over time
+almost
+never great thank you very much the next
+question is  are there any discussions
+with other auto companies about
+licensing FSG
+yes what we're seeing
+is at this point significant interest
+from a nber of major car companies
+about
+licensing Tesla full soft driving
+technology  what we generally said is
+the best way to know what to do is take
+one of our cars
+apart  and and then you can see where
+the placement of the cameras are what
+the thermal needs are of the Tesla AI
+Ander computer  that's better than us
+you know sending some CAD drawings 
+and  and then we're only going to
+entertain situations where the vole
+would be very high otherwise it is not
+worth the complexity  and and we will
+not  burden our engineering team with
+ laborious discussions with other
+engineering teams until we obviously
+have UNS supervis will self-driving
+working throughout the United States
+ I think the interest level from other
+manufacturers to license FSD will be
+extremely high once it is obvious that
+unless you have FSD you're
+dead great thank you very much  the
+next question is is Optimus now mostly
+design locked for 2025
+production  Optimus is not design
+locked
+so when I say like we're we're designing
+the train as it's going we're we're
+redesigning the train as it's going down
+the tracks while redesigning the tracks
+and the train
+stations weol the yeah it's it's it's
+rapidly evolving it's rapidly evolving
+in a good direction  you know it's
+it's pretty pretty damn amazing actually
+team's doing a fantastic job  we
+really have by far I think by far the
+best team of hanoid robotics engineers
+in the world
+ and and we also have all the other
+ingredients necessary you know because
+you need a you know great battery pack
+you need great Power Electronics you
+need great charging capability you need
+ you know great Communications good
+have Wi-Fi and cellular
+connectivity
+ and  and of course you need real
+world
+AI  and then the ability to scale that
+production  to sign to to huge levels
+ so you have to design for
+manufacturing the things that I mean
+really what what other companies are
+missing is they're missing the real
+world Ai and they missing the ability to
+ scale manufacturing to millions of
+units a
+year I think that is an underappreciated
+thing that industrialization of design
+is a whole different thing than making a
+design yeah prototypes are trivial
+basically  prototypes are easy
+production is hot I've said that for
+many years
+ the problem is that there like those
+who have never been involved in
+production or manufacturing  somehow
+think that may you once you come up with
+some Eureka design that you magically
+can make a million units a year  and
+this is totally false the there needs to
+be some that some holwood story or where
+they show actually the problem is
+manufacturing I never even heard of one
+is is you know it's just doesn't fit the
+narrative the Hollywood thing is like
+it's like some loan inventor in a garage
+goes
+Eureka and suddenly it files a patent
+and suddenly there's millions of units I
+like I'm listen to guys we're missing Mo
+really 99% of the
+story 1% is you know that old saying one
+like a product is 1% inspiration 99%
+postp spiration the Hollywood CHS you
+the 1% inspiration and minus but forgets
+about the 99% proration of actually
+figuring out how to make that initial
+prototype manufacturable and then
+manufactured at high vole such that
+the product is reliable low cost
+consistent doesn't break down all the
+time and that is 100 times harder at
+least than the Prototype then you have
+to get it there deliver it back yeah
+yeah you got to meet all these
+regulations and there zlion Regulators
+around the world it's veryy
+difficult great thank you  the next
+question is also Optimus related  when
+will Tesla start selling Optimus  and
+what will the price
+P well the it may for for this year we
+expect just close the loop with Optimus
+being used internally at Tesla 
+because we obviously can easily use
+several thousand hanoid robots at
+Tesla for you know like the most boring
+annoying tasks in the factory like the
+task nobody wants to
+do where we have to like beg people to
+do this task and and then they that it's
+like like the robot's totally happy to
+do the boring dangerous repetitive task
+that no no hans want to do
+ and and that's also actually some of
+the easiest use cases for us to you know
+have have Optimus  do things like you
+know like load load the the hopper like
+like for you know like say in body line
+if you're like transporting you know
+pieces of sheet metal to
+the the Rob which is already robot the
+robot welding line for the body and you
+just have to non-stop take things out of
+out of a  for one fixture to another
+fixture and it's a very boring
+job  that's the kind of thing what
+Optimist could do  the guy who runs
+arounds all the wealth STS and in the
+pends yeah there's there's a ton of
+boring jobs tedious jobs danger you know
+slightly dangerous jobs that that's
+perfect for Optimus so we expect to use
+Optimus for those tasks at our factories
+and and and that'll help us close loop
+for improvement this year  it's really
+with prod production version
+two which I think launches sometime next
+year  I'd like to be the beginning of
+next year but maybe it's more like the
+middle of next year  and and then we
+have to just with a with a production
+line that is designed for you know on
+the order of 10,000 units a month versus
+a th000 units a month so like when you
+design a unit for like when you a
+production line for 1,000 units a month
+it it takes you a while to actually
+reach anywhere close to 1,000 units a
+month  when when you design and for
+any given production output  it takes
+you a while to actually reach its
+potential  but the the current line
+that we're designing is for roughly a
+th000 units a month of of Optimus robots
+the next line would be for 10,000 units
+a month the line after that would be for
+100,000 units a month
+ and I think probably with with
+version
+two it's a very rough guess because
+there's so much uncertainty here very
+rough guess that we start delivering
+Optimus robots
+to companies that are outside of Tesla
+in the maybe the second half of next
+year something like that but but like
+this is such an exponential R that'll go
+from no one's receiving hanoid robots
+to these things like coming out like
+crazy so we can't build enough well
+we're always going to be in the we can't
+build enough
+situation
+ demand will not be a problem even at
+a high price and and then as I said like
+once we start once we're at a steady
+state of above a million units a
+year  I I think the production I'm
+confident at a million units a year that
+the production cost of Optimus will be
+less than
+$20,000 if you compare the complexity of
+op to the complexity of of a car so just
+the total mass and complexity  of
+Optimus is is is much less than a car so
+I would expect that at similar voles
+to say the model Y which is over a
+million units a year that You' see
+Optimus be I don't know half the half
+the cost or be something like that what
+what the price of Optimus is is a
+different matter the price of Optimus
+will be set by the market to
+great thank you very much the next
+question is  what is the  status on
+mass production of the tesl semi  and
+how will it impact  Revenue at
+scale I can say that one so we just
+closed up the semi Factory roof and
+walls last week in Reno  that a
+schedule which is great with the weather
+in Reno you never know what's going to
+happen but we're prepping for mechanical
+installation of all the equipment in the
+coming months  the first builds of the
+high vole semi design will come late
+this year in 2025 and begin ramping
+early in 2026 but as we've said before
+you know the semi is a TCO no-brainer 
+it it'ss really similar to Optimus it's
+you know set by how much people pay and
+then you know it as a total cost of
+ownership it's much much cheaper than
+any other Transportation you can have so
+at that point  when we're at scale it
+will meaningly contribute to you know
+Tesla's Revenue I think it's difficult
+to say how
+much anything you want to add
+ no I
+mean I do think it tells a semi again
+with autonomy is going to be incredibly
+valuable  you know that we actually
+have a shortage of truck drivers in
+America that's one of the limiting
+factors on transport  and
+ you know and and people are han so
+they get tired and sometimes and you
+know
+there's it's you know I have a lot of
+respect for Tr drivers because it's a
+tough job  but because it's a tough
+job there's not that many people that
+want to do it and there's actually a
+fewer I believe if I my saying is
+correct there are fewer people entering
+truck driving as a profession than are
+leaving it yes so when you think yeah
+exactly so so when you consider okay
+there's more people leaving truck
+driving as a profession than entering it
+well we're going to have a real
+Logistics problem as time goes by so 
+autonomy will be very important to meet
+that that need
+so like yeah
+it'll I don't know it's it's it's it's a
+several billion a year opportunity which
+I don't know in this context is
+that these days several billion a year
+matter I think it
+does not
+nothing it's probably you know might
+it's probably like a 10 billion year
+thing a billion a month at some point
+probably but but it's it's you know all
+this is going to pale in comparison to
+Optimus
+so yeah the billion a month is it's a
+lot but it's it's not it's going to be
+like 1% of Optimus or something you
+know great thank you very much  we
+already covered the next question  and
+go any remarks  so moving on  is it
+expected that Tesla will need to upgrade
+Hardware 3 vehicles and if so  what is
+the timeline and
+expected impact  to Tesla's capex I
+think referring to cost
+there they're really asking the tough
+questions all
+they I I guess we you know we haven't
+stopped working on Hardware 3 yet we are
+still  making software releases we
+released the 12.6 release recently which
+was like it's like a baby  v13  but
+it's a significant Improvement compared
+to what they had previously  and you
+know people are still finding ways to
+distill larger models into smaller
+models so we not given up on Hardware 3
+we still working on it  just the
+releases will Trail the hardware for
+releases thanks yeah I mean I think the
+honest
+answer is that we're gonna have to
+upgrade people's  Hardware 3 computer
+for those that are board full
+self-driving and that is the honest
+answer and that's going to be painful
+and difficult but we'll get it
+done  now I'm kind of glad that not
+that many people bought the FSD pack
+thanks Elon  the next question  has
+Tesla given up on ramping their solar
+roof
+product 
+no sorry Mike oh Mike go ahead yeah oh
+yeah I can take it  yeah solar roof
+remains a core part of the residential
+product portfolio and it still remains
+ or it draws a lot of customer
+interest despite it being premi
+products  we've worked on multiple
+iterations of engineering to make the
+product easier to install and distribute
+ by reducing the skew count and you
+know more recently rather than direct
+installation we are focused on growth
+through our Nationwide network of
+certified installers and many of those
+ they've been installing solar roof
+with us for many
+years yeah that's actually turned out to
+be a much better way for the like is
+just let the roof just Supply product to
+the roofing industry  and especially
+when somebody's going to is is getting a
+new roof anyway or or building a house
+from scratch obviously this is by far
+the most efficient  time to put in a
+solar roof as opposed to putting a solar
+roof on a house that where the roof
+still has you know 20 years of life 
+that that's not economically senseful
+but  but but if it's a new house or
+the roof needs to be replaced anyway
+then solar roof can make a lot of sense
+ and
+ and and it is it is a premi product
+it's it's like the yeah it's kind of
+like Model S model X or something it's
+like a a pre it's a premi product  I
+think it looks really cool and your
+house I mean your house generates
+electricity and if you combine it with
+the Tesla power W battery then you can
+be self-sufficient so even if the grid
+turns off even if the grid turns off for
+several days your house still
+works and your roof looks
+awesome so it's like I recommend anyone
+who who can afford it get the Tesla Sol
+roof and the power
+wall your family's life might depend on
+it get enough and and just and just in
+terms of convenience you know your kids
+are not going to yell at you because
+their computers don't work because the
+power went out and and you can't charge
+your phone true actually
+happens yeah you literally can't even
+call anyone because your phone's out of
+juice thank you very much  the next
+question was  covered in opening
+remarks so we will skip that and the
+last question from say.com  what
+technical breakthroughs will Define v14
+of FSD given  that v13  already
+covered Photon to
+control well we're going to have
+look how about further than than photons
+to
+Upward we've been in sort of the nothing
+but Net's situation nothing but neural
+Nets from photons to controls for a
+while now we're just improving the
+neural Nets
+ I guess we could get into some of the
+technical details to some degree  I
+have to say I I continue to be amazed by
+just how effective autoaggressive
+Transformers are at solving a wide range
+of
+problems I mean a sh is anything you'd
+like to add there without giving away
+the sort of family secrets I except all
+things we put on X  yeah continue to
+scale the model size  a lot  you
+know we scale a bunch in v13 but then
+there's still room to grow  so we're
+going to continue to scale the model
+size we're going to increase the context
+length even more  the memory is sort
+of like limited right now we only
+increase the amount of memory  P to
+even minutes of  context for driving
+ we're going to add audio emergency
+vehicles better add like data  of the
+tricky Corner cases that we get from the
+entire fleet you know any interventions
+or any kind of like you know us
+intervention  we just add that to the
+data data set  okay so the scaling in
+basically every access training compute
+data set size model size model context
+ and also all the reinforcement and
+the
+objectives great all righty  with that
+we will move over to analyst questions
+ so just as a reminder  you will
+need to unmute yourself to ask your
+question  the first question will be
+coming from Daniel Rosa from Bernstein
+ Daniel please go ahead and unmute
+yourself hey good evening every
+everybody it's Danel from Bernstein 
+Elon Tesla share price clearly already
+includes quite few of the anticipated
+benefits you talked about today  yet
+realizing what you call kind of
+difficult but achievable will take some
+time what are you pushing the Tesla
+executive team to do differently now to
+accelerate the innovation in order to
+realize the value you describe for the
+company well I mean
+we're 
+working on perfecting real world Ai and
+making rapid progress week over week if
+not you know certainly month over month
+but often week over week
+ I I spent a lot of time with the
+Tesla AI team and the Tesla Optimist
+team I mean I go where the problem is
+essentially like  not you know if
+something's this is hit un porun
+sometimes like don't talk to tell the
+executive and like hey we don't see you
+very often I'm like that's because your
+stuff is working awesome 
+yourself working really your grade
+unfortunately I don't see them very
+often because I go where the problem is
+so
+ you know one the problem is what like
+what's what's the greatest challenge
+that lies ahead so obviously there's
+there's there there are many challenges
+with the Optimus it's a hard problem to
+solve  many challenges for with
+vehicle autonomy but we're making rapid
+progress on both 
+yeah
+ okay I mean sounds like you You'
+you've got a conviction that the pieces
+you need right are are in place yeah 
+if we kind of go 12 months down the line
+and we look back and you had some of
+those but maybe what are the kind of two
+or three kpis that would tell you that
+you know you're on track and it's going
+the right way and the pieces you've put
+in place are the right pieces right
+that's kind of what I'm looking for 
+or other way around
+where would it be of most likely in your
+mind that you say hey I need to go back
+there and I need to change something to
+enable the team
+better well I mean I think my the
+predictions that I'm making here are are
+going to be pretty accurate
+ you know and it's worth like
+sometimes people say oh elan's always
+late well actually no the problem is
+that the media reports on when I'm late
+but never reports on when I'm early 
+so sure I'm optimistic but I'm not that
+optimistic  you know there are many
+cases in the past where actually we've
+been early you know such as completion
+of the Shanghai Factory  or  fact
+Factory completion has generally been
+ahead of schedule not behind 
+so
+ yeah so so
+the but but I I like I said I'm very
+confident we'll have released UNS
+supervis self-driving fully aous Teslas
+in in Austin and several other cities in
+America by the end of this year 
+that's probably everywhere in America
+next year and everywhere in North
+America at least I I think in terms of
+next year our constraint I think is
+likely to be just
+regulatory  you know like like like
+Europe really has for example Europe is
+a layer cake of of regulations and
+bureaucracy  which really needs to be
+addressed  you know this this
+ you know joke like America innovates
+Europe
+regulates it's like guys  there's too
+many refs on the field  I mean for
+example for us just to release un just
+just to release supervised full self
+driving in Europe even though it works
+really well  we have we have to go
+through a mountain of paperwork with the
+Netherlands which is our primary
+regulatory Authority then the
+Netherlands presents this to the EU I
+think
+May  and there's like this big EU
+country committee we expect it to be
+approved  at that time but there's
+nothing we can do to make that may
+happen
+sooner in fact nobody seems to do if but
+I guess all the countries would have to
+somehow vote in some way to have it
+happen sooner than
+May otherwise won't happen sooner than
+me so then then when is unsupervised FSC
+a lowed in Europe I'm
+like May next year maybe I don't
+know well I have to find out when the EU
+is meeting a game  sometimes it's a
+12-month Cadence sometimes a six-month
+Cadence  then you know China which is
+a a gigantic Market  we do have some
+challenges because they won't currently
+allow us to transfer training video
+outside of China and then the US
+government won't let us do training in
+China so we're in bit of a bind
+there
+ like what of a quandry so so what
+we're solving that is  by
+literally looking
+at  videos of streets in China that
+are available on the
+internet to understand and and then
+feeding that into our radio training so
+that publicly available video of street
+SS and traffic rules in China can be can
+be used for
+training  and then also putting it
+into we've got a very accurate U
+simulator and and so it we'll train
+using SIM for you know bus lanes in
+China like bus lanes in China by the way
+what about the biggest challenges in
+making  FSD work in China is is the
+bus lanes are are very complicated 
+and and there's like literally like
+hours of the day that you're allowed to
+be there and not be there and then if
+you accidentally go in there boss Lane
+at the wrong time the the you get an
+automatic ticket
+instantly so it's kind of a big deal BOS
+Lanes in China  so we have put that
+into our  simulator train on that 
+the car has to know what time of date it
+is read the sign  anyway we'll get
+this solved  but
+ you know I think we'll have uniced
+FSD in almost every Market this year
+ limited simply by regulatory
+issues  not technical
+capability and then then unsupervised
+FSD in the US this year in many cities
+but Nationwide next year  and and
+hopefully we have unsupervised FSD in
+most countries by the end of next year
+that that's the that's my prediction
+with best data that I have right
+now great thank you very much
+the next question will come from Adam
+Jonas at Morgan Stanley  Adam please
+feel free to unmute
+yourself  thanks everybody so Elon
+you've said in the past about
+liar that for AVS at least that lar is a
+crutch a Fool's errand I think you even
+told me once even if it was free you'd
+say you wouldn't use it you still feel
+that way
+yes care to elaborate or just I have
+another question
+ look we even have a radar in the car
+and we turned it
+off I got it all right so you're you're
+still yeah people think you're crazy you
+know but 
+ for
+not obviously hans drive without
+shooting lasers out of their
+eyes I mean unless you're Superman 
+you know but but like hans drive just
+with passive
+visual hans drive with with eyes and a
+neural net and a brain neural net so
+sort of biological C which so the
+digital equivalent of eyes and a brain
+are cameras and  and and digital
+neural Nets or AI  so that's the
+entire Road system was designed for
+Passive Optical neural Nets that's how
+the whole RO system was not designed and
+what everyone is expecting other that's
+how we expect other costs to behave so
+therefore that is very obviously the
+solution  for for self-driving in as a
+generalized for the generalized solution
+for full self driving as opposed to the
+very specific you know neighborhood by
+neighborhood solution which is very
+difficult to maintain which is what our
+competitors are doing
+
+ yeah yeah Ian Nar doesn't work in the
+fall guys  yeah nidar has a lot of
+issues I don't know if so like like the
+SpaceX Dragon ducks with the space
+station using lar that a a program that
+I personally spear I don't have some
+fundamental bizarre dislike of lar it's
+simply the wrong solution for driving
+cars on roads right you you understand
+how how lar works I I get literally
+designed and built ear red lar I overa
+the project the engineering of thing 
+I it was my decision to use lar and
+dragon and I over saw that that
+engineering project directly and so I'm
+like we literally designed and made a
+rad a light on to do with space station
+I thought it was the right solution for
+cars I would do that but it isn't got
+all right just as a followup at at
+CES  you said I paraphrasing that any
+AI will be able to do any cognitive task
+not involving atoms within the next
+three or four years and that would imply
+Elon that before the end of  president
+Trp's term in office that AI would be
+moving pretty damn quickly into the
+physical world into the world of photons
+and atoms and I'm thinking given your
+work with the administration how come
+confident are you that the US has will
+have the manufacturing and the supply
+base to to make good on your excitement
+about physical AI by the you know end of
+by latter of this decade we seem pretty
+vulnerable right now I've seen you
+Tweeting about or sorry Xing excuse me
+Elon about China  frud and slip about
+China having like making more drones in
+a day than the US makes in a year and
+all the entanglement of the supply so
+what has to happen in the US to make
+that possible what's your message and 
+what can what can you do about it and
+what's relevant for Tesla shareholders
+thanks
+El well a Tesla obviously we think
+manufacturing is cool  SpaceX we think
+manufacturing is cool  but in general
+for talented Americans  they need to
+Beyond you know my beyond my companies
+Beyond me and the people and my teams
+here in general we need to make
+manufacturing pool game  in America 
+and
+you know like I honestly think people
+should move from like law and finance
+into manufacturing that's my honest
+opinion we have too much this is both a
+compliment and a criticism we have too
+much talent in L and engineer LW and
+Finance in America and there should be
+more of that talent in
+manufacturing 
+so
+ yeah
+ I mean tell that we're making sure
+that  we can continue to manufacture
+our stuff  even in the event of
+geopolitical tensions  rising to very
+high
+levels great thank you very much  the
+next question will come from Pierre faru
+at New Street  Pierre please feel free
+to unmute
+yourself hey thanks guys start taking
+the question  so I have a question you
+on  dipl like robotex is in in June in
+in htin so that's great news and I was
+wondering if it means I can you know
+drive down to htin in June and try 
+and try U unsupervised by myself with my
+car or it's going to be more
+like your Fleet testing
+it it it'll be our Fleet testing it 
+that's our sort of toe in the water 
+you know we scrutinizing it very
+carefully make sure it's not something
+we missed  but it will be you know
+ride autonomous ride healing for money
+in in Austin in June  and then as
+swiftly as possible other cities in
+America and I expect us to be operating
+doing
+unsupervised  activity with with u
+with our internal Fleet in several
+cities by the end of the year  then
+that's probably next year when when
+people are able to add or subtract their
+car from the fleet so you know kind of
+like Airbnb where you can sort of out or
+subtract your house or guest room  you
+know you can say like out of the Airbnb
+inventory or or don't add the inventory
+ you know if if you're if you're
+traveling for a month you
+can or whatever in case maybe you can
+let other people use your house  
+and and then you anyway so like that's
+probably next year because we want to
+just make sure we've ironed out any any
+kinks  and a lot of it is it's not
+like we're not splitting the atom here
+it's just a bunch of work that needs to
+be done to make sure the whole thing
+works efficiently that people can order
+the car it it comes you know to the
+right spot does exactly the right thing
+full of payment systems work the billing
+Works
+ yeah 
+okay but then like so my thought
+question would be you know I I have a
+Tesla I have a SD and I have to keep my
+eyes on the on the road all the time
+it's super boring because I don't really
+need to intervene anymore and  but the
+really annoying thing is that I can't
+just check my emails and so are you
+working also on introducing you know
+like a kind of like free unsupervised
+where I could be eyes of and and I I
+would be able to check my email and
+would just need to with a 5sec notice
+have to go back and keep an eye on
+what's happening or is that something
+you're working on as well because it
+feels so closed with with V3 that I
+wonder if it's something we could expect
+for this year it's very selfish question
+I asked for myself to be honest  yes
+we just need we need to be very
+confident that the probability of injury
+is low before  we allow people to to
+check check that they email and text
+messages in fact right now we're in this
+perverse situation which you may have
+encountered yourself where  people
+actually go to manual driving to check
+their text messages yep so the computer
+doesn't yell at
+them and then go then put it back on
+autonomous mode once they've checked the
+Tex text messages which is obviously
+less safe significantly significantly
+less safe significantly less safe than
+just letting people check their text
+once in a while  without the computer
+yelling at them  but we just want to
+be cautious about that at the Advent of
+that we're in this sort of you know
+neither here nor
+there but just for I mean I think it's
+not for many months longer
+ but yeah we're in in this perverse
+situation where people will turn the car
+off autopilot so the computer doesn't
+yell at them check their text text
+messages while while steering the car
+with their knee and not looking out the
+window
+and like like Elon said right if you
+have any problems with the system and
+when people are not looking that is a
+dangerous thing and that's what we're
+trying to avoid it's the capability is
+getting there but it's not fully there
+that's why he was using the term of
+Dipping a toe in the water then getting
+comfortable then
+keep anyway it's it's it's not far off
+ but we would want to prove to
+ourself you Pro prove to ourselves and
+obviously prove to Regulators that the
+car is unequivocally
+safer  in autonomous mode than than
+not
+ and that's we're not far off so this
+is like low single digit
+months to the safety aspect we did
+publish our sa  Vehicle Safety report
+today and Q4 was one crash for every 5.9
+million miles driven compared to a crash
+every 700,000 miles without public pilot
+right we're getting to the point where
+it's an order of yeah it's like 8.5 tons
+see so it's just about there yeah it's
+amazing great all righty and  our last
+question will be coming from  Dan Levi
+at barklay  Dan feel free to unmute
+yourself great  good evening thank you
+for taking the questions Elon You'
+talked about the need for proliferation
+of sustainable transport in the past as
+part of sort of broader push to
+sustainable energy  I know we've heard
+a lot about  president Trp's plans
+to reverse the the EV mandate and I
+think there's a view that given 
+regulation is a driver of EV uptake this
+could slow EV uptake in the US so 
+what would be your view on on the right
+policy in in the US given  your
+comments in the past of the need to push
+for sustainable
+transport  you know at this point I
+think the that sustainable transport is
+inevitable  I'm highly confident that
+all
+transport  will be autonomous electric
+including aircraft and that it simply
+it's it can't be stopped any more than
+one could have stopped the Advent of the
+external combustion engine the steam
+engine or or or one could have stopped
+the Advent of the internal combustion
+engine  like like even if you've been
+the biggest horse Advocate on Earth you
+like like
+a horses are the way not these new
+fangled car
+automobiles the you can't stop the
+Advent of the automobile it's going to
+happen  and you can't you can't stop
+the Advent of electric cars it's going
+to happen  the only holding back
+electric cars was range and that is a
+Sol
+problem
+great  and then as a followup  you
+know in the past Elon you had made a
+comment that you know you'd be willing
+to sell cars effectively no margin to
+get the cars out there and there's a
+comment in the release today of  the
+rate of acceleration of atony efforts
+does impact vole growth so perhaps you
+could just talk about you know with your
+efforts on
+FSD  how we should think about your
+desire to put more Vehicles out in in
+the market to  take advantage of your
+of your Tech
+advances so I'm not sure I understand
+the question  we have a lot of cars I
+me we've got millions of cars out there
+ so is is your question then that how
+do we how do we marry our future growth
+aspects with
+FSD and go ahead and unmute yourself
+Dan yeah more so just how much more
+aggressively you would be wish willing
+to  you know sell your cars versus
+versus  you know in light of your of
+your improvements on
+FSD well right now the constraint we're
+trying to solve is battery production 
+as opposed to demand so
+we're and now q1 we've got this massive
+factory retooling for the new model y
+for example that obviously has a
+short-term impact on output  but 
+the problem we're wrestling with in fact
+we're
+talking that you the executive team and
+I were talking about just before this
+call was how we got to figure out how to
+increase total gwatt hours of of battery
+production this year one way or another
+that's the constraint on our
+output great all righty and with that 
+I think we are all done for today so 
+thanks everyone so much for all of your
+questions we look forward to talking to
+you next quarter  thank you very much
+and goodbye
+
+
+

@@ -1,0 +1,368 @@
+import React, { useEffect, useState } from 'react';
+import { API_BASE_URL } from '@/lib/api-config';
+import { Line } from 'react-chartjs-2';
+import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, Chart, TooltipItem } from 'chart.js';
+
+ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
+
+interface EconomicIndicatorsChartProps {
+  startLocal: string; // Format: "MM/DD/YY HH:MM" or "YYYY-MM-DD HH:MM"
+  hours?: number;
+  interval?: string;
+  initialIndicator?: string; // VIX, TNX, or DXY
+}
+
+interface IndicatorData {
+  timestamps: string[];
+  values: number[];
+  min?: number;
+  max?: number;
+  mean?: number;
+  error?: string;
+}
+
+interface IndicatorsResponse {
+  ok: boolean;
+  data: {
+    VIX?: IndicatorData;
+    TNX?: IndicatorData;
+    DXY?: IndicatorData;
+  };
+  error?: string;
+  meta?: {
+    start_local: string;
+    hours: number;
+    interval: string;
+    indicators: string[];
+  };
+}
+
+const INDICATOR_NAMES: Record<string, string> = {
+  VIX: "VIX (Volatility Index)",
+  TNX: "10-Year Treasury Yield",
+  DXY: "US Dollar Index"
+};
+
+const INDICATOR_COLORS: Record<string, string> = {
+  VIX: 'rgba(239, 68, 68, 255)', // Red
+  TNX: 'rgba(59, 130, 246, 255)', // Blue
+  DXY: 'rgba(245, 158, 11, 255)'  // Orange
+};
+
+const formatDateTime = (timestamp: string): string => {
+  try {
+    const date = new Date(timestamp);
+    return date.toLocaleString('en-US', {
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: false
+    });
+  } catch {
+    return timestamp;
+  }
+};
+
+// Survives unmounts (e.g. leaving and reopening a dashboard) so indicators don't refetch
+const indicatorsCache = new Map<string, IndicatorsResponse>();
+
+const EconomicIndicatorsChart: React.FC<EconomicIndicatorsChartProps> = ({
+  startLocal, 
+  hours = 48,
+  interval = "5m",
+  initialIndicator = "VIX"
+}) => {
+  const cacheKey = `${startLocal}|${hours}|${interval}`;
+  // Outcome of the last request, tagged with the window it was for; everything else is derived
+  const [result, setResult] = useState<{ key: string; data?: IndicatorsResponse; error?: string } | null>(null);
+  // The parent's VIX/TNX/DXY selection; one response holds all three
+  const activeIndicator = initialIndicator || "VIX";
+
+  const cached = indicatorsCache.get(cacheKey);
+  const current = result?.key === cacheKey ? result : null;
+  const indicatorsData = cached ?? current?.data ?? null;
+  const error = cached ? null : current?.error ?? null;
+  const loading = !cached && !current;
+
+  // One request returns all three indicators, so switching VIX/TNX/DXY needs no refetch
+  useEffect(() => {
+    if (indicatorsCache.has(cacheKey)) return;
+
+    let cancelled = false;
+    const fetchIndicatorsData = async () => {
+      try {
+        const response = await fetch(`${API_BASE_URL}/generate-indicators`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ 
+            startLocal,
+            hours,
+            interval,
+            indicators: ["VIX", "TNX", "DXY"]
+          }),
+        });
+
+        const data = await response.json();
+        if (cancelled) return;
+        if (!data.ok || data.error) {
+          setResult({ key: cacheKey, error: data.error || 'Failed to fetch indicator data' });
+        } else {
+          // If activeIndicator has no data, the render below falls back to the first available one
+          indicatorsCache.set(cacheKey, data);
+          setResult({ key: cacheKey, data });
+        }
+      } catch (err) {
+        if (cancelled) return;
+        setResult({ key: cacheKey, error: 'Failed to fetch indicator data' });
+        console.error(err);
+      }
+    };
+
+    fetchIndicatorsData();
+    return () => { cancelled = true; };
+  }, [cacheKey, startLocal, hours, interval]);
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center h-64 text-white/70">
+        Loading economic indicators...
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="flex justify-center items-center h-64 text-red-500">
+        {error}
+      </div>
+    );
+  }
+
+  if (!indicatorsData || !indicatorsData.data) {
+    return (
+      <div className="flex justify-center items-center h-64 text-white/70">
+        No indicator data available
+      </div>
+    );
+  }
+
+  // Get available indicators
+  const availableIndicators = Object.keys(indicatorsData.data).filter(key => {
+    const indicator = indicatorsData.data[key as keyof typeof indicatorsData.data];
+    return indicator && !indicator.error && indicator.values.length > 0;
+  });
+
+  if (availableIndicators.length === 0) {
+    return (
+      <div className="flex justify-center items-center h-64 text-white/70">
+        No valid indicator data available for the selected time period
+      </div>
+    );
+  }
+
+  // Ensure active indicator is valid
+  const currentIndicator = availableIndicators.includes(activeIndicator) 
+    ? activeIndicator 
+    : availableIndicators[0];
+  
+  const currentData = indicatorsData.data[currentIndicator as keyof typeof indicatorsData.data] as IndicatorData;
+
+  if (!currentData || !currentData.timestamps || currentData.timestamps.length === 0) {
+    return (
+      <div className="flex justify-center items-center h-64 text-white/70">
+        No data available for {INDICATOR_NAMES[currentIndicator] || currentIndicator}
+      </div>
+    );
+  }
+
+  const chartData = {
+    labels: currentData.timestamps.map(formatDateTime),
+    datasets: [
+      {
+        label: INDICATOR_NAMES[currentIndicator] || currentIndicator,
+        data: currentData.values,
+        borderColor: INDICATOR_COLORS[currentIndicator] || 'rgba(128, 209, 141, 255)',
+        backgroundColor: `${INDICATOR_COLORS[currentIndicator] || 'rgba(128, 209, 141, 255)'}20`,
+        tension: 0.1,
+        pointRadius: 2,
+        pointHoverRadius: 6,
+        pointBackgroundColor: `${INDICATOR_COLORS[currentIndicator] || 'rgba(128, 209, 141, 255)'}40`,
+        pointBorderColor: INDICATOR_COLORS[currentIndicator] || 'rgba(128, 209, 141, 255)',
+        pointHoverBackgroundColor: INDICATOR_COLORS[currentIndicator] || 'rgba(128, 209, 141, 255)',
+        pointHoverBorderColor: INDICATOR_COLORS[currentIndicator] || 'rgba(128, 209, 141, 255)',
+        fill: false,
+      },
+    ],
+  };
+
+  const formatYAxisLabel = (value: string | number): string => {
+    const numValue = typeof value === 'string' ? parseFloat(value) : value;
+    // Different formatting based on indicator
+    if (currentIndicator === 'VIX') {
+      return numValue.toFixed(1);
+    } else if (currentIndicator === 'TNX') {
+      return `${numValue.toFixed(2)}%`;
+    } else if (currentIndicator === 'DXY') {
+      return numValue.toFixed(2);
+    }
+    return numValue.toFixed(2);
+  };
+
+  const options = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        display: false,
+      },
+      tooltip: {
+        mode: 'index' as const,
+        intersect: false,
+        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+        titleColor: 'rgba(255, 255, 255, 0.9)',
+        bodyColor: 'rgba(255, 255, 255, 0.9)',
+        borderColor: INDICATOR_COLORS[currentIndicator] || 'rgba(128, 209, 141, 0.2)',
+        borderWidth: 1,
+        padding: 12,
+        displayColors: false,
+        callbacks: {
+          label: function(context: TooltipItem<'line'>) {
+            return `${INDICATOR_NAMES[currentIndicator] || currentIndicator}: ${formatYAxisLabel(context.parsed.y)}`;
+          }
+        }
+      },
+    },
+    scales: {
+      x: {
+        grid: {
+          display: false,
+          drawBorder: false,
+        },
+        ticks: {
+          maxTicksLimit: 6,
+          color: 'rgba(255, 255, 255, 0.5)',
+          font: {
+            size: 10,
+          },
+        },
+      },
+      y: {
+        grid: {
+          color: 'rgba(255, 255, 255, 0.1)',
+          drawBorder: false,
+        },
+        ticks: {
+          color: 'rgba(255, 255, 255, 0.5)',
+          font: {
+            size: 10,
+          },
+          callback: formatYAxisLabel,
+        },
+      },
+    },
+  };
+
+  // Custom plugin for vertical line
+  const verticalLinePlugin = {
+    id: 'verticalLine',
+    afterDraw: (chart: Chart) => {
+      const tooltipModel = chart.tooltip;
+      
+      if (!tooltipModel || !tooltipModel.opacity) {
+        return;
+      }
+      
+      const activeElements = tooltipModel.dataPoints || [];
+      
+      if (activeElements.length > 0) {
+        const ctx = chart.ctx;
+        const activePoint = activeElements[0];
+        const x = activePoint.element.x;
+        const topY = chart.scales.y.top;
+        const bottomY = chart.scales.y.bottom;
+
+        ctx.save();
+        ctx.beginPath();
+        ctx.moveTo(x, topY);
+        ctx.lineTo(x, bottomY);
+        ctx.lineWidth = 1;
+        ctx.strokeStyle = `${INDICATOR_COLORS[currentIndicator] || 'rgba(128, 209, 141, 255)'}80`;
+        ctx.stroke();
+        ctx.restore();
+      }
+    },
+  };
+
+  ChartJS.register(verticalLinePlugin);
+
+  return (
+    <div className="flex flex-col w-full h-full box-border p-6 overflow-auto">
+
+      {/* Chart */}
+      <div className="w-full flex-shrink-0" style={{ height: '400px' }}>
+        <Line data={chartData} options={options} />
+      </div>
+
+      {/* Summary Stats */}
+      {currentData.values && currentData.values.length > 0 && (
+        <div className="mt-4 grid grid-cols-3 gap-4 text-sm flex-shrink-0">
+          {/* Range Panel */}
+          <div className="p-4 border border-white/25 rounded-lg">
+            <h3 className="font-bold mb-2">Range</h3>
+            {currentData.min !== undefined && currentData.max !== undefined ? (
+              <>
+                <p className="text-xs">Min: {formatYAxisLabel(currentData.min)}</p>
+                <p className="text-xs">Max: {formatYAxisLabel(currentData.max)}</p>
+              </>
+            ) : (
+              <>
+                <p className="text-xs">Min: {formatYAxisLabel(Math.min(...currentData.values))}</p>
+                <p className="text-xs">Max: {formatYAxisLabel(Math.max(...currentData.values))}</p>
+              </>
+            )}
+          </div>
+          
+          {/* Change Panel */}
+          <div className="p-4 border border-white/25 rounded-lg">
+            <h3 className="font-bold mb-2">Change</h3>
+            {currentData.values.length > 0 && (
+              <>
+                <p className="text-xs">
+                  {formatYAxisLabel(currentData.values[currentData.values.length - 1])} - 
+                  {" "}{formatYAxisLabel(currentData.values[0])}
+                </p>
+                {currentData.values.length > 1 && (
+                  <p className="text-xs">
+                    {((currentData.values[currentData.values.length - 1] - currentData.values[0]) / currentData.values[0] * 100).toFixed(2)}%
+                  </p>
+                )}
+              </>
+            )}
+          </div>
+          
+          {/* Average Panel */}
+          <div className="p-4 border border-white/25 rounded-lg">
+            <h3 className="font-bold mb-2">Average</h3>
+            {currentData.mean !== undefined ? (
+              <p className="text-xs">{formatYAxisLabel(currentData.mean)}</p>
+            ) : currentData.values.length > 0 ? (
+              <p className="text-xs">
+                {formatYAxisLabel(
+                  currentData.values.reduce((sum, val) => sum + val, 0) / currentData.values.length
+                )}
+              </p>
+            ) : (
+              <p className="text-xs text-white/50">N/A</p>
+            )}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default EconomicIndicatorsChart;
+
