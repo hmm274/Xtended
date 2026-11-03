@@ -58,6 +58,10 @@ export default function ChatBot({
       });
 
       const data = await res.json();
+      if (!res.ok) {
+        const detail = typeof data.detail === "string" ? data.detail : `Request failed (${res.status}).`;
+        throw new Error(detail);
+      }
       const botMessage: Message = {
         id: nextMessageId(),
         sender: "bot", // Explicitly set to "bot"
@@ -71,7 +75,9 @@ export default function ChatBot({
       const errorMessage: Message = {
         id: nextMessageId(),
         sender: "bot", // Explicitly set to "bot"
-        text: "⚠️ Failed to connect to server. Check API is running.",
+        text: error instanceof Error && error.message !== "Failed to fetch"
+          ? `⚠️ ${error.message}`
+          : "⚠️ Failed to connect to server. Check API is running.",
         replyTo: questionId,
       };
       setMessages((prev) => [...prev, errorMessage]);
