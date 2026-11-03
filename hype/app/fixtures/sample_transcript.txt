@@ -1,0 +1,29 @@
+[FICTIONAL SAMPLE: Northwind Robotics is not a real company. Use this to test the pipeline.]
+
+Northwind Robotics Q3 2026 Earnings Call, October 28, 2026
+
+[00:01:10] Operator: Good afternoon and welcome to the Northwind Robotics third quarter 2026 earnings conference call. I will now turn the call over to Dana Whitfield, Chief Executive Officer.
+
+[00:01:40] Dana Whitfield, CEO: Thank you, and good afternoon everyone. Q3 was a record quarter for Northwind. Revenue grew 31% year over year to $412 million, ahead of our guidance range. Demand for our warehouse picking robots has never been stronger, and our backlog reached $1.9 billion, up 44% from a year ago.
+
+[00:03:05] Dana Whitfield, CEO: Our AI software subscription, Northwind Brain, is now the fastest growing part of the business. We believe software will make up 40% of total revenue by the end of 2027, which would fundamentally change our margin profile.
+
+[00:04:20] Dana Whitfield, CEO: On tariffs, we have largely insulated our supply chain. We do not expect tariffs to have a meaningful impact on our results going forward.
+
+[00:05:45] Marcus Lee, CFO: Thanks, Dana. Gross margin for the quarter was 38.2%, down 150 basis points from last quarter, primarily due to higher component costs and expedited freight. We expect gross margin to recover to above 41% by the second quarter of next year as new supplier contracts take effect.
+
+[00:07:10] Marcus Lee, CFO: Operating expenses grew faster than revenue this quarter as we accelerated hiring in our AI research team. We expect opex growth to moderate in 2027.
+
+[00:08:30] Marcus Lee, CFO: For the fourth quarter, we are guiding revenue between $420 and $430 million. For full-year 2027 we are introducing a preliminary outlook of 25% revenue growth, slightly below the 30% pace we delivered in 2026, reflecting a more cautious view on customer capital spending.
+
+[00:09:50] Marcus Lee, CFO: Finally, our board has authorized a new $500 million share repurchase program, reflecting our confidence in long-term free cash flow generation.
+
+[00:11:15] Analyst, Harbor Securities: Can you talk about customer concentration? There have been reports your largest customer is testing a competitor's robots.
+
+[00:11:40] Dana Whitfield, CEO: We don't comment on individual customers, but our relationships are strong and our renewal rates remain above 95%.
+
+[00:13:00] Analyst, Pike Capital: How much of the backlog is cancellable?
+
+[00:13:20] Marcus Lee, CFO: The vast majority of backlog is under firm contracts. We feel very good about its quality.
+
+[00:15:30] Dana Whitfield, CEO: To close, we have never been better positioned. Northwind is becoming an AI software company, and we expect the market to recognize that over time. Thank you.

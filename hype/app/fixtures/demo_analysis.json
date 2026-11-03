@@ -1,0 +1,227 @@
+{
+  "ticker": "NWRB",
+  "company": "Northwind Robotics",
+  "call_date": "2026-10-28",
+  "story": "Revenue beat, but falling margins, a doubtful tariff claim, and slower 2027 growth outweighed it, and the stock fell.",
+  "price_move_pct": -8.4,
+  "overall_x_sentiment": -32,
+  "hype_gap": 50,
+  "hype_label": "Mixed reception",
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "Revenue grew 31% from a year ago to $412 million, beating the company's own forecast.",
+      "quote": "Revenue grew 31% year over year to $412 million, ahead of our guidance range.",
+      "speaker": "Dana Whitfield, CEO",
+      "timestamp": "00:01:40",
+      "category": "revenue",
+      "ceo_tone": 1,
+      "jargon": [
+        {
+          "term": "guidance range",
+          "plain": "the forecast the company gave investors last quarter"
+        }
+      ],
+      "verdict": "BELIEVED",
+      "x_sentiment": 55,
+      "reason": "The beat was confirmed by reported numbers and most posts acknowledged it, though few saw it as the main story.",
+      "evidence": [
+        {
+          "summary": "Sell-side analyst notes the revenue beat but says investors care more about margins and next year's growth.",
+          "url": null,
+          "who": "analyst",
+          "verified": false
+        },
+        {
+          "summary": "Retail investor celebrates the record quarter and backlog growth.",
+          "url": null,
+          "who": "retail",
+          "verified": false
+        }
+      ],
+      "gap": 0.0
+    },
+    {
+      "id": "c2",
+      "claim": "Software subscriptions will be 40% of revenue by the end of 2027, which would make the company more profitable.",
+      "quote": "We believe software will make up 40% of total revenue by the end of 2027",
+      "speaker": "Dana Whitfield, CEO",
+      "timestamp": "00:03:05",
+      "category": "product",
+      "ceo_tone": 1,
+      "jargon": [
+        {
+          "term": "margin profile",
+          "plain": "how much profit the company keeps from each dollar of sales"
+        }
+      ],
+      "verdict": "DOUBTED",
+      "x_sentiment": -20,
+      "reason": "Many posts pointed out that software is a small share of revenue today, so 40% in about a year looks aggressive.",
+      "evidence": [
+        {
+          "summary": "Analyst estimates software is under 15% of sales today and calls the 40% target a stretch.",
+          "url": null,
+          "who": "analyst",
+          "verified": false
+        },
+        {
+          "summary": "Journalist notes this is the second time the company has raised its software ambitions without disclosing subscription numbers.",
+          "url": null,
+          "who": "journalist",
+          "verified": false
+        }
+      ],
+      "gap": 0.75
+    },
+    {
+      "id": "c3",
+      "claim": "Tariffs won't meaningfully hurt results going forward.",
+      "quote": "We do not expect tariffs to have a meaningful impact on our results going forward.",
+      "speaker": "Dana Whitfield, CEO",
+      "timestamp": "00:04:20",
+      "category": "risk",
+      "ceo_tone": 1,
+      "jargon": [],
+      "verdict": "CONTRADICTED",
+      "x_sentiment": -60,
+      "reason": "Posters connected the CFO's own comment about higher component costs to tariffs, which undercuts the CEO's statement minutes earlier.",
+      "evidence": [
+        {
+          "summary": "Fintwit account clips the CEO tariff line next to the CFO's component-cost explanation and asks which one is true.",
+          "url": null,
+          "who": "retail",
+          "verified": false
+        },
+        {
+          "summary": "Supply-chain analyst says the company's main component suppliers were hit by new duties this quarter.",
+          "url": null,
+          "who": "analyst",
+          "verified": false
+        }
+      ],
+      "gap": 1.0
+    },
+    {
+      "id": "c4",
+      "claim": "Gross margin fell to 38.2% but should recover above 41% by mid-2027.",
+      "quote": "We expect gross margin to recover to above 41% by the second quarter of next year",
+      "speaker": "Marcus Lee, CFO",
+      "timestamp": "00:05:45",
+      "category": "margins",
+      "ceo_tone": 1,
+      "jargon": [
+        {
+          "term": "gross margin",
+          "plain": "the share of each sale left after paying to make the product"
+        },
+        {
+          "term": "basis points",
+          "plain": "hundredths of a percent; 150 basis points = 1.5%"
+        }
+      ],
+      "verdict": "DOUBTED",
+      "x_sentiment": -35,
+      "reason": "The margin drop was the most discussed number, and posts questioned whether a recovery depends on contracts that aren't signed yet.",
+      "evidence": [
+        {
+          "summary": "Analyst cuts price target, citing margin pressure as the key reason.",
+          "url": null,
+          "who": "analyst",
+          "verified": false
+        }
+      ],
+      "gap": 0.75
+    },
+    {
+      "id": "c5",
+      "claim": "Growth will slow to about 25% in 2027 because customers are spending more cautiously.",
+      "quote": "we are introducing a preliminary outlook of 25% revenue growth",
+      "speaker": "Marcus Lee, CFO",
+      "timestamp": "00:08:30",
+      "category": "guidance",
+      "ceo_tone": -1,
+      "jargon": [
+        {
+          "term": "outlook",
+          "plain": "the company's forecast for future results"
+        }
+      ],
+      "verdict": "BELIEVED",
+      "x_sentiment": -45,
+      "reason": "The market took the slowdown at face value; it was widely cited as a reason for the stock's drop.",
+      "evidence": [
+        {
+          "summary": "Journalist headline focuses on the slower 2027 growth forecast rather than the record quarter.",
+          "url": null,
+          "who": "journalist",
+          "verified": false
+        },
+        {
+          "summary": "Retail investor says slowing growth plus falling margins is a bad combination.",
+          "url": null,
+          "who": "retail",
+          "verified": false
+        }
+      ],
+      "gap": 0.0
+    },
+    {
+      "id": "c6",
+      "claim": "A new $500 million share buyback shows confidence in future cash flow.",
+      "quote": "our board has authorized a new $500 million share repurchase program",
+      "speaker": "Marcus Lee, CFO",
+      "timestamp": "00:09:50",
+      "category": "capital_return",
+      "ceo_tone": 1,
+      "jargon": [
+        {
+          "term": "share repurchase",
+          "plain": "the company buying back its own stock, which can raise the share price"
+        },
+        {
+          "term": "free cash flow",
+          "plain": "cash left over after running the business and investing in it"
+        }
+      ],
+      "verdict": "IGNORED",
+      "x_sentiment": 5,
+      "reason": "Very few posts mentioned the buyback.",
+      "evidence": [],
+      "gap": 0.5
+    }
+  ],
+  "sources": [],
+  "modules": {
+    "dodged": {
+      "tier": 2,
+      "data": {
+        "items": [
+          {
+            "topic": "Largest customer testing a rival",
+            "why_it_matters": "If the biggest buyer switches suppliers, a large slice of future revenue could disappear.",
+            "heat": "high",
+            "deflected": true,
+            "evidence_url": null
+          },
+          {
+            "topic": "How much backlog can be cancelled",
+            "why_it_matters": "Backlog only counts if customers can't walk away; the CFO didn't give a number.",
+            "heat": "medium",
+            "deflected": true,
+            "evidence_url": null
+          },
+          {
+            "topic": "Actual software subscription revenue",
+            "why_it_matters": "The 40% software goal is hard to judge when today's software sales aren't disclosed.",
+            "heat": "medium",
+            "deflected": false,
+            "evidence_url": null
+          }
+        ],
+        "sources": []
+      }
+    }
+  },
+  "mock": true
+}
