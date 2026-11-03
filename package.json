@@ -9,6 +9,7 @@
     "dev:verbose": "node scripts/dev-all.mjs --verbose",
     "dev:rag": "node scripts/dev-all.mjs --only rag --verbose",
     "dev:sentiment": "node scripts/dev-all.mjs --only sentiment --verbose",
+    "dev:hype": "node scripts/dev-all.mjs --only hype --verbose",
     "dev:frontend": "node scripts/dev-all.mjs --only frontend"
   },
   "devDependencies": {

@@ -7,3 +7,7 @@ export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost
 /** Sentiment service (FastAPI in `sentiment/`, default port 8001). */
 export const SENTIMENT_API_BASE_URL =
   process.env.NEXT_PUBLIC_SENTIMENT_API_URL || 'http://localhost:8001';
+
+/** Hype vs. Reality service (FastAPI in `hype/`, Grok-powered, default port 8002). */
+export const HYPE_API_BASE_URL =
+  process.env.NEXT_PUBLIC_HYPE_API_URL || 'http://localhost:8002';

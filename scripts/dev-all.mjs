@@ -38,6 +38,7 @@ function printBanner() {
   console.log(green(bold(`  App → http://localhost:3000`)));
   console.log(dim("  RAG        http://127.0.0.1:8000"));
   console.log(dim("  Sentiment  http://127.0.0.1:8001"));
+  console.log(dim("  Hype       http://127.0.0.1:8002  (Grok: Hype vs. Reality)"));
   console.log(green(bold(line)));
   console.log(dim("  Ctrl+C stops all services"));
   if (!verbose) {
@@ -55,8 +56,8 @@ if (!fs.existsSync(venvPython)) {
       "Create it first:",
       "  python3 -m venv venv",
       isWin
-        ? "  venv\\Scripts\\pip install -r RAG\\requirements.txt -r sentiment\\requirements.txt"
-        : "  source venv/bin/activate && pip install -r RAG/requirements.txt -r sentiment/requirements.txt",
+        ? "  venv\\Scripts\\pip install -r RAG\\requirements.txt -r sentiment\\requirements.txt -r hype\\requirements.txt"
+        : "  source venv/bin/activate && pip install -r RAG/requirements.txt -r sentiment/requirements.txt -r hype/requirements.txt",
     ].join("\n")
   );
 }
@@ -94,6 +95,13 @@ const services = [
     cwd: path.join(root, "sentiment"),
   },
   {
+    id: "hype",
+    name: "hype",
+    prefixColor: "yellow",
+    command: uvicornCmd("app.main:app", 8002),
+    cwd: path.join(root, "hype"),
+  },
+  {
     id: "frontend",
     name: "web",
     prefixColor: "green",
@@ -107,7 +115,7 @@ const selected = only
   : services;
 
 if (only && selected.length === 0) {
-  fail(`Unknown service "${only}". Use: rag | sentiment | frontend`);
+  fail(`Unknown service "${only}". Use: rag | sentiment | hype | frontend`);
 }
 
 printBanner();

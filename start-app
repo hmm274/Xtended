@@ -9,7 +9,7 @@ cd "$(dirname "$0")"
 if [ ! -d "venv" ]; then
   echo "❌ venv not found. Run:"
   echo "  python3 -m venv venv && source venv/bin/activate"
-  echo "  pip install -r RAG/requirements.txt -r sentiment/requirements.txt"
+  echo "  pip install -r RAG/requirements.txt -r sentiment/requirements.txt -r hype/requirements.txt"
   exit 1
 fi
 
