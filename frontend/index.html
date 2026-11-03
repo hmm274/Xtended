@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hype vs. Reality · SimpliEarn</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">SimpliEarn <span>Hype vs. Reality</span></div>
+  <div id="mode" class="mode" hidden></div>
+</header>
+
+<main>
+  <details id="inputPanel" class="input-panel" open>
+    <summary>Earnings call</summary>
+    <form id="form" autocomplete="off">
+      <div class="row">
+        <label>Ticker<input name="ticker" required maxlength="10" placeholder="NVDA"></label>
+        <label class="grow">Company<input name="company" required placeholder="NVIDIA"></label>
+        <label>Call date<input name="call_date" type="date" required></label>
+      </div>
+      <label>Transcript
+        <textarea name="transcript" required minlength="200" rows="8" placeholder="Paste the full earnings call transcript"></textarea>
+      </label>
+      <div class="actions">
+        <button type="submit" class="primary">Check the market's reaction</button>
+        <button type="button" id="sampleBtn" class="ghost">Load sample call</button>
+        <label class="check"><input type="checkbox" name="refresh"> Ignore cached result</label>
+      </div>
+    </form>
+  </details>
+
+  <ol id="progress" class="progress" hidden>
+    <li data-stage="extracting">Read the call</li>
+    <li data-stage="checking_market">Check reactions on X</li>
+    <li data-stage="done">Score the gap</li>
+  </ol>
+  <p id="status" class="status" role="status" aria-live="polite"></p>
+
+  <section id="results" hidden>
+    <div class="hero">
+      <p id="story" class="story"></p>
+      <dl class="facts">
+        <div><dt>Hype Gap</dt><dd><span id="gap" class="gap-num"></span><span id="gapLabel" class="gap-label"></span></dd></div>
+        <div><dt>Stock next day</dt><dd id="move"></dd></div>
+        <div><dt>Mood on X</dt><dd id="mood"></dd></div>
+      </dl>
+      <p class="gap-help">Hype Gap measures how far management's framing is from what investors on X concluded. 0 means the market fully buys the story; 100 means it rejects everything management pitched.</p>
+    </div>
+
+    <div class="legend" aria-hidden="true">
+      <div class="keys"><span><i class="ring"></i>What management said</span><span><i class="dot"></i>What X thinks</span></div>
+      <div class="axis"><span>Bearish</span><span>Bullish</span></div>
+      <div></div>
+    </div>
+
+    <ul id="claims" class="claims"></ul>
+
+    <!-- Tier 2 / Tier 3 modules render here -->
+    <div id="modules" class="modules"></div>
+  </section>
+</main>
+
+<template id="claimTpl">
+  <li class="claim">
+    <button class="claim-head" aria-expanded="false">
+      <div class="claim-text">
+        <p class="meta"></p>
+        <p class="plain"></p>
+        <blockquote class="quote"></blockquote>
+      </div>
+      <div class="track" aria-hidden="true"><span class="mid"></span><span class="bar"></span><span class="ring"></span><span class="dot"></span></div>
+      <span class="verdict"></span>
+    </button>
+    <div class="claim-body" hidden>
+      <p class="reason"></p>
+      <ul class="evidence"></ul>
+    </div>
+  </li>
+</template>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
